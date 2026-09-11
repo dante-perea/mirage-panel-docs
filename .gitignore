@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Mintlify
+.mintlify/
+*-lock.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs / env
+*.log
+.env
+.env.*
+
+# Build / cache
+.cache/
+dist/
+.next/

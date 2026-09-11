@@ -1,0 +1,68 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "Mirage Panel",
+  "description": "Guías del panel de administración de Mirage World",
+  "theme": "mint",
+  "colors": {
+    "primary": "#1B7A4E",
+    "light": "#3DDC97",
+    "dark": "#0F3D2E"
+  },
+  "appearance": {
+    "default": "dark"
+  },
+  "background": {
+    "decoration": "gradient"
+  },
+  "icons": {
+    "library": "lucide"
+  },
+  "navigation": {
+    "languages": [
+      {
+        "language": "es",
+        "groups": [
+          {
+            "group": "Inicio",
+            "pages": [
+              "index"
+            ]
+          },
+          {
+            "group": "GENERAL",
+            "icon": "layout-dashboard",
+            "pages": [
+              "general/resumen",
+              "general/growth",
+              "general/jugadores",
+              "general/cuentas",
+              "general/personajes",
+              "general/herramientas-gm",
+              "general/base-de-datos"
+            ]
+          },
+          {
+            "group": "CONFIGURACIÓN",
+            "icon": "settings",
+            "pages": [
+              "configuracion/tiendas",
+              "configuracion/spots",
+              "configuracion/mpoints",
+              "configuracion/rental-items",
+              "configuracion/event-items",
+              "configuracion/eventos",
+              "configuracion/cash-shop",
+              "configuracion/monstruos"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "navbar": {
+    "links": []
+  },
+  "footer": {
+    "socials": {}
+  }
+}
