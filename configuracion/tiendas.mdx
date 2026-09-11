@@ -1,0 +1,107 @@
+---
+title: Tiendas
+description: Editar el inventario de NPCs mercaderes desde el panel
+---
+
+## Descripción general
+
+Cómo editar el inventario de NPCs mercaderes desde el panel web (**CONFIGURACIÓN → Tiendas**).
+
+## Entrar
+
+1. Iniciá sesión en el panel.
+2. En la barra izquierda, **CONFIGURACIÓN → Tiendas**.
+
+## Qué ves
+
+![Tiendas overview — Alex](/images/shops/01-overview.png)
+
+| Zona | Qué hace |
+|------|----------|
+| **Tiendas de mercaderes** (izquierda) | Lista de NPCs: nombre, mapa + coords, cantidad de objetos |
+| **Grilla** (derecha) | Inventario 8 × 15 del mercader seleccionado |
+
+Ejemplos de la lista:
+
+- **Alex** — Lorencia (62, 130) — 8 objetos
+- **Angela the Supplier** — Valley of Loren (90, 218) — 32 objetos
+- **Caren the Barmaid** — Devias (226, 25) — 11 objetos
+- **Hanzo The Blacksmith** — Crywolf Fortress (145, 14) — 25 objetos
+
+Al seleccionar un mercader (azul claro), a la derecha ves su nombre, **cuadrícula de tienda 8 × 15** y el botón **Añadir objeto**.
+
+Pie de grilla: `N objetos · arrastra para mover · x elimina`.
+
+## Ejemplo: abrir la tienda de Alex
+
+1. En la lista, clic en **Alex**.
+2. La grilla muestra los items actuales, por ejemplo: DP+7, S+7, GT+7, B+3, SS+7, LS+7, GH+7.
+3. Cada tile ocupado tiene una **x** roja arriba a la derecha.
+
+![Alex — grilla](/images/shops/02-alex.png)
+
+## Mover y borrar items
+
+![Grilla con drag y x](/images/shops/04-drag-hint.png)
+
+- **Mover:** arrastrá el tile a otro hueco libre. El tamaño del item (ej. 1×4) tiene que caber. Verde = cabe; rojo = bloqueado.
+- **Eliminar:** clic en la **x** del tile. Baja el contador de objetos.
+
+<Warning>
+No vacíes tiendas de starter sin reemplazo. Conviene sacar screenshot antes de cambios grandes.
+</Warning>
+
+## Añadir un objeto
+
+1. Con el mercader seleccionado, clic en **Añadir objeto**.
+2. Se abre el diálogo (queda abierto para cargar varios seguidos).
+
+![Diálogo Añadir objeto](/images/shops/03-add-item.png)
+
+Campos:
+
+| Campo | Qué es |
+|-------|--------|
+| **Selector de item** | Combobox (ej. Absolute Scepter) |
+| **Tamaño** | `1 × 4` — verde cabe, rojo bloqueado |
+| **Nivel del objeto** | Default `0` |
+| **Cantidad** | Default `1` |
+| **Luck / Skill / Excellent** | Checkboxes de opciones |
+| **Autocolocar en el primer hueco libre** | Lo pone solo en el primer slot que entre |
+| **Listo** | Cierra el diálogo |
+
+Texto de ayuda: *Tienda: Alex · hacé clic en un hueco libre para colocar · arrastrá para reordenar · permanece abierto para varios añadidos.*
+
+### Ejemplo — Absolute Scepter +0 en Alex
+
+1. Seleccioná **Alex**.
+2. **Añadir objeto**.
+3. Item: **Absolute Scepter**.
+4. Nivel `0`, Cantidad `1`. Luck/Skill/Excellent según quieras.
+5. Clic en un hueco vacío de la mini-grilla **o** **Autocolocar en el primer hueco libre**.
+6. Repetí para más items; cuando termines, **Listo**.
+
+Si cerrás recargando la página **sin** Listo / sin colocar, no se guarda.
+
+## Flujo recomendado para un cambio real
+
+1. Screenshot de la grilla actual.
+2. Editá (mover / x / añadir).
+3. **Listo**.
+4. Entrá al juego, hablá con ese NPC y confirmá el inventario.
+5. Si no se ve in-game: recargá el panel; si sigue, verificá si el game server cachea shops.
+
+## Buenas prácticas
+
+- Cambios chicos de un mercader a la vez.
+- No uses **Eliminar** en masa en mercaderes de pueblo starter.
+- Excellent/Luck/Skill suben el poder del shop — no los marques “porque sí”.
+
+## Resolución de problemas
+
+| Problema | Qué probar |
+|----------|------------|
+| El item no entra (rojo) | Buscá un hueco más grande o usá autocolocar |
+| No ves **Añadir objeto** | Seleccioná un mercader de la lista |
+| Cambios no se ven in-game | Recargá el panel; puede hacer falta reload del game server |
+| Diálogo sin Cancel | **Listo** cierra; recargar sin colocar = no guarda |

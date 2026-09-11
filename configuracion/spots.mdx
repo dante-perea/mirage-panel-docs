@@ -1,0 +1,100 @@
+---
+title: Spots
+description: Configurar zonas de aparición de monstruos por mapa
+---
+
+## Descripción general
+
+Cómo configurar **zonas de aparición de monstruos** (spawns) por mapa desde el panel web (**CONFIGURACIÓN → Spots**).
+
+## Entrar al panel
+
+1. Iniciá sesión en el panel.
+2. En la barra izquierda, sección **CONFIGURACIÓN**, hacé clic en **Spots**.
+
+## Qué ves en la pantalla
+
+![Lista Spots — Lorencia](/images/spots/01-lista.png)
+
+La pantalla tiene tres zonas:
+
+| Zona | Qué hace |
+|------|----------|
+| **Sidebar** | Navegación del panel (Resumen, Jugadores, Tiendas, Spots, …) |
+| **Mapas** (columna izquierda) | Lista de mapas con resumen `N zonas · M monstruos` (ej. Lorencia 21 zonas · 520 monstruos) |
+| **Editor** (derecha) | Herramientas para añadir zonas + preview del mapa + lista de zonas del mapa seleccionado |
+
+Mapas típicos: Lorencia, Dungeon, Devias, Noria, Lost Tower, Exile, Arena, Atlans, Tarkan, Devil Square, etc.
+
+## Elegir un mapa
+
+1. En **Mapas**, hacé clic en el mapa que querés editar (queda resaltado en azul).
+2. El título derecho cambia a **“Zonas de aparición en <Mapa>”**.
+3. El preview muestra rectángulos de color = zonas ya cargadas.
+
+![Detalle Dungeon](/images/spots/02-editar.png)
+
+**Ejemplo:** al seleccionar **Dungeon** ves zonas como Elite Skeleton, Skeleton Warrior, Skeleton Archer, cada una con rango de coordenadas, cantidad editable y botón **Eliminar**.
+
+## Controles para añadir una zona
+
+![Campos Añadir zona](/images/spots/03-campos.png)
+
+Arriba del mapa:
+
+1. **Selector de monstruo** — elegí el mob (ej. Bull Fighter).
+2. **Cantidad** — cuántos de ese monstruo en la zona (ej. `10`).
+3. Texto de ayuda: *“Arrastra sobre el mapa para dibujar una zona de aparición de <monstruo>”*.
+4. Opcional: coordenadas manuales **X1, Y1, X2, Y2** (ej. `120, 120, 140, 140`).
+5. Botón azul **Añadir zona**.
+
+### Ejemplo — zona de Bull Fighter en Lorencia
+
+1. Seleccioná **Lorencia** en Mapas.
+2. Monstruo: **Bull Fighter**.
+3. Cantidad: **10**.
+4. Opción A: **arrastrá** un rectángulo sobre el preview del mapa.  
+   Opción B: escribí X1/Y1/X2/Y2 a mano.
+5. Clic en **Añadir zona**.
+6. Verificá que aparece en **Zonas de aparición en Lorencia** con el rango y la cantidad.
+
+## Editar cantidad de una zona existente
+
+En la lista derecha, cada fila tiene:
+
+- Color + **nombre del monstruo**
+- Rango `(X1, Y1) - (X2, Y2)`
+- Campo **Quantity / cantidad** (editable)
+- Botón rojo **Eliminar**
+
+**Ejemplo:** cambiar Bull Fighter de 45 a 30 → editá el número en esa fila y dejá que el panel guarde.
+
+## Eliminar una zona
+
+1. Localizá la fila.
+2. Clic en **Eliminar**.
+3. Confirmá que desaparece del listado y del preview.
+
+<Warning>
+Borrar zonas de starter/eventos afecta la economía y el leveling. Preferí screenshot antes/después.
+</Warning>
+
+## ¿Hay “Nuevo spot” global?
+
+![Área Añadir zona](/images/spots/04-nuevo.png)
+
+**No.** No hay diálogo “Crear spot”. Lo único para agregar es **Añadir zona** sobre el mapa seleccionado.
+
+## Buenas prácticas
+
+- No edites mapas con muchos jugadores online sin avisar.
+- Anotá coordenadas antes de tocar.
+- Si no conocés un monstruo, miralo primero en **Monstruos**.
+
+## Resolución de problemas
+
+| Problema | Qué probar |
+|----------|------------|
+| No guarda / no aparece la zona | Recargá; revisá que el mapa correcto esté seleccionado |
+| Preview vacío | Elegí otro mapa y volvé; chequeá el estado del servidor |
+| No ves Spots en el menú | Tu usuario no tiene permiso de configuración |
