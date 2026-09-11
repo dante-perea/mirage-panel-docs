@@ -1,0 +1,69 @@
+---
+title: Jugadores
+description: Jugadores en línea, acciones GM y analítica de concurrencia
+---
+
+## Descripción general
+
+La sección **Jugadores** muestra la lista de **Jugadores en línea** con búsqueda y acciones por fila (**Mensaje**, **Expulsar**), más un enlace a **Analítica** con series temporales de concurrencia.
+
+## Qué se ve en pantalla
+
+### Lista en línea
+
+- Contador de sesiones y enlace **Analítica →**
+- Campo: **Buscar por nombre, clase o mapa…**
+
+Tabla:
+
+| Columna | Descripción |
+|---------|-------------|
+| PERSONAJE | Nombre del personaje |
+| CLASE | Clase del personaje |
+| NIVEL | Nivel actual |
+| RESETS | Cantidad de resets |
+| MAPA | Mapa actual |
+| SERVIDOR | Instancia (p. ej. GS 0) |
+| PING | Latencia (puede mostrar `--`) |
+| Acciones | **Mensaje** · **Expulsar** |
+
+![Jugadores en línea — tabla y acciones](https://cdn.sanity.io/images/ae0ugsk5/production/8b439266ff4a1701c9e0c0d2670449f05afeeeb5-1265x724.png)
+
+### Analítica de jugadores
+
+- Períodos: **24 horas**, **7 días**, **15 días**, **30 días**
+- Nota: *Datos del servidor · hora del servidor*
+- Tarjetas: **Ahora**, **Pico**, **Promedio**, **Mínimo**
+- Gráfico: **Jugadores conectados · últimas 24 horas**
+- Gráfico: **Patrón por hora del día** (promedio 30 días; hora pico resaltada)
+
+![Analítica de jugadores](https://cdn.sanity.io/images/ae0ugsk5/production/a1caea4728d98a5f10da357465bde4783645bb22-1265x919.png)
+
+## Flujos de trabajo
+
+### Buscar un jugador en línea
+
+1. Andá a **GENERAL → Jugadores**.
+2. Escribí nombre, clase o mapa en el buscador.
+3. Revisá la fila: nivel, resets, mapa, servidor, ping.
+
+### Enviar mensaje / expulsar
+
+1. En la fila del personaje, pulsá **Mensaje** o **Expulsar**.
+2. Completá el diálogo del panel si aparece.
+3. Confirmá antes de expulsar: la acción saca al jugador de la sesión.
+
+### Abrir analítica
+
+1. Pulsá el enlace **Analítica →** (o navegá a la vista Analítica desde Jugadores).
+2. Elegí período 24 h / 7 / 15 / 30 días.
+3. Compará Ahora / Pico / Promedio / Mínimo con los gráficos.
+
+## Resolución de problemas
+
+| Síntoma | Qué revisar |
+|---------|-------------|
+| Tabla vacía con contador > 0 | Refrescá; confirmá que el filtro de búsqueda esté vacío. |
+| Ping siempre `--` | Puede no estar instrumentado en esta versión del panel. |
+| Pico distinto al de Growth | Growth CCU incluye más estados (login/char-select/bots); Analítica de jugadores puede diferir. |
+| Expulsar no tiene efecto | Verificá permisos GM y que el personaje siga en línea. |

@@ -1,0 +1,71 @@
+---
+title: Cuentas
+description: Listado de cuentas, perfiles, bóveda y seguridad
+---
+
+## Descripción general
+
+**Cuentas** lista cuentas del servidor con búsqueda por usuario o correo, estado y último acceso. Cada usuario enlaza al **Perfil de cuenta**, con personajes, bóveda y eventos de seguridad.
+
+## Qué se ve en pantalla
+
+### Listado
+
+- Campo **Buscar usuario o correo…**
+- Contador total de cuentas / filas
+
+Tabla:
+
+| Columna | Descripción |
+|---------|-------------|
+| USUARIO | Nombre de cuenta (enlace a perfil) |
+| CORREO | Correo asociado |
+| PERS. | Personajes asociados |
+| ESTADO | Estado de la cuenta |
+| ÚLTIMO ACCESO | Fecha/hora del último acceso |
+| Acciones | **Restablecer** · **Banear** |
+
+![Listado de Cuentas](https://cdn.sanity.io/images/ae0ugsk5/production/814c0c317886d53631bde29dbe60e71d0fd7ac1f-1265x5065.png)
+
+### Perfil de cuenta
+
+- Enlace **← Todas las cuentas**
+- Identidad: usuario, correo, badge de estado (p. ej. **Activa**)
+- Botones: **Restablecer contraseña**, **Banear cuenta**
+- Metadatos: **CREADA**, **ÚLTIMO ACCESO**, **ÚLTIMA IP**, **ZEN EN BÓVEDA**, **PERSONAJES** (p. ej. 0 / 5)
+- Panel **Personajes de esta cuenta**
+- **Bóveda** (almacén **8 × 15**), botón **Añadir objeto**, nota *0 objetos · arrastra para mover · × elimina*
+- **Eventos de seguridad recientes** (p. ej. intento fallido con IP)
+
+![Perfil de cuenta — detalle representativo](https://cdn.sanity.io/images/ae0ugsk5/production/7872abb0987fc5f7dfca00ce93f39bcd22ce5408-1265x771.png)
+
+## Flujos de trabajo
+
+### Buscar y abrir un perfil
+
+1. Andá a **GENERAL → Cuentas**.
+2. Buscá por usuario o correo.
+3. Pulsá el enlace del **USUARIO** para abrir el perfil.
+4. Revisá estado, fechas, IP, zen en bóveda y personajes.
+5. Volvé con **← Todas las cuentas**.
+
+### Restablecer / banear
+
+1. Desde el listado (**Restablecer** / **Banear**) o desde el perfil (**Restablecer contraseña** / **Banear cuenta**).
+2. Confirmá en el flujo del panel.
+3. Estas acciones afectan el acceso del jugador: usalas con cuidado.
+
+### Añadir objeto a bóveda
+
+1. En el perfil, sección **Bóveda**.
+2. Pulsá **Añadir objeto**.
+3. Completá el selector del panel y confirmá la colocación.
+
+## Resolución de problemas
+
+| Síntoma | Qué revisar |
+|---------|-------------|
+| Búsqueda sin resultados | Probá usuario exacto o correo completo; limpiá el filtro. |
+| Último acceso / IP vacíos | Cuenta nueva o sin login exitoso; revisá eventos de seguridad. |
+| «Esta cuenta no tiene personajes» | Esperado si PERS. = 0; crear/asignar desde el juego o Personajes. |
+| Bóveda vacía | Normal en cuentas nuevas; grilla 8×15 sin objetos. |

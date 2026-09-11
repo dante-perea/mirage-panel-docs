@@ -1,0 +1,69 @@
+---
+title: Resumen
+description: Pantalla de aterrizaje del panel — estado del servidor, KPIs y actividad
+---
+
+## Descripción general
+
+**Resumen** es la pantalla de aterrizaje del panel. Resume el estado del servidor, jugadores en línea, tiempo activo, cuentas, carga, procesos de servidor y actividad reciente / próximos eventos.
+
+## Qué se ve en pantalla
+
+### Encabezado
+
+- Título: **Resumen del servidor**
+
+### Tarjetas KPI
+
+| Tarjeta | Contenido |
+|---------|-----------|
+| **Jugadores en línea** | Número actual; subtítulo con pico del día y enlace «analítica →» |
+| **Tiempo activo** | Uptime (p. ej. 1d 9h) y fecha/hora de inicio |
+| **Cuentas** | Total de cuentas y altas de la semana |
+| **Carga del servidor** | Porcentaje de carga con barra de progreso |
+
+### Panel Servidores
+
+Filas con indicador de estado, puerto / capacidad y botón rojo **Detener**:
+
+| Servicio | Datos visibles |
+|----------|----------------|
+| **Servidor 0** | Puerto (p. ej. 55901), jugadores actuales / capacidad, IP pública |
+| **Connect Server (Season 6 Episode 3 GMO Client)** | Puerto, estado **Escuchando** |
+| **Connect Server (Season 6 Episode 3 Open Source Client)** | Puerto, estado **Escuchando** |
+| **Chat Server** | Puerto, estado **Escuchando** |
+
+### Actividad reciente
+
+Lista con marcas de tiempo de anuncios del GM (mensajes enviados / programados).
+
+### Próximos eventos
+
+Lista de eventos con cuenta regresiva (p. ej. Blood Castle, Happy Hour, Invasión del Mago Blanco, Todos contra todos).
+
+![Resumen del servidor — vista completa](https://cdn.sanity.io/images/ae0ugsk5/production/730a7445bf3fa3b19d20cc39ae9447c0c6929a38-1265x879.png)
+
+## Flujos de trabajo
+
+### Revisar salud del servidor
+
+1. Iniciá sesión en el panel.
+2. Andá a **GENERAL → Resumen** (pantalla por defecto tras el login).
+3. Revisá las cuatro tarjetas KPI (online, uptime, cuentas, carga).
+4. En **Servidores**, verificá que cada proceso muestre el estado esperado (jugadores / **Escuchando**).
+5. Consultá **Actividad reciente** y **Próximos eventos** para contexto operativo.
+
+### Detener un servicio
+
+1. En la fila del servicio, localizá el botón **Detener**.
+2. Confirmá en el flujo del panel si aparece un diálogo.
+3. Usá esta acción solo con coordinación: detener un servicio afecta a los jugadores conectados.
+
+## Resolución de problemas
+
+| Síntoma | Qué revisar |
+|---------|-------------|
+| Estado del servidor inesperado | Revisá carga, procesos en **Servidores** y recursos del pie del sidebar (CPU/RAM). |
+| Contador de jugadores en 0 con servidores «Escuchando» | Cruzá con **Jugadores** y **Growth** (CCU). |
+| Botón **Detener** no responde | Verificá permisos de la sesión de admin; no fuerces reinicios desde otras pantallas sin coordinación. |
+| Actividad reciente vacía | Puede no haber anuncios recientes; mirá **Herramientas GM → Anuncios**. |
