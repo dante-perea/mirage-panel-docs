@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "name": "Mirage Panel",
-  "description": "Guías del panel de administración de Mirage World",
+  "description": "Guías del panel de administración de Mirage World — FAQ didáctico",
   "theme": "mint",
   "colors": {
     "primary": "#1B7A4E",
@@ -31,28 +31,168 @@
           {
             "group": "GENERAL",
             "icon": "layout-dashboard",
+            "directory": "card",
             "pages": [
-              "general/resumen",
-              "general/growth",
-              "general/jugadores",
-              "general/cuentas",
-              "general/personajes",
-              "general/herramientas-gm",
-              "general/base-de-datos"
+              {
+                "group": "Resumen",
+                "root": "general/resumen/index",
+                "pages": [
+                  "general/resumen/que-es",
+                  "general/resumen/revisar-salud",
+                  "general/resumen/detener-servicio",
+                  "general/resumen/actividad-y-eventos"
+                ]
+              },
+              {
+                "group": "Growth",
+                "root": "general/growth/index",
+                "pages": [
+                  "general/growth/que-es",
+                  "general/growth/revisar-awareness",
+                  "general/growth/analizar-acquisition",
+                  "general/growth/filtros-organico-referral",
+                  "general/growth/ccu-vs-online"
+                ]
+              },
+              {
+                "group": "Jugadores",
+                "root": "general/jugadores/index",
+                "pages": [
+                  "general/jugadores/que-es",
+                  "general/jugadores/ver-en-linea",
+                  "general/jugadores/buscar",
+                  "general/jugadores/enviar-mensaje",
+                  "general/jugadores/expulsar",
+                  "general/jugadores/analitica"
+                ]
+              },
+              {
+                "group": "Cuentas",
+                "root": "general/cuentas/index",
+                "pages": [
+                  "general/cuentas/que-es",
+                  "general/cuentas/buscar-perfil",
+                  "general/cuentas/restablecer-banear",
+                  "general/cuentas/anadir-boveda"
+                ]
+              },
+              {
+                "group": "Personajes",
+                "root": "general/personajes/index",
+                "pages": [
+                  "general/personajes/que-es",
+                  "general/personajes/buscar",
+                  "general/personajes/editar-stats",
+                  "general/personajes/teletransportar",
+                  "general/personajes/curar-resetear"
+                ]
+              },
+              {
+                "group": "Herramientas GM",
+                "root": "general/herramientas-gm/index",
+                "pages": [
+                  "general/herramientas-gm/que-es",
+                  "general/herramientas-gm/enviar-anuncio",
+                  "general/herramientas-gm/programar-anuncio",
+                  "general/herramientas-gm/aplicar-tasas",
+                  "general/herramientas-gm/resets-y-reglas"
+                ]
+              },
+              {
+                "group": "Base de datos",
+                "root": "general/base-de-datos/index",
+                "pages": [
+                  "general/base-de-datos/que-es",
+                  "general/base-de-datos/monitorear",
+                  "general/base-de-datos/copias"
+                ]
+              }
             ]
           },
           {
             "group": "CONFIGURACIÓN",
             "icon": "settings",
+            "directory": "card",
             "pages": [
-              "configuracion/tiendas",
-              "configuracion/spots",
-              "configuracion/mpoints",
-              "configuracion/rental-items",
-              "configuracion/event-items",
-              "configuracion/eventos",
-              "configuracion/cash-shop",
-              "configuracion/monstruos"
+              {
+                "group": "Tiendas",
+                "root": "configuracion/tiendas/index",
+                "pages": [
+                  "configuracion/tiendas/que-es",
+                  "configuracion/tiendas/abrir-mercader",
+                  "configuracion/tiendas/anadir-objeto",
+                  "configuracion/tiendas/mover-eliminar",
+                  "configuracion/tiendas/cambios-in-game"
+                ]
+              },
+              {
+                "group": "Spots",
+                "root": "configuracion/spots/index",
+                "pages": [
+                  "configuracion/spots/que-es",
+                  "configuracion/spots/elegir-mapa",
+                  "configuracion/spots/anadir-zona",
+                  "configuracion/spots/editar-cantidad",
+                  "configuracion/spots/eliminar-zona",
+                  "configuracion/spots/nuevo-spot-global"
+                ]
+              },
+              {
+                "group": "Mpoints",
+                "root": "configuracion/mpoints/index",
+                "pages": [
+                  "configuracion/mpoints/que-es",
+                  "configuracion/mpoints/consultar-saldo",
+                  "configuracion/mpoints/sumar-fijar-vaciar"
+                ]
+              },
+              {
+                "group": "Rental items",
+                "root": "configuracion/rental-items/index",
+                "pages": [
+                  "configuracion/rental-items/que-es",
+                  "configuracion/rental-items/cargar-inventario",
+                  "configuracion/rental-items/rentar-objeto"
+                ]
+              },
+              {
+                "group": "Event Items",
+                "root": "configuracion/event-items/index",
+                "pages": [
+                  "configuracion/event-items/que-es",
+                  "configuracion/event-items/revisar-caja",
+                  "configuracion/event-items/anadir-quitar"
+                ]
+              },
+              {
+                "group": "Eventos",
+                "root": "configuracion/eventos/index",
+                "pages": [
+                  "configuracion/eventos/que-es",
+                  "configuracion/eventos/configurar-invasion",
+                  "configuracion/eventos/configurar-megadrop",
+                  "configuracion/eventos/disparar-manual"
+                ]
+              },
+              {
+                "group": "Cash Shop",
+                "root": "configuracion/cash-shop/index",
+                "pages": [
+                  "configuracion/cash-shop/que-es",
+                  "configuracion/cash-shop/revisar-listings",
+                  "configuracion/cash-shop/crear-listing"
+                ]
+              },
+              {
+                "group": "Monstruos",
+                "root": "configuracion/monstruos/index",
+                "pages": [
+                  "configuracion/monstruos/que-es",
+                  "configuracion/monstruos/buscar-revisar",
+                  "configuracion/monstruos/editar-guardar",
+                  "configuracion/monstruos/campos-no-disponibles"
+                ]
+              }
             ]
           }
         ]

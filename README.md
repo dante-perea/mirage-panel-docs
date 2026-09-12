@@ -2,7 +2,7 @@
 
 Sitio de documentación (Mintlify) con las guías del panel de administración de **Mirage World**.
 
-Contenido en **español (LATAM)** para operadores del panel.
+Contenido en **español (LATAM)** para operadores del panel, organizado como **FAQ didáctico**: sección → lista de preguntas → guía completa con capturas.
 
 ## Requisitos
 
@@ -28,13 +28,14 @@ npx mintlify validate
 
 ```
 mirage-panel-docs/
-├── docs.json                 # Config Mintlify v4
-├── index.mdx                 # Landing / índice
-├── general/                  # Guías GENERAL
-├── configuracion/            # Guías CONFIGURACIÓN
+├── docs.json                 # Config Mintlify v4 (grupos anidados + directory:card)
+├── index.mdx                 # Landing: elegí sección → elegí pregunta
+├── general/<sección>/        # FAQ GENERAL (index + preguntas)
+├── configuracion/<sección>/  # FAQ CONFIGURACIÓN (index + preguntas)
 ├── images/
 │   ├── spots/                # Capturas Spots (locales)
 │   └── shops/                # Capturas Tiendas (locales)
+├── SUMMARY.md                # Árbol para Bro
 └── README.md
 ```
 
@@ -53,3 +54,5 @@ No hace falta secretos en este scaffold para preview local.
 
 - **GENERAL:** Resumen, Growth, Jugadores, Cuentas, Personajes, Herramientas GM, Base de datos
 - **CONFIGURACIÓN:** Tiendas, Spots, Mpoints, Rental items, Event Items, Eventos, Cash Shop, Monstruos
+
+Cada sección del sidebar es un grupo anidado con `root` (índice de preguntas) y páginas pregunta individuales.
