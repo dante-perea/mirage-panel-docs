@@ -127,14 +127,14 @@
               },
               {
                 "group": "Spots",
-                "root": "configuracion/spots/index",
+                "root": "configuracion/zonas/index",
                 "pages": [
-                  "configuracion/spots/que-es",
-                  "configuracion/spots/elegir-mapa",
-                  "configuracion/spots/anadir-zona",
-                  "configuracion/spots/editar-cantidad",
-                  "configuracion/spots/eliminar-zona",
-                  "configuracion/spots/nuevo-spot-global"
+                  "configuracion/zonas/que-es",
+                  "configuracion/zonas/elegir-mapa",
+                  "configuracion/zonas/anadir-zona",
+                  "configuracion/zonas/editar-cantidad",
+                  "configuracion/zonas/eliminar-zona",
+                  "configuracion/zonas/nuevo-spot-global"
                 ]
               },
               {
@@ -204,5 +204,35 @@
   },
   "footer": {
     "socials": {}
-  }
+  },
+  "redirects": [
+    {
+      "source": "/configuracion/spots",
+      "destination": "/configuracion/zonas"
+    },
+    {
+      "source": "/configuracion/spots/que-es",
+      "destination": "/configuracion/zonas/que-es"
+    },
+    {
+      "source": "/configuracion/spots/elegir-mapa",
+      "destination": "/configuracion/zonas/elegir-mapa"
+    },
+    {
+      "source": "/configuracion/spots/anadir-zona",
+      "destination": "/configuracion/zonas/anadir-zona"
+    },
+    {
+      "source": "/configuracion/spots/editar-cantidad",
+      "destination": "/configuracion/zonas/editar-cantidad"
+    },
+    {
+      "source": "/configuracion/spots/eliminar-zona",
+      "destination": "/configuracion/zonas/eliminar-zona"
+    },
+    {
+      "source": "/configuracion/spots/nuevo-spot-global",
+      "destination": "/configuracion/zonas/nuevo-spot-global"
+    }
+  ]
 }
