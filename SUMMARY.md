@@ -71,14 +71,14 @@ Totales: **15** índices de sección + **63** páginas pregunta. Imágenes: CDN 
 - `mover-eliminar.mdx` — ¿Cómo muevo o elimino items de la grilla?
 - `cambios-in-game.mdx` — ¿Por qué no veo los cambios in-game?
 
-## Spots (`configuracion/spots/`)
+## Spots (`configuracion/zonas/`)
 - `index.mdx` — Spots
 - `que-es.mdx` — ¿Qué es la sección Spots?
 - `elegir-mapa.mdx` — ¿Cómo elijo un mapa?
 - `anadir-zona.mdx` — ¿Cómo añado una zona de aparición?
 - `editar-cantidad.mdx` — ¿Cómo edito la cantidad de monstruos?
 - `eliminar-zona.mdx` — ¿Cómo elimino una zona?
-- `nuevo-spot-global.mdx` — ¿Hay un botón “Nuevo spot” global?
+- `nuevo-spot-global.mdx` — ¿Hay un botón "Nuevo spot" global?
 
 ## Mpoints (`configuracion/mpoints/`)
 - `index.mdx` — Mpoints
