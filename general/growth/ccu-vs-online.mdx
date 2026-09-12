@@ -1,0 +1,17 @@
+---
+title: ¿Por qué CCU no coincide con jugadores en línea?
+description: CCU incluye login, char-select y bots
+---
+
+Es esperado que el CCU de Growth no coincida exactamente con el contador de «jugadores en línea».
+
+La nota de la UI indica: **CCU = conexiones al GS (login, char-select y bots)** y **no se filtra por referido**.
+
+![Growth — bloque CCU](https://cdn.sanity.io/images/ae0ugsk5/production/a81946e82917bf35ade619017ac6badf5a4720e5-1265x1185.png)
+
+## Resolución de problemas
+
+| Síntoma | Qué revisar |
+|---------|-------------|
+| PC/Android en 0 | Puede indicar que el desglose de plataforma no está poblado; el total **All** sigue siendo válido. |
+| Pico distinto al de Analítica de Jugadores | Growth CCU incluye más estados; Analítica de jugadores puede diferir. |
