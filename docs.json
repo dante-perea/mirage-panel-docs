@@ -211,6 +211,10 @@
       "destination": "/configuracion/zonas"
     },
     {
+      "source": "/configuracion/spots/index",
+      "destination": "/configuracion/zonas/index"
+    },
+    {
       "source": "/configuracion/spots/que-es",
       "destination": "/configuracion/zonas/que-es"
     },

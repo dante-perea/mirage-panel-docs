@@ -78,7 +78,7 @@ Totales: **15** índices de sección + **63** páginas pregunta. Imágenes: CDN 
 - `anadir-zona.mdx` — ¿Cómo añado una zona de aparición?
 - `editar-cantidad.mdx` — ¿Cómo edito la cantidad de monstruos?
 - `eliminar-zona.mdx` — ¿Cómo elimino una zona?
-- `nuevo-spot-global.mdx` — ¿Hay un botón "Nuevo spot" global?
+- `nuevo-spot-global.mdx` — ¿Hay un botón “Nuevo spot” global?
 
 ## Mpoints (`configuracion/mpoints/`)
 - `index.mdx` — Mpoints
