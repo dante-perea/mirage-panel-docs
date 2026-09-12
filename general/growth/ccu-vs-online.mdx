@@ -3,15 +3,31 @@ title: ¿Por qué CCU no coincide con jugadores en línea?
 description: CCU incluye login, char-select y bots
 ---
 
-Es esperado que el CCU de Growth no coincida exactamente con el contador de «jugadores en línea».
+## Miralo en la captura
 
-La nota de la UI indica: **CCU = conexiones al GS (login, char-select y bots)** y **no se filtra por referido**.
+<Frame>
+![Bloque CCU en Awareness: Ahora / Promedio / Mínimo y gráfico Jugadores conectados](/images/panel/growth-overview.png)
+</Frame>
 
-![Growth — bloque CCU](https://cdn.sanity.io/images/ae0ugsk5/production/a81946e82917bf35ade619017ac6badf5a4720e5-1265x1185.png)
+En esta pantalla fijate en el bloque de conexiones: tarjetas **Ahora**, **Promedio**, **Mínimo** y el gráfico **Jugadores conectados**. La nota de la UI indica que **CCU = conexiones al GS (login, char-select y bots)** y **no se filtra por referido**.
 
-## Resolución de problemas
+## Qué hacer
+
+<Steps>
+<Step>
+En **Growth → Awareness**, mirá el valor **Ahora** del bloque CCU.
+</Step>
+<Step>
+Comparalo con el contador «jugadores en línea» arriba a la derecha o con la tabla de **Jugadores**.
+</Step>
+<Step>
+Recordá: es esperado que no coincidan exactamente porque CCU incluye más estados de conexión.
+</Step>
+</Steps>
+
+## Si ves esto…
 
 | Síntoma | Qué revisar |
 |---------|-------------|
-| PC/Android en 0 | Puede indicar que el desglose de plataforma no está poblado; el total **All** sigue siendo válido. |
-| Pico distinto al de Analítica de Jugadores | Growth CCU incluye más estados; Analítica de jugadores puede diferir. |
+| PC/Android en 0 | El desglose de plataforma puede no estar poblado; el total **All** sigue siendo válido. |
+| Pico distinto al de Analítica de Jugadores | Growth CCU incluye más estados; Analítica puede diferir. |
