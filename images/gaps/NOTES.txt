@@ -1,0 +1,10 @@
+jugadores-mensaje-dialog.png → Mensaje privado para Nemo con área de texto y botones Cancelar/Enviar.
+gm-anuncio-form.png → Formulario de anuncio GM vacío con tipo, servidores, frecuencia, mensaje y botones Enviar/Programar.
+rental-form.png → Formulario Rental items para Sidoh con inventario, objeto Short Sword, nivel 0, minutos 30 y opción Luck.
+personajes-teleport.png → Panel de personaje con selector de mapa y acción Teletransportar visible sin activar.
+personajes-curar.png → Panel de personaje con acción Curar / restaurar visible sin activar.
+personajes-reset.png → Panel de personaje con acción Resetear personaje visible sin activar.
+cash-shop-crear-form.png → Formulario Crear de Cash Shop vacío/predeterminado con item, opciones, precio, nivel, stock y Guardar.
+monstruos-editor-focus.png → Editor de Bull Fighter con campos de combate, comportamiento, botín y botón Guardar cambios sin modificar.
+eventos-page.png → Configuración de Invasión del Dragón Rojo con botón EMPEZAR evento visible; no se activó.
+cuentas-boveda-add.png → Diálogo Añadir objeto de Bóveda con selector de ítem, nivel, cantidad, opciones y Listo; no se añadió nada.
