@@ -1,0 +1,25 @@
+---
+title: ¿Cómo monitoreo tamaño y conexiones?
+description: Revisar tarjetas de estado
+---
+
+<Steps>
+<Step>
+Andá a **GENERAL → Base de datos**.
+</Step>
+<Step>
+Revisá tamaño, motor y conexiones vs límite.
+</Step>
+<Step>
+Comprobá si **Última copia** y el panel de copias están disponibles.
+</Step>
+</Steps>
+
+![Base de datos](https://cdn.sanity.io/images/ae0ugsk5/production/b6d20f59ad4951679961acdda8c5fb8909b6a979-1265x724.png)
+
+## Resolución de problemas
+
+| Síntoma | Qué revisar |
+|---------|-------------|
+| Conexiones cerca del límite | Investigá sesiones abiertas antes de reiniciar. |
+| Tamaño crece rápido | Revisá retención de logs/datos fuera de este panel. |
