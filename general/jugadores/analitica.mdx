@@ -1,0 +1,34 @@
+---
+title: ¿Cómo veo la analítica de concurrencia?
+description: Períodos, tarjetas y gráficos
+---
+
+Desde Jugadores podés abrir **Analítica** con series temporales de concurrencia.
+
+### Qué se ve
+
+- Períodos: **24 horas**, **7 días**, **15 días**, **30 días**
+- Nota: *Datos del servidor · hora del servidor*
+- Tarjetas: **Ahora**, **Pico**, **Promedio**, **Mínimo**
+- Gráfico: **Jugadores conectados · últimas 24 horas**
+- Gráfico: **Patrón por hora del día** (promedio 30 días; hora pico resaltada)
+
+![Analítica de jugadores](https://cdn.sanity.io/images/ae0ugsk5/production/a1caea4728d98a5f10da357465bde4783645bb22-1265x919.png)
+
+<Steps>
+<Step>
+En **GENERAL → Jugadores**, pulsá el enlace **Analítica →**.
+</Step>
+<Step>
+Elegí período 24 h / 7 / 15 / 30 días.
+</Step>
+<Step>
+Compará Ahora / Pico / Promedio / Mínimo con los gráficos.
+</Step>
+</Steps>
+
+## Resolución de problemas
+
+| Síntoma | Qué revisar |
+|---------|-------------|
+| Pico distinto al de Growth | Growth CCU incluye más estados (login/char-select/bots); Analítica de jugadores puede diferir. |
