@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "name": "Mirage Panel",
-  "description": "Guías del panel de administración de Mirage World — FAQ didáctico",
+  "description": "Gu\u00edas del panel de administraci\u00f3n de Mirage World \u2014 FAQ did\u00e1ctico",
   "theme": "mint",
   "colors": {
     "primary": "#1B7A4E",
@@ -26,6 +26,52 @@
             "group": "Inicio",
             "pages": [
               "index"
+            ]
+          },
+          {
+            "group": "PLUGINS",
+            "icon": "puzzle",
+            "directory": "card",
+            "pages": [
+              {
+                "group": "Eventos",
+                "root": "plugins/index",
+                "pages": [
+                  "plugins/golden-invasion",
+                  "plugins/red-dragon-invasion",
+                  "plugins/white-wizard-invasion",
+                  "plugins/moon-rabbit-invasion",
+                  "plugins/happy-hour",
+                  "plugins/megadrop",
+                  "plugins/lost-treasure",
+                  "plugins/todos-contra-todos",
+                  "plugins/devil-square",
+                  "plugins/blood-castle",
+                  "plugins/chaos-castle"
+                ]
+              },
+              {
+                "group": "NPCs especiales",
+                "pages": [
+                  "plugins/artesano",
+                  "plugins/fountain-npc",
+                  "plugins/wandering-merchants"
+                ]
+              },
+              {
+                "group": "Items",
+                "pages": [
+                  "plugins/bound-item-drop",
+                  "plugins/rental-expiry",
+                  "plugins/soul-ring"
+                ]
+              },
+              {
+                "group": "Progresi\u00f3n",
+                "pages": [
+                  "plugins/first-level-10-mpoints"
+                ]
+              }
             ]
           },
           {
@@ -110,7 +156,7 @@
             ]
           },
           {
-            "group": "CONFIGURACIÓN",
+            "group": "CONFIGURACI\u00d3N",
             "icon": "settings",
             "directory": "card",
             "pages": [
