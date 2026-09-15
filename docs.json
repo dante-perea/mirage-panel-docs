@@ -67,6 +67,12 @@
                 ]
               },
               {
+                "group": "Comandos GM",
+                "pages": [
+                  "plugins/make"
+                ]
+              },
+              {
                 "group": "Progresi\u00f3n",
                 "pages": [
                   "plugins/first-level-10-mpoints"
