@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "name": "Mirage Panel",
-  "description": "Gu\u00edas del panel de administraci\u00f3n de Mirage World \u2014 FAQ did\u00e1ctico",
+  "name": "JugarMU",
+  "description": "Gu\u00edas del panel de administraci\u00f3n de JugarMU \u2014 FAQ did\u00e1ctico",
   "theme": "mint",
   "colors": {
     "primary": "#1B7A4E",
