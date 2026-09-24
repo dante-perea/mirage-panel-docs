@@ -55,8 +55,9 @@
     },
     "gm-ajustes.png": {
       "visually_reviewed": true,
-      "result": "SUPPLEMENT_REQUIRED",
-      "limitation": "World rules save control below fold."
+      "result": "SUPPLEMENT_ADDED",
+      "limitation": "World rules save control below fold.",
+      "supplement": "gm-ajustes-completos.png"
     },
     "plugin-bound-item-drop.png": {
       "visually_reviewed": true,
@@ -145,6 +146,14 @@
     "ayuda-consulta.png": {
       "visually_reviewed": true,
       "result": "Complete target controls visible. Captured from authenticated live panel without submitting changes."
+    },
+    "mi-cuenta-menu.png": {
+      "visually_reviewed": true,
+      "result": "Live desktop UI, target controls fully visible; no mutations."
+    },
+    "gm-ajustes-completos.png": {
+      "visually_reviewed": true,
+      "result": "Live desktop UI, target controls fully visible; no mutations."
     }
   }
 }
