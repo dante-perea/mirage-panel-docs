@@ -1,0 +1,23 @@
+{
+  "published_commit": "29fcfbf554af69f9b4f2b553658d6c1e725372a4",
+  "pr": "https://github.com/dante-perea/mirage-panel-docs/pull/5",
+  "deployment": "Mintlify Deployment success",
+  "mcp_filesystem_verified": [
+    "/ayuda/plugins/set-de-bienvenida.mdx",
+    "/ayuda/general/herramientas-gm/programar-anuncio.mdx"
+  ],
+  "mcp_search_verified": "desactivar set de bienvenida",
+  "hermes_test_session": "20260924_145834_902470",
+  "hermes_model": "grok-4.7",
+  "hermes_tool_calls_verified_in_state_db": [
+    "mcp__jugarmu_docs__search_jugar_mu",
+    "mcp__jugarmu_docs__query_docs_filesystem_jugar_mu: rg",
+    "mcp__jugarmu_docs__query_docs_filesystem_jugar_mu: cat /ayuda/plugins/set-de-bienvenida.mdx"
+  ],
+  "hermes_answer": "Correct plugin, automatic save, no restart, pre-existing items retained.",
+  "limitations": [
+    "One CLI support question on the VM, not a WhatsApp send.",
+    "MCP search links contain a duplicated /ayuda prefix; this answer normalized the correct public link.",
+    "SCREENSHOT-GAPS.md still applies. Full section-by-section visual audit is not complete."
+  ]
+}
