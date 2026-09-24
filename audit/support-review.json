@@ -1,0 +1,67 @@
+{
+  "source_commit": "fab146b",
+  "reviewed_at": "2026-09-24",
+  "published": false,
+  "pages": [
+    {
+      "guide": "configuracion/event-items/index.mdx",
+      "screenshot": "images/actual/premios-eventos.png",
+      "evidence": "audit/evidence/premios-eventos.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "configuracion/event-items/que-es.mdx",
+      "screenshot": "images/actual/premios-eventos.png",
+      "evidence": "audit/evidence/premios-eventos.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "configuracion/event-items/revisar-caja.mdx",
+      "screenshot": "images/actual/premios-eventos.png",
+      "evidence": "audit/evidence/premios-eventos.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "configuracion/event-items/anadir-quitar.mdx",
+      "screenshot": "images/actual/premios-anadir.png",
+      "evidence": "audit/evidence/premios-anadir.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "ayuda/index.mdx",
+      "screenshot": "images/actual/ayuda.png",
+      "evidence": "audit/evidence/ayuda.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "ayuda/solicitudes.mdx",
+      "screenshot": "images/actual/solicitudes.png",
+      "evidence": "audit/evidence/solicitudes.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "plugins/index.mdx",
+      "screenshot": "images/actual/set-de-bienvenida.png",
+      "evidence": "audit/evidence/set-de-bienvenida.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "plugins/make.mdx",
+      "screenshot": "images/actual/plugin-make.png",
+      "evidence": "audit/evidence/plugin-make.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    }
+  ],
+  "limitations": [
+    "Ticket creation/reply not submitted.",
+    "/make runtime syntax not tested; unsupported legacy examples removed rather than asserted."
+  ]
+}

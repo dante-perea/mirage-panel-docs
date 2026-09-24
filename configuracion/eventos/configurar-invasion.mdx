@@ -1,36 +1,21 @@
 ---
-title: ¿Cómo configuro una invasión?
-description: Switch, frecuencia, oleadas y mapas
+title: "Configurar invasiones"
+description: "Función disponible en instancias con las extensiones correspondientes habilitadas."
 ---
 
-## Miralo en la captura
+El editor **Eventos → Invasiones** está disponible en instancias con esa extensión habilitada. Es distinto de la lista general de **Eventos programados**, que muestra interruptores e inicio manual.
 
-<Frame>
-![Invasión del Dragón Rojo: switch, EMPEZAR evento, Cada/Duración, mensaje dorado y oleadas](/images/gaps/eventos-page.png)
-</Frame>
+## Configuración
 
-En esta pantalla fijate en: la lista **Invasiones**, el switch de activación, **EMPEZAR evento**, campos **Cada** / **Duración**, switch **Anunciar con mensaje dorado**, bloque de oleadas con mapas objetivo, **Eliminar** y **Añadir oleada**.
+1. Elegí la invasión de la lista y comprobá su nombre.
+2. Definí **Cada… horas** (1–48) y **Duración… minutos** (1–120). Pulsá Enter o salí del campo para enviar el cambio.
+3. Elegí si querés **Anunciar con mensaje dorado**. Editá **Mensaje del anuncio** y confirmá saliendo del campo o con Enter.
+4. Seleccioná los **Mapas objetivo**. El editor indica que se elige uno al azar en cada aparición; seleccionar varios no significa que todos reciban la invasión a la vez.
+5. Revisá las oleadas, sus monstruos y **Cantidad por aparición** (1–100). Usá el selector **Monstruo de la oleada** para añadir componentes y **Eliminar** para quitar una fila.
+6. Comprobá la respuesta de cada cambio. No hay un único Guardar general al final del formulario.
 
-## Qué hacer
+## Ejecución manual
 
-<Steps>
-<Step>
-Andá a **CONFIGURACIÓN → Eventos → Invasiones**.
-</Step>
-<Step>
-Seleccioná la invasión en la lista.
-</Step>
-<Step>
-Revisá switch, frecuencia, duración, mensaje dorado y oleadas/mapas.
-</Step>
-<Step>
-Ajustá oleadas con **Añadir oleada** / **Eliminar**.
-</Step>
-</Steps>
+**Iniciar ahora** abre un diálogo. Revisá su texto y confirmá con **Iniciar invasión**, o usá **Cancelar**. Esta solicitud manual no equivale a cambiar el intervalo programado.
 
-## Si ves esto…
-
-| Síntoma | Qué revisar |
-|---------|-------------|
-| «Próxima» en 0:00 | Evento en curso o listo; verificá el switch. |
-| Oleada no aparece en mapas | Confirmá mapas objetivo seleccionados (resaltados en azul). |
+Si el editor no está disponible, no busques estos campos en una fila de Eventos programados ni modifiques plugins de migración como sustituto. Consultá la disponibilidad de la extensión.

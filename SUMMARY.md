@@ -1,119 +1,133 @@
-# SUMMARY — Mirage Panel Docs (FAQ)
+# Guías del panel JugarMU
 
-Estructura didáctica para Mintlify. Generado para Bro.
-
-Navegación top: **GENERAL** + **CONFIGURACIÓN** (grupos anidados con `root` + `directory: card`).
-
-Totales: **15** índices de sección + **63** páginas pregunta. Imágenes: CDN Sanity + `/images/spots|shops/`.
-
-## GENERAL
-
-## Resumen (`general/resumen/`)
-- `index.mdx` — Resumen
-- `que-es.mdx` — ¿Qué es la sección Resumen?
-- `revisar-salud.mdx` — ¿Cómo reviso la salud del servidor?
-- `detener-servicio.mdx` — ¿Cómo detengo un servicio?
-- `actividad-y-eventos.mdx` — ¿Qué muestran Actividad reciente y Próximos eventos?
-
-## Growth (`general/growth/`)
-- `index.mdx` — Growth
-- `que-es.mdx` — ¿Qué es Growth?
-- `revisar-awareness.mdx` — ¿Cómo reviso Awareness (DAU, MAU, CCU)?
-- `analizar-acquisition.mdx` — ¿Cómo analizo Acquisition?
-- `filtros-organico-referral.mdx` — ¿Qué significan los filtros Orgánico y Referral?
-- `ccu-vs-online.mdx` — ¿Por qué CCU no coincide con jugadores en línea?
-
-## Jugadores (`general/jugadores/`)
-- `index.mdx` — Jugadores
-- `que-es.mdx` — ¿Qué es la sección Jugadores?
-- `ver-en-linea.mdx` — ¿Cómo veo los jugadores en línea?
-- `buscar.mdx` — ¿Cómo busco un jugador?
-- `enviar-mensaje.mdx` — ¿Cómo envío un mensaje a un jugador?
-- `expulsar.mdx` — ¿Cómo expulsar a un jugador?
-- `analitica.mdx` — ¿Cómo veo la analítica de concurrencia?
-
-## Cuentas (`general/cuentas/`)
-- `index.mdx` — Cuentas
-- `que-es.mdx` — ¿Qué es la sección Cuentas?
-- `buscar-perfil.mdx` — ¿Cómo busco y abro un perfil de cuenta?
-- `restablecer-banear.mdx` — ¿Cómo restablezco una contraseña o baneo una cuenta?
-- `anadir-boveda.mdx` — ¿Cómo añado un objeto a la bóveda?
-
-## Personajes (`general/personajes/`)
-- `index.mdx` — Personajes
-- `que-es.mdx` — ¿Qué es la sección Personajes?
-- `buscar.mdx` — ¿Cómo busco un personaje?
-- `editar-stats.mdx` — ¿Cómo edito stats y zen?
-- `teletransportar.mdx` — ¿Cómo teletransporto un personaje?
-- `curar-resetear.mdx` — ¿Cómo curo o reseteo un personaje?
-
-## Herramientas GM (`general/herramientas-gm/`)
-- `index.mdx` — Herramientas GM
-- `que-es.mdx` — ¿Qué son las Herramientas GM?
-- `enviar-anuncio.mdx` — ¿Cómo envío un anuncio inmediato?
-- `programar-anuncio.mdx` — ¿Cómo programo un anuncio?
-- `aplicar-tasas.mdx` — ¿Cómo aplico tasas de EXP y drop?
-- `resets-y-reglas.mdx` — ¿Cómo configuro resets y reglas del mundo?
-
-## Base de datos (`general/base-de-datos/`)
-- `index.mdx` — Base de datos
-- `que-es.mdx` — ¿Qué es Base de datos?
-- `monitorear.mdx` — ¿Cómo monitoreo tamaño y conexiones?
-- `copias.mdx` — ¿Puedo crear o restaurar copias desde el panel?
-
-## CONFIGURACIÓN
-
-## Tiendas (`configuracion/tiendas/`)
-- `index.mdx` — Tiendas
-- `que-es.mdx` — ¿Qué es la sección Tiendas?
-- `abrir-mercader.mdx` — ¿Cómo abro la tienda de un mercader?
-- `anadir-objeto.mdx` — ¿Cómo añado un objeto a una tienda?
-- `mover-eliminar.mdx` — ¿Cómo muevo o elimino items de la grilla?
-- `cambios-in-game.mdx` — ¿Por qué no veo los cambios in-game?
-
-## Spots (`configuracion/zonas/`)
-- `index.mdx` — Spots
-- `que-es.mdx` — ¿Qué es la sección Spots?
-- `elegir-mapa.mdx` — ¿Cómo elijo un mapa?
-- `anadir-zona.mdx` — ¿Cómo añado una zona de aparición?
-- `editar-cantidad.mdx` — ¿Cómo edito la cantidad de monstruos?
-- `eliminar-zona.mdx` — ¿Cómo elimino una zona?
-- `nuevo-spot-global.mdx` — ¿Hay un botón “Nuevo spot” global?
-
-## Mpoints (`configuracion/mpoints/`)
-- `index.mdx` — Mpoints
-- `que-es.mdx` — ¿Qué es Mpoints?
-- `consultar-saldo.mdx` — ¿Cómo consulto el saldo de un jugador?
-- `sumar-fijar-vaciar.mdx` — ¿Cómo sumo, fijo o vacío MPoints/MCoins?
-
-## Rental items (`configuracion/rental-items/`)
-- `index.mdx` — Rental items
-- `que-es.mdx` — ¿Qué son Rental items?
-- `cargar-inventario.mdx` — ¿Cómo cargo el inventario de un personaje?
-- `rentar-objeto.mdx` — ¿Cómo rento un objeto?
-
-## Event Items (`configuracion/event-items/`)
-- `index.mdx` — Event Items
-- `que-es.mdx` — ¿Qué son Event Items?
-- `revisar-caja.mdx` — ¿Cómo reviso el contenido de una caja?
-- `anadir-quitar.mdx` — ¿Cómo añado o quito objetos de una caja?
-
-## Eventos (`configuracion/eventos/`)
-- `index.mdx` — Eventos
-- `que-es.mdx` — ¿Qué es la sección Eventos?
-- `configurar-invasion.mdx` — ¿Cómo configuro una invasión?
-- `configurar-megadrop.mdx` — ¿Cómo configuro MEGADROP?
-- `disparar-manual.mdx` — ¿Cómo disparo un evento manualmente?
-
-## Cash Shop (`configuracion/cash-shop/`)
-- `index.mdx` — Cash Shop
-- `que-es.mdx` — ¿Qué es Cash Shop?
-- `revisar-listings.mdx` — ¿Cómo reviso los listings existentes?
-- `crear-listing.mdx` — ¿Cómo creo un listing nuevo?
-
-## Monstruos (`configuracion/monstruos/`)
-- `index.mdx` — Monstruos
-- `que-es.mdx` — ¿Qué es la sección Monstruos?
-- `buscar-revisar.mdx` — ¿Cómo busco y reviso un monstruo?
-- `editar-guardar.mdx` — ¿Cómo edito y guardo parámetros de combate?
-- `campos-no-disponibles.mdx` — ¿Por qué algunos campos no están disponibles?
+- Empezar
+  - [Guías del panel JugarMU](index.mdx)
+  - Inicio
+    - [Inicio de tu servidor](general/resumen/index.mdx)
+    - [Actividad y próximos eventos](general/resumen/actividad-y-eventos.mdx)
+    - [Iniciar y detener servicios](general/resumen/detener-servicio.mdx)
+    - [Qué muestra Inicio](general/resumen/que-es.mdx)
+    - [Comprobar si el servidor está en línea](general/resumen/revisar-salud.mdx)
+  - [Preparar y descargar el cliente](cliente/index.mdx)
+- Jugadores
+  - Conectados
+    - [Jugadores conectados](general/jugadores/index.mdx)
+    - [Actividad de jugadores](general/jugadores/analitica.mdx)
+    - [Buscar una sesión conectada](general/jugadores/buscar.mdx)
+    - [Enviar un mensaje privado a un jugador](general/jugadores/enviar-mensaje.mdx)
+    - [Expulsar a un jugador conectado](general/jugadores/expulsar.mdx)
+    - [Qué muestra Conectados](general/jugadores/que-es.mdx)
+    - [Ver jugadores en línea](general/jugadores/ver-en-linea.mdx)
+  - Cuentas
+    - [Cuentas del juego](general/cuentas/index.mdx)
+    - [Añadir y organizar objetos en la bóveda](general/cuentas/anadir-boveda.mdx)
+    - [Buscar y abrir una cuenta](general/cuentas/buscar-perfil.mdx)
+    - [Qué muestra Cuentas](general/cuentas/que-es.mdx)
+    - [Restablecer acceso, banear y desbloquear](general/cuentas/restablecer-banear.mdx)
+  - Personajes
+    - [Personajes](general/personajes/index.mdx)
+    - [Buscar un personaje](general/personajes/buscar.mdx)
+    - [Curar o resetear un personaje](general/personajes/curar-resetear.mdx)
+    - [Editar atributos de un personaje](general/personajes/editar-stats.mdx)
+    - [Qué muestra la ficha de personaje](general/personajes/que-es.mdx)
+    - [Teletransportar un personaje](general/personajes/teletransportar.mdx)
+- Ajustes del juego
+  - [Experiencia y niveles](ajustes/experiencia.mdx)
+  - [Objetos y Zen](ajustes/objetos-zen.mdx)
+  - [Reglas del reset](ajustes/resets.mdx)
+  - [Combate y chat](ajustes/combate-chat.mdx)
+  - Zonas de aparición
+    - [Zonas de aparición](configuracion/zonas/index.mdx)
+    - [Añadir una zona de monstruos](configuracion/zonas/anadir-zona.mdx)
+    - [Cambiar la cantidad de una zona](configuracion/zonas/editar-cantidad.mdx)
+    - [Elegir un mapa](configuracion/zonas/elegir-mapa.mdx)
+    - [Eliminar una zona](configuracion/zonas/eliminar-zona.mdx)
+    - [Crear una zona con coordenadas](configuracion/zonas/nuevo-spot-global.mdx)
+    - [Qué es una zona de aparición](configuracion/zonas/que-es.mdx)
+  - Monstruos
+    - [Monstruos](configuracion/monstruos/index.mdx)
+    - [Buscar un monstruo](configuracion/monstruos/buscar-revisar.mdx)
+    - [Campos deshabilitados de monstruos](configuracion/monstruos/campos-no-disponibles.mdx)
+    - [Editar y guardar un monstruo](configuracion/monstruos/editar-guardar.mdx)
+    - [Qué modifica Monstruos](configuracion/monstruos/que-es.mdx)
+- Plugins
+  - [Activar y desactivar funciones](plugins/index.mdx)
+  - [Desactivar el set de bienvenida +9](plugins/set-de-bienvenida.mdx)
+  - [Jugadores Artificiales](plugins/jugadores-artificiales.mdx)
+  - [Artesano: teñir equipamiento](plugins/artesano.mdx)
+  - [Blood Castle](plugins/blood-castle.mdx)
+  - [Proteger objetos de alquiler vinculados](plugins/bound-item-drop.mdx)
+  - [Chaos Castle](plugins/chaos-castle.mdx)
+  - [Devil Square](plugins/devil-square.mdx)
+  - [Premio al llegar a nivel 10](plugins/first-level-10-mpoints.mdx)
+  - [Fuente de Lorencia: información e inscripciones](plugins/fountain-npc.mdx)
+  - [Invasión de monstruos dorados](plugins/golden-invasion.mdx)
+  - [Happy Hour: más experiencia](plugins/happy-hour.mdx)
+  - [Búsqueda del tesoro](plugins/lost-treasure.mdx)
+  - [Comando GM /make](plugins/make.mdx)
+  - [Megadrop: premios en Lorencia](plugins/megadrop.mdx)
+  - [Invasión de conejos](plugins/moon-rabbit-invasion.mdx)
+  - [Invasión del dragón rojo](plugins/red-dragon-invasion.mdx)
+  - [Caducidad de objetos de alquiler](plugins/rental-expiry.mdx)
+  - [Restaurar Soul Ring](plugins/soul-ring.mdx)
+  - [Combate todos contra todos](plugins/todos-contra-todos.mdx)
+  - [Comerciantes viajeros](plugins/wandering-merchants.mdx)
+  - [Invasión del mago blanco](plugins/white-wizard-invasion.mdx)
+- Eventos
+  - Eventos programados
+    - [Eventos del servidor](configuracion/eventos/index.mdx)
+    - [Configurar invasiones](configuracion/eventos/configurar-invasion.mdx)
+    - [MEGADROP en el panel](configuracion/eventos/configurar-megadrop.mdx)
+    - [Iniciar un evento manualmente](configuracion/eventos/disparar-manual.mdx)
+    - [Activar un evento o iniciarlo](configuracion/eventos/que-es.mdx)
+- Tienda y premios
+  - Tiendas del juego
+    - [Tiendas del juego](configuracion/tiendas/index.mdx)
+    - [Abrir un mercader](configuracion/tiendas/abrir-mercader.mdx)
+    - [Añadir un objeto a una tienda](configuracion/tiendas/anadir-objeto.mdx)
+    - [Comprobar una tienda en el juego](configuracion/tiendas/cambios-in-game.mdx)
+    - [Mover y quitar objetos de una tienda](configuracion/tiendas/mover-eliminar.mdx)
+    - [Qué configura Tiendas del juego](configuracion/tiendas/que-es.mdx)
+  - Premios de eventos
+    - [Premios de eventos](configuracion/event-items/index.mdx)
+    - [Añadir y quitar premios](configuracion/event-items/anadir-quitar.mdx)
+    - [Qué controla Premios de eventos](configuracion/event-items/que-es.mdx)
+    - [Revisar los premios de una caja](configuracion/event-items/revisar-caja.mdx)
+- Administrar servidor
+  - Herramientas avanzadas
+    - [Herramientas avanzadas](general/herramientas-gm/index.mdx)
+    - [Aplicar tasas desde herramientas avanzadas](general/herramientas-gm/aplicar-tasas.mdx)
+    - [Enviar un anuncio al juego](general/herramientas-gm/enviar-anuncio.mdx)
+    - [Anuncios inmediatos y programación](general/herramientas-gm/programar-anuncio.mdx)
+    - [Qué son las herramientas avanzadas](general/herramientas-gm/que-es.mdx)
+    - [Aplicar resets y reglas del mundo](general/herramientas-gm/resets-y-reglas.mdx)
+  - [Administrar Game Masters](administrar/game-masters.mdx)
+  - [Consola de administración](administrar/consola.mdx)
+  - Copias de seguridad
+    - [Copias de seguridad](general/base-de-datos/index.mdx)
+    - [Crear y restaurar copias](general/base-de-datos/copias.mdx)
+    - [Revisar la base de datos](general/base-de-datos/monitorear.mdx)
+    - [Qué contiene esta sección](general/base-de-datos/que-es.mdx)
+  - [Conectar un asistente por MCP](administrar/conexiones.mdx)
+- Ayuda
+  - [Ayuda y soporte](ayuda/index.mdx)
+  - [Mis solicitudes](ayuda/solicitudes.mdx)
+- Mi cuenta
+  - [Mi cuenta de JugarMU](cuenta/index.mdx)
+- Funciones de instancias personalizadas
+  - Monedas
+    - [Monedas de las cuentas](configuracion/mpoints/index.mdx)
+    - [Consultar MPoints o MCoins](configuracion/mpoints/consultar-saldo.mdx)
+    - [Qué administra Monedas](configuracion/mpoints/que-es.mdx)
+    - [Sumar, fijar o vaciar monedas](configuracion/mpoints/sumar-fijar-vaciar.mdx)
+  - Tienda premium
+    - [Tienda premium](configuracion/cash-shop/index.mdx)
+    - [Crear una publicación premium](configuracion/cash-shop/crear-listing.mdx)
+    - [Qué configura la tienda premium](configuracion/cash-shop/que-es.mdx)
+    - [Revisar y editar publicaciones](configuracion/cash-shop/revisar-listings.mdx)
+  - Alquileres
+    - [Alquileres de objetos](configuracion/rental-items/index.mdx)
+    - [Cargar el inventario para un alquiler](configuracion/rental-items/cargar-inventario.mdx)
+    - [Qué es un objeto de alquiler](configuracion/rental-items/que-es.mdx)
+    - [Entregar un objeto temporal](configuracion/rental-items/rentar-objeto.mdx)
+  - [Cuentas VIP](configuracion/vip/index.mdx)

@@ -1,32 +1,19 @@
 ---
-title: ¿Cómo edito y guardo parámetros de combate?
-description: Campos editables + Guardar cambios
+title: "Editar y guardar un monstruo"
+description: "Guardado explícito y aplicación al recargar los datos del juego."
 ---
 
-## Miralo en la captura
+Abrí **Ajustes del juego**, seguí **Mapas y monstruos →** y elegí **Monstruos**. En pantallas angostas la selección está en el desplegable **Ajustes del juego**.
+
+1. Buscá y seleccioná el monstruo.
+2. Ajustá únicamente los campos habilitados. En **Combate** están nivel, HP, daño mínimo y máximo, defensas y tasas de ataque y defensa.
+3. En **Comportamiento**, revisá rangos de movimiento, ataque y visión, y los tiempos de movimiento y ataque en milisegundos. Un intervalo menor implica acciones más frecuentes; no lo interpretes como un multiplicador de velocidad.
+4. En **Botín** están las tasas de objetos y Zen y el máximo de objetos; en **Resistencias**, veneno, hielo, agua y fuego.
+5. Pulsá **Guardar cambios** y comprobá la respuesta.
+6. Reiniciá los servidores o reinicializá los datos mediante el procedimiento disponible para tu servidor. El guardado por sí solo no prueba que los monstruos ya activos hayan cambiado.
+
+Mantené el daño mínimo por debajo o igual al máximo. Probá el resultado en el juego después de aplicarlo y conservá los valores anteriores por si necesitás revertirlo.
 
 <Frame>
-![Editor Bull Fighter: Combate, Comportamiento, Botín y Guardar cambios](/images/gaps/monstruos-editor-focus.png)
+![Editar y guardar un monstruo — panel actual](/images/actual/monstruos.png)
 </Frame>
-
-En esta pantalla fijate en los campos editables (**Nivel**, **Vida (HP)**, **Daño mín./máx.**, **Defensa**, tasas, rangos, **Máx. objetos**, resistencias) y el botón azul **Guardar cambios**.
-
-## Qué hacer
-
-<Steps>
-<Step>
-Editá los campos deseados.
-</Step>
-<Step>
-Pulsá **Guardar cambios**.
-</Step>
-<Step>
-Planificá reinicio de servidores / reinicialización de datos según la nota de la UI.
-</Step>
-</Steps>
-
-## Si ves esto…
-
-| Síntoma | Qué revisar |
-|---------|-------------|
-| Cambios no se reflejan en juego | Reiniciá servidores o reinicializá datos (nota UI). |

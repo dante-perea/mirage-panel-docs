@@ -1,0 +1,46 @@
+---
+title: "Jugadores Artificiales"
+description: "Crear personajes persistentes y controlar sus sesiones, objetivos y progreso."
+---
+
+Esta función depende de la versión del servidor. Abrí **Ajustes del juego → Plugins**, buscá **Jugadores Artificiales** y usá su acceso de configuración cuando esté disponible.
+
+<Note>
+La guía describe los controles de la versión actual del panel. Si aparece “No pudimos leer tu servidor” o “Gameserver no disponible”, no se confirmó el estado de esta función: consultá en Ayuda. Ese error no demuestra que el servidor carezca de la función ni que se haya aplicado una acción. La captura del formulario operativo sigue pendiente de una instancia compatible accesible.
+</Note>
+
+## Crear y empezar
+
+1. Con el plugin activo y el servidor disponible, pulsá **Crear jugador**.
+2. Elegí un nombre de 2 a 10 letras o números, empezando por una letra y sin espacios. Elegí Dark Knight, Dark Wizard o Fairy Elf.
+3. Ajustá **Tolerancia al riesgo** y **Sociabilidad** entre 0 y 100.
+4. Pulsá **Crear desconectados**. Crear el perfil no inicia una sesión automáticamente.
+5. Seleccioná el personaje y pulsá **Iniciar / reanudar**. Comprobá su estado de sesión; un personaje pendiente de inicio todavía no está conectado.
+
+**Crear lote** permite crear entre 1 y 10 personajes con un prefijo de hasta 7 caracteres. El panel añade un número a cada nombre. Si un lote queda parcialmente creado, **Continuar lote** intenta los restantes; revisá el resultado antes de crear otro lote.
+
+## Sesiones y conservación del progreso
+
+| Control | Resultado |
+| --- | --- |
+| Máximo de sesiones activas → Aplicar en vivo | Limita las conexiones simultáneas; 0 significa sin límite. Reducirlo guarda el progreso de las sesiones excedentes y las deja pendientes. No requiere reiniciar. |
+| Pausar | Detiene las acciones, pero el personaje permanece en el mundo y puede recibir daño. |
+| Cerrar sesión | Desconecta al personaje seleccionado. |
+| Editar perfil | Cambia riesgo y sociabilidad; conserva nombre, clase y progreso. |
+| Retirar personaje… → Retirar | Cierra la sesión y conserva nombre, inventario y progreso. Cancelar no retira el personaje. |
+| Restaurar | Recupera un personaje retirado en estado desconectado; después podés iniciarlo. |
+| Desactivar el plugin | Guarda el progreso y cierra todas sus sesiones. |
+
+La búsqueda permite filtrar por nombre o clase. El filtro **Retirado** sirve para encontrar perfiles retirados. Si el panel avisa **Datos sin actualizar**, esperá a recuperar la conexión antes de confiar en los estados mostrados.
+
+## Objetivos y recompensa
+
+Abrí **Objetivos y recompensa**. Los pesos priorizan resets, equipo y MPoints; las escalas permiten comparar esas unidades. La suma de los pesos debe ser positiva y las escalas mayores que cero. La evaluación admite de 30 a 1800 segundos y la exploración de 0 a 0,5.
+
+Pulsá **Guardar y aplicar en vivo** después de cambiar valores. Estos controles orientan decisiones: no regalan niveles, objetos ni monedas. Para perseguir resets, el sistema normal de resets debe estar habilitado.
+
+## Leer el seguimiento
+
+**Players** muestra personajes y sesiones; **Monitoring** muestra las muestras de experiencia, gastos, muertes y decisiones. Hace falta más de una muestra para graficar. La utilidad del equipo es un índice del servidor, no una medición de daño por segundo.
+
+El historial de muestras se reinicia con el proceso. Un gráfico corto no prueba funcionamiento continuo, y **Último fallo registrado** es histórico: no implica por sí solo que el personaje siga fallando.

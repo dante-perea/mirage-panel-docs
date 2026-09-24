@@ -1,0 +1,7 @@
+{
+  "command": "npx --yes mint@latest validate",
+  "date": "2026-09-24",
+  "exit_code": 0,
+  "result": "success build validation passed",
+  "scope": "local Mintlify build only"
+}

@@ -1,0 +1,179 @@
+{
+  "source_commit": "fab146b",
+  "reviewed_at": "2026-09-24",
+  "published": false,
+  "pages": [
+    {
+      "guide": "general/jugadores/index.mdx",
+      "screenshot": "images/actual/jugadores.png",
+      "evidence": "audit/evidence/jugadores.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "general/jugadores/que-es.mdx",
+      "screenshot": "images/actual/jugadores.png",
+      "evidence": "audit/evidence/jugadores.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "general/jugadores/ver-en-linea.mdx",
+      "screenshot": "images/actual/jugadores.png",
+      "evidence": "audit/evidence/jugadores.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "general/jugadores/buscar.mdx",
+      "screenshot": "images/actual/jugadores.png",
+      "evidence": "audit/evidence/jugadores.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "general/jugadores/enviar-mensaje.mdx",
+      "screenshot": "images/actual/jugadores.png",
+      "evidence": "audit/evidence/jugadores.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "general/jugadores/expulsar.mdx",
+      "screenshot": "images/actual/jugadores.png",
+      "evidence": "audit/evidence/jugadores.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "general/jugadores/analitica.mdx",
+      "screenshot": "images/actual/actividad.png",
+      "evidence": "audit/evidence/actividad.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "general/cuentas/index.mdx",
+      "screenshot": "images/actual/cuentas.png",
+      "evidence": "audit/evidence/cuentas.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "general/cuentas/que-es.mdx",
+      "screenshot": "images/actual/cuentas.png",
+      "evidence": "audit/evidence/cuentas.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "general/cuentas/buscar-perfil.mdx",
+      "screenshot": "images/actual/cuentas.png",
+      "evidence": "audit/evidence/cuentas.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "general/cuentas/restablecer-banear.mdx",
+      "screenshot": "images/actual/cuentas.png",
+      "evidence": "audit/evidence/cuentas.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "general/cuentas/anadir-boveda.mdx",
+      "screenshot": "images/actual/boveda-anadir.png",
+      "evidence": "audit/evidence/boveda-anadir.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "general/personajes/index.mdx",
+      "screenshot": "images/actual/personajes.png",
+      "evidence": "audit/evidence/personajes.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "general/personajes/que-es.mdx",
+      "screenshot": "images/actual/personajes.png",
+      "evidence": "audit/evidence/personajes.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "general/personajes/buscar.mdx",
+      "screenshot": "images/actual/personajes.png",
+      "evidence": "audit/evidence/personajes.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "general/personajes/editar-stats.mdx",
+      "screenshot": "images/actual/personajes.png",
+      "evidence": "audit/evidence/personajes.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "general/personajes/teletransportar.mdx",
+      "screenshot": "images/actual/personajes.png",
+      "evidence": "audit/evidence/personajes.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "general/personajes/curar-resetear.mdx",
+      "screenshot": "images/actual/personajes.png",
+      "evidence": "audit/evidence/personajes.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "configuracion/tiendas/index.mdx",
+      "screenshot": "images/actual/tiendas.png",
+      "evidence": "audit/evidence/tiendas.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "configuracion/tiendas/que-es.mdx",
+      "screenshot": "images/actual/tiendas.png",
+      "evidence": "audit/evidence/tiendas.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "configuracion/tiendas/abrir-mercader.mdx",
+      "screenshot": "images/actual/tiendas.png",
+      "evidence": "audit/evidence/tiendas.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "configuracion/tiendas/anadir-objeto.mdx",
+      "screenshot": "images/actual/tiendas-anadir.png",
+      "evidence": "audit/evidence/tiendas-anadir.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "configuracion/tiendas/mover-eliminar.mdx",
+      "screenshot": "images/actual/tiendas.png",
+      "evidence": "audit/evidence/tiendas.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "configuracion/tiendas/cambios-in-game.mdx",
+      "screenshot": "images/actual/tiendas.png",
+      "evidence": "audit/evidence/tiendas.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    }
+  ],
+  "limitations": [
+    "No connected player rows were available; message and kick controls verified against deployed source, not exercised.",
+    "No password, ban, character, vault or shop mutation executed."
+  ]
+}

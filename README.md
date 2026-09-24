@@ -1,58 +1,25 @@
-# Mirage Panel — Documentación
+# Guías del panel JugarMU
 
-Sitio de documentación (Mintlify) con las guías del panel de administración de **Mirage World**.
+Documentación en español del panel de jugarmu.com. La navegación se define en `docs.json` y sigue las secciones actuales del producto.
 
-Contenido en **español (LATAM)** para operadores del panel, organizado como **FAQ didáctico**: sección → lista de preguntas → guía completa con capturas.
+## Desarrollo
 
-## Requisitos
+Usar la CLI oficial de Mintlify (`mint`):
 
-- Node.js 18+
-- Cuenta Mintlify (para deploy en producción)
-
-## Desarrollo local
-
-```bash
-cd mirage-panel-docs
-npx mintlify dev
+```sh
+npx mint dev --no-open
+npx mint validate
+npx mint broken-links
 ```
 
-Abre la URL que imprime la CLI (por defecto `http://localhost:3000`).
+Referencia: https://www.mintlify.com/docs/es/cli/install
 
-Validar configuración:
+## Mantenimiento
 
-```bash
-npx mintlify validate
-```
+Antes de documentar un control, comprobar la instancia, la versión y la pantalla autenticada. Distinguir el estado mostrado de la ejecución real de una operación. No asumir confirmaciones: varios botones envían cambios directamente.
 
-## Estructura
+Las nuevas capturas están en `images/actual/`. No incluir credenciales, correos de jugadores ni datos privados. Las guías de funciones específicas deben indicar su disponibilidad por instancia.
 
-```
-mirage-panel-docs/
-├── docs.json                 # Config Mintlify v4 (grupos anidados + directory:card)
-├── index.mdx                 # Landing: elegí sección → elegí pregunta
-├── general/<sección>/        # FAQ GENERAL (index + preguntas)
-├── configuracion/<sección>/  # FAQ CONFIGURACIÓN (index + preguntas)
-├── images/
-│   ├── spots/                # Capturas Spots (locales)
-│   └── shops/                # Capturas Tiendas (locales)
-├── SUMMARY.md                # Árbol para Bro
-└── README.md
-```
+`audit/` conserva los manifiestos de revisión. `SCREENSHOT-GAPS.md` identifica la evidencia que todavía falta; una compilación correcta no equivale a una auditoría completa. Las evidencias de sesión se mantienen locales.
 
-Las capturas de las guías 01–13 usan URLs del CDN de Sanity. Spots y Tiendas usan PNG locales en `images/`.
-
-## Deploy en Mintlify
-
-1. Subí este repo a GitHub.
-2. En [Mintlify Dashboard](https://dashboard.mintlify.com) conectá el repositorio.
-3. Indicá la raíz del repo (donde está `docs.json`).
-4. Mintlify despliega en cada push a la rama configurada.
-
-No hace falta secretos en este scaffold para preview local.
-
-## Navegación
-
-- **GENERAL:** Resumen, Growth, Jugadores, Cuentas, Personajes, Herramientas GM, Base de datos
-- **CONFIGURACIÓN:** Tiendas, Spots, Mpoints, Rental items, Event Items, Eventos, Cash Shop, Monstruos
-
-Cada sección del sidebar es un grupo anidado con `root` (índice de preguntas) y páginas pregunta individuales.
+Mintlify publica desde la rama configurada en su integración con GitHub. Antes de dar una entrega por terminada, comprobar el sitio publicado y el contenido recuperado por su MCP.

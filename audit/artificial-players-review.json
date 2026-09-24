@@ -1,0 +1,12 @@
+{
+  "source_commit": "fab146b",
+  "guide": "plugins/jugadores-artificiales.mdx",
+  "status": "SOURCE_REWRITTEN_PENDING_LIVE_SCREENSHOT",
+  "sources": [
+    "src/components/dashboard/artificial-players/ArtificialPlayersScreen.tsx",
+    "src/components/dashboard/artificial-players/RewardPanel.tsx"
+  ],
+  "runtime_mutations_tested": false,
+  "screenshot": null,
+  "limitation": "Accessible instance returned read error; guide explicitly scopes availability."
+}

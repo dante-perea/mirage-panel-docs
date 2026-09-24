@@ -1,18 +1,29 @@
 ---
-title: Rental expiry
-description: Saca rentals vencidos ~cada minuto y al entrar al mundo.
+title: "Caducidad de objetos de alquiler"
+description: "Dónde encontrar caducidad de objetos de alquiler y qué controla en el panel actual."
 ---
 
-## Qué habilita el switch
+Gestiona la retirada de objetos temporales cuando vence su alquiler.
 
-Saca rentals vencidos ~cada minuto y al entrar al mundo.
+## Encontrar la función
 
-## Cómo se ve adentro del juego
+1. Entrá a [tu panel](https://jugarmu.com/panel) y seleccioná el servidor.
+2. Abrí **Ajustes del juego → Plugins**. En la vista móvil, elegí **Plugins** en **Sección de ajustes**.
+3. Escribí **Alquileres** en **Buscar una función** y seleccioná **Todos** en **Estado**.
+4. Abrí **Detalles y guía** para comprobar el **Nombre en el servidor** antes de cambiar una fila.
 
-<Frame>
-![rental-expiry in-game](/images/plugins/rental-expiry.png)
-</Frame>
+![Caducidad de objetos de alquiler en el panel actual](/images/actual/plugin-rental-expiry.png)
 
-Inventario: el alquiler se saca de la bag al vencer.
+## Cambiar y comprobar el estado
 
-El switch del panel prende el plugin en el GameServer **sin reiniciar**. Si está apagado, esta escena no ocurre.
+Cada interruptor guarda automáticamente. Esperá el mensaje **Cambio guardado** y verificá que la fila indique **Activado** o **Desactivado**. No hace falta guardar por segunda vez. Si no se confirma el resultado, recargá y comprobá el estado antes de reintentar.
+
+## Qué controla y qué no
+
+Hay dos filas: **Rental expiry on enter** revisa al ingresar; **Rental expiry sweep** revisa durante la sesión. Ambas forman parte del funcionamiento de los alquileres. No las desactives para quitar el set inicial: para detener nuevas entregas usá **Set de bienvenida**. Desactivar la caducidad puede interferir con las entregas temporales.
+
+## Si no aparece
+
+Comprobá el servidor seleccionado, quitá el filtro de estado y revisá **Mostrar también opciones avanzadas**. La lista depende de los plugins instalados en esa versión. Si sigue sin aparecer, pedí ayuda con una captura; su ausencia en una instancia no demuestra que la función no exista en todas.
+
+Interfaz revisada y captura nueva: 24 de septiembre de 2026. Los estados de las capturas son ejemplos de la instancia revisada, no valores predeterminados.

@@ -1,36 +1,15 @@
 ---
-title: ¿Cómo reviso la salud del servidor?
-description: Pasos para chequear KPIs y procesos
+title: "Comprobar si el servidor está en línea"
+description: "Diferenciá el estado de los servicios de la cantidad de jugadores."
 ---
 
-## Miralo en la captura
+1. Abrí **Inicio** y leé la barra de estado.
+2. Revisá **jugadores conectados**. Cero jugadores no significa que el servidor esté caído.
+3. Abrí **Ver estado técnico del servidor** si necesitás más detalle.
+4. Para revisar un servicio concreto, entrá en **Administrar servidor → Estado y servicios**.
+
+Que la barra diga **Tu servidor está en línea** confirma el estado informado por los servicios. Si un jugador no puede entrar, revisá también que esté usando el cliente de este servidor; la barra no demuestra que su instalación o conexión de red funcionen.
 
 <Frame>
-![Resumen del servidor — tarjetas KPI y lista de Servidores](/images/panel/resumen.png)
+![Comprobar si el servidor está en línea — panel actual](/images/actual/inicio.png)
 </Frame>
-
-En esta pantalla fijate en: **Jugadores en línea**, **Tiempo activo**, **Cuentas**, **Carga del servidor** (barra azul) y, en **Servidores**, el estado de cada proceso (jugadores actuales / **Escuchando**).
-
-## Qué hacer
-
-<Steps>
-<Step>
-Andá a **GENERAL → Resumen**.
-</Step>
-<Step>
-Revisá las cuatro tarjetas KPI: online, uptime, cuentas y carga.
-</Step>
-<Step>
-En **Servidores**, verificá que cada proceso muestre el estado esperado.
-</Step>
-<Step>
-Consultá **Actividad reciente** y **Próximos eventos** para contexto operativo.
-</Step>
-</Steps>
-
-## Si ves esto…
-
-| Síntoma | Qué revisar |
-|---------|-------------|
-| Carga alta o procesos raros | Revisá **Carga del servidor**, filas en **Servidores** y CPU/RAM del pie del sidebar. |
-| Contador en 0 con servidores **Escuchando** | Cruzá con **Jugadores** y **Growth** (CCU). |

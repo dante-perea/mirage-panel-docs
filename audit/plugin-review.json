@@ -1,0 +1,119 @@
+{
+  "status": "DRAFT_UI_VERIFIED_GAMEPLAY_NOT_RETESTED",
+  "reviewed_at": "2026-09-24",
+  "panel_commit": "fab146b",
+  "pages": [
+    {
+      "page": "plugins/golden-invasion.mdx",
+      "image": "images/actual/plugin-golden-invasion.png",
+      "ui_checked": true,
+      "published": false
+    },
+    {
+      "page": "plugins/red-dragon-invasion.mdx",
+      "image": "images/actual/plugin-red-dragon-invasion.png",
+      "ui_checked": true,
+      "published": false
+    },
+    {
+      "page": "plugins/white-wizard-invasion.mdx",
+      "image": "images/actual/plugin-white-wizard-invasion.png",
+      "ui_checked": true,
+      "published": false
+    },
+    {
+      "page": "plugins/moon-rabbit-invasion.mdx",
+      "image": "images/actual/plugin-moon-rabbit-invasion.png",
+      "ui_checked": true,
+      "published": false
+    },
+    {
+      "page": "plugins/happy-hour.mdx",
+      "image": "images/actual/plugin-happy-hour.png",
+      "ui_checked": true,
+      "published": false
+    },
+    {
+      "page": "plugins/megadrop.mdx",
+      "image": "images/actual/plugin-megadrop.png",
+      "ui_checked": true,
+      "published": false
+    },
+    {
+      "page": "plugins/lost-treasure.mdx",
+      "image": "images/actual/plugin-lost-treasure.png",
+      "ui_checked": true,
+      "published": false
+    },
+    {
+      "page": "plugins/todos-contra-todos.mdx",
+      "image": "images/actual/plugin-todos-contra-todos.png",
+      "ui_checked": true,
+      "published": false
+    },
+    {
+      "page": "plugins/devil-square.mdx",
+      "image": "images/actual/plugin-devil-square.png",
+      "ui_checked": true,
+      "published": false
+    },
+    {
+      "page": "plugins/blood-castle.mdx",
+      "image": "images/actual/plugin-blood-castle.png",
+      "ui_checked": true,
+      "published": false
+    },
+    {
+      "page": "plugins/chaos-castle.mdx",
+      "image": "images/actual/plugin-chaos-castle.png",
+      "ui_checked": true,
+      "published": false
+    },
+    {
+      "page": "plugins/artesano.mdx",
+      "image": "images/actual/plugin-artesano.png",
+      "ui_checked": true,
+      "published": false
+    },
+    {
+      "page": "plugins/fountain-npc.mdx",
+      "image": "images/actual/plugin-fountain-npc.png",
+      "ui_checked": true,
+      "published": false
+    },
+    {
+      "page": "plugins/wandering-merchants.mdx",
+      "image": "images/actual/plugin-wandering-merchants.png",
+      "ui_checked": true,
+      "published": false
+    },
+    {
+      "page": "plugins/bound-item-drop.mdx",
+      "image": "images/actual/plugin-bound-item-drop.png",
+      "ui_checked": true,
+      "published": false
+    },
+    {
+      "page": "plugins/rental-expiry.mdx",
+      "image": "images/actual/plugin-rental-expiry.png",
+      "ui_checked": true,
+      "published": false
+    },
+    {
+      "page": "plugins/soul-ring.mdx",
+      "image": "images/actual/plugin-soul-ring.png",
+      "ui_checked": true,
+      "published": false
+    },
+    {
+      "page": "plugins/first-level-10-mpoints.mdx",
+      "image": "images/actual/plugin-first-level-10-mpoints.png",
+      "ui_checked": true,
+      "published": false
+    }
+  ],
+  "pending": [
+    "plugins/make.mdx: verify complete command syntax against deployed implementation",
+    "plugins/index.mdx: rebuild navigation and activation guidance"
+  ]
+}

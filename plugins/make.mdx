@@ -1,147 +1,20 @@
 ---
-title: /make
-description: "Comando GM para crear un item en el piso. Mismos parámetros que /item. El item cae al lado del personaje, no entra solo a la bag."
+title: "Comando GM /make"
+description: "Cómo encontrar su función y evitar parámetros de otra versión."
 ---
 
-## Qué habilita el switch
+En **Ajustes del juego → Plugins**, buscá `/make` y revisá su descripción y **Detalles**. Es una función para crear objetos mediante un comando GM, si está instalada en tu servidor.
 
-Prende el chat command **`/make`** en el GameServer. Es el `/make` clásico de MU: un GM tipea group + number (los mismos que en Item.txt) y el item aparece **en el piso**, a un tile del personaje.
+Para habilitarla o deshabilitarla, usá el interruptor de su fila y esperá la confirmación de guardado. No cambies otras funciones de objetos por tener un nombre parecido.
 
-- Solo funciona si el personaje es **GameMaster**.
-- El plugin **no** es `IDisabledByDefault`: al aparecer en el panel viene **activo**. Si el switch está apagado, `/make` no hace nada (sin mensaje).
-- Misma creación que `/item`. El Guid del plugin es independiente para poder apagar `/make` sin tocar `/item`.
+## Usarlo en el juego
+
+Necesitás una cuenta con el permiso GM correspondiente. Antes de crear un objeto, consultá la ayuda del comando de la versión de tu servidor y verificá el catálogo: los índices de objeto y los parámetros aceptados no deben adivinarse.
+
+No mezcles argumentos por posición con argumentos `nombre=valor` sin confirmar que esa versión lo admite. Un ejemplo de otro servidor puede crear un objeto distinto o ser rechazado.
+
+Si tu objetivo es entregar un objeto a una cuenta, podés usar el catálogo visual de [la bóveda](/general/cuentas/anadir-boveda). Ese formulario permite elegir el objeto por nombre sin inventar los parámetros del comando.
 
 <Frame>
-![Ejemplo de /make](/images/plugins/make.png)
+![Comando GM /make — panel actual](/images/actual/plugin-make.png)
 </Frame>
-
-El item no entra a la bag: hay que **pickearlo**. Si group/number no existe en el catálogo del server, el chat avisa que no existe.
-
-## Cómo se escribe
-
-Dos formas. Si hay un `=` en la línea, se parsean **nombres**. Si no, se parsean **en orden**.
-
-```txt
-/make {group} {number} [lvl] [ex] [sk] [lu] [opt] [anc] [ancBonuslvl]
-/make group=0 number=0 lvl=15 ex=63 sk=1 lu=1 opt=4
-```
-
-`group` y `number` son **obligatorios**. El resto es opcional (default 0 / false / ancBonuslvl=1).
-
-Bools (`sk`, `lu`): `0` o `1`.
-
-## Parámetros
-
-| Parámetro | Tipo | Obligatorio | Qué hace |
-| --- | --- | --- | --- |
-| `group` | byte (0–15) | sí | Grupo del catálogo. Es la **sección** de Item.txt (`0` swords, `14` jewels…). |
-| `number` | short | sí | Index dentro del grupo. Kris = `0`, Jewel of Bless = `13` en grupo 14. |
-| `lvl` | byte | no | Nivel del item (`+0` … máximo del definition; armas OpenMU S6 pueden ir más allá de +15). Si pedís más que el máximo, el comando falla. |
-| `ex` | byte | no | Máscara **excellent**. Cada bit prende una opción. `0` = normal. `63` = las 6. Si `ex>0` y el item tiene skill en la definition, el skill se prende solo. |
-| `sk` | 0\|1 | no | Skill del arma/set. Se ignora si la definition no tiene skill. Excellent también fuerza skill. |
-| `lu` | 0\|1 | no | Luck. |
-| `opt` | byte | no | Option adicional. En armas/armors: nivel de la option (`1`=+4, `2`=+8, `4`=+16, `7`=+28). En **Dinorant** es máscara: `1` menos daño, `2` AG, `4` attack speed. |
-| `anc` | 0\|1\|2 | no | Ancient. `0` no. `1` primer set del item (ej. Dragon → Hyon). `2` el segundo (Vicious), si existe. |
-| `ancBonuslvl` | 1\|2 | no | Bonus ancient. Solo aplica si `anc` > 0. Default `1`. |
-
-### Máscara excellent (`ex`)
-
-Fórmula del server: prende la opción cuyo `Number` cumple `(1 << (Number - 1)) & ex`.
-
-| `ex` | Bit | Armas / staffs | Armors / shields |
-| --- | --- | --- | --- |
-| `1` | opción 1 | Mana/8 al matar | Zen ×1.4 |
-| `2` | opción 2 | Life/8 al matar | Defense rate PvM ×1.1 |
-| `4` | opción 3 | Attack speed +7 | Reflect 5% |
-| `8` | opción 4 | Daño ×1.02 | Menos daño recibido 4% |
-| `16` | opción 5 | Daño + level/20 | Mana máxima ×1.04 |
-| `32` | opción 6 | 10% excellent damage | HP máxima ×1.04 |
-| `63` | todas | full excellent | full excellent |
-
-Sumá los que quieras: life+speed+exc dmg = `2+4+32` = `38`.
-
-## Ejemplos
-
-```txt
-/make 0 0
-```
-
-Kris +0, sin luck/skill/excellent. Cae al piso.
-
-```txt
-/make 0 0 15
-/make group=0 number=0 lvl=15
-```
-
-Kris +15.
-
-```txt
-/make 0 0 lvl=15 ex=63 sk=1 lu=1 opt=4
-```
-
-Kris +15 full excellent, skill, luck, option +16.
-
-```txt
-/make 14 13
-```
-
-Jewel of Bless (group 14, index 13).
-
-```txt
-/make 14 14
-/make 14 16
-/make 12 15
-```
-
-Soul, Life, Jewel of Chaos.
-
-```txt
-/make 13 3 opt=7
-```
-
-Horn of Dinorant con las 3 options (1+2+4).
-
-```txt
-/make 12 0 lvl=13 lu=1 opt=4
-```
-
-Wings of Elf +13 luck +16 option (recover/dmg según el ala).
-
-```txt
-/make 8 1 lvl=15 ex=63 lu=1 opt=7 anc=1 ancBonuslvl=2
-```
-
-Dragon Armor +15 full excellent luck +28, primer ancient set, bonus nivel 2. El `number` del Dragon Armor es el index del grupo 8 (armors), no el del helm.
-
-Si el group/number no está en **este** Season 6, el GM ve el mensaje de que no existe. Eso no se arregla editando Item.txt.
-
-## Item.txt — group e index
-
-[Descargar Item.txt](https://raw.githubusercontent.com/dante-perea/mirage-panel-docs/main/files/Item.txt) (catálogo OpenMU Season 6, 16 grupos).
-
-**OpenMU no carga Item.txt.** Cambiar un nombre o un daño en ese archivo **no** cambia el server. El archivo es una tabla `group` + `Index` + nombre para armar el `/make`.
-
-Grupos:
-
-| group | Qué es |
-| --- | --- |
-| 0 | Swords |
-| 1 | Axes |
-| 2 | Maces / scepters |
-| 3 | Spears |
-| 4 | Bows / crossbows |
-| 5 | Staffs |
-| 6 | Shields |
-| 7 | Helms |
-| 8 | Armors |
-| 9 | Pants |
-| 10 | Gloves |
-| 11 | Boots |
-| 12 | Wings, orbs, Jewel of Chaos |
-| 13 | Pets, rings, pendants |
-| 14 | Potions, jewels, misc |
-| 15 | Scrolls |
-
-Para **editar** stats (daño, requisitos, drops) hay que cambiar `ItemDefinition` en la base del GameServer, no este txt.
-
-El switch del panel prende el plugin **sin reiniciar**. Personaje no-GM: el comando no corre.

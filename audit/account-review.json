@@ -1,0 +1,8 @@
+{
+  "guide": "cuenta/index.mdx",
+  "ui_verified": true,
+  "source_commit": "fab146b",
+  "evidence": "Authenticated production desktop click username -> Mi cuenta -> Clerk modal observed, same URL; mobile Menu -> user trigger also observed. No account mutation.",
+  "screenshot": null,
+  "remaining": "Privacy-safe screenshot required"
+}

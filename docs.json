@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "name": "JugarMU",
-  "description": "Gu\u00edas del panel de administraci\u00f3n de JugarMU \u2014 FAQ did\u00e1ctico",
+  "description": "Guías del panel actual de JugarMU: configuración, jugadores, eventos, tiendas y soporte.",
   "theme": "mint",
   "colors": {
     "primary": "#1B7A4E",
@@ -23,228 +23,230 @@
         "language": "es",
         "groups": [
           {
-            "group": "Inicio",
+            "group": "Empezar",
             "pages": [
-              "index"
-            ]
-          },
-          {
-            "group": "PLUGINS",
-            "icon": "puzzle",
-            "directory": "card",
-            "pages": [
+              "index",
               {
-                "group": "Eventos",
-                "root": "plugins/index",
+                "group": "Inicio",
                 "pages": [
-                  "plugins/golden-invasion",
-                  "plugins/red-dragon-invasion",
-                  "plugins/white-wizard-invasion",
-                  "plugins/moon-rabbit-invasion",
-                  "plugins/happy-hour",
-                  "plugins/megadrop",
-                  "plugins/lost-treasure",
-                  "plugins/todos-contra-todos",
-                  "plugins/devil-square",
-                  "plugins/blood-castle",
-                  "plugins/chaos-castle"
-                ]
-              },
-              {
-                "group": "NPCs especiales",
-                "pages": [
-                  "plugins/artesano",
-                  "plugins/fountain-npc",
-                  "plugins/wandering-merchants"
-                ]
-              },
-              {
-                "group": "Items",
-                "pages": [
-                  "plugins/bound-item-drop",
-                  "plugins/rental-expiry",
-                  "plugins/soul-ring"
-                ]
-              },
-              {
-                "group": "Comandos GM",
-                "pages": [
-                  "plugins/make"
-                ]
-              },
-              {
-                "group": "Progresi\u00f3n",
-                "pages": [
-                  "plugins/first-level-10-mpoints"
-                ]
-              }
-            ]
-          },
-          {
-            "group": "GENERAL",
-            "icon": "layout-dashboard",
-            "directory": "card",
-            "pages": [
-              {
-                "group": "Resumen",
-                "root": "general/resumen/index",
-                "pages": [
-                  "general/resumen/que-es",
-                  "general/resumen/revisar-salud",
+                  "general/resumen/index",
+                  "general/resumen/actividad-y-eventos",
                   "general/resumen/detener-servicio",
-                  "general/resumen/actividad-y-eventos"
+                  "general/resumen/que-es",
+                  "general/resumen/revisar-salud"
                 ]
               },
+              "cliente/index"
+            ]
+          },
+          {
+            "group": "Jugadores",
+            "pages": [
               {
-                "group": "Growth",
-                "root": "general/growth/index",
+                "group": "Conectados",
                 "pages": [
-                  "general/growth/que-es",
-                  "general/growth/revisar-awareness",
-                  "general/growth/analizar-acquisition",
-                  "general/growth/filtros-organico-referral",
-                  "general/growth/ccu-vs-online"
-                ]
-              },
-              {
-                "group": "Jugadores",
-                "root": "general/jugadores/index",
-                "pages": [
-                  "general/jugadores/que-es",
-                  "general/jugadores/ver-en-linea",
+                  "general/jugadores/index",
+                  "general/jugadores/analitica",
                   "general/jugadores/buscar",
                   "general/jugadores/enviar-mensaje",
                   "general/jugadores/expulsar",
-                  "general/jugadores/analitica"
+                  "general/jugadores/que-es",
+                  "general/jugadores/ver-en-linea"
                 ]
               },
               {
                 "group": "Cuentas",
-                "root": "general/cuentas/index",
                 "pages": [
-                  "general/cuentas/que-es",
+                  "general/cuentas/index",
+                  "general/cuentas/anadir-boveda",
                   "general/cuentas/buscar-perfil",
-                  "general/cuentas/restablecer-banear",
-                  "general/cuentas/anadir-boveda"
+                  "general/cuentas/que-es",
+                  "general/cuentas/restablecer-banear"
                 ]
               },
               {
                 "group": "Personajes",
-                "root": "general/personajes/index",
                 "pages": [
-                  "general/personajes/que-es",
+                  "general/personajes/index",
                   "general/personajes/buscar",
+                  "general/personajes/curar-resetear",
                   "general/personajes/editar-stats",
-                  "general/personajes/teletransportar",
-                  "general/personajes/curar-resetear"
-                ]
-              },
-              {
-                "group": "Herramientas GM",
-                "root": "general/herramientas-gm/index",
-                "pages": [
-                  "general/herramientas-gm/que-es",
-                  "general/herramientas-gm/enviar-anuncio",
-                  "general/herramientas-gm/programar-anuncio",
-                  "general/herramientas-gm/aplicar-tasas",
-                  "general/herramientas-gm/resets-y-reglas"
-                ]
-              },
-              {
-                "group": "Base de datos",
-                "root": "general/base-de-datos/index",
-                "pages": [
-                  "general/base-de-datos/que-es",
-                  "general/base-de-datos/monitorear",
-                  "general/base-de-datos/copias"
+                  "general/personajes/que-es",
+                  "general/personajes/teletransportar"
                 ]
               }
             ]
           },
           {
-            "group": "CONFIGURACI\u00d3N",
-            "icon": "settings",
-            "directory": "card",
+            "group": "Ajustes del juego",
             "pages": [
+              "ajustes/experiencia",
+              "ajustes/objetos-zen",
+              "ajustes/resets",
+              "ajustes/combate-chat",
               {
-                "group": "Tiendas",
-                "root": "configuracion/tiendas/index",
+                "group": "Zonas de aparición",
                 "pages": [
-                  "configuracion/tiendas/que-es",
-                  "configuracion/tiendas/abrir-mercader",
-                  "configuracion/tiendas/anadir-objeto",
-                  "configuracion/tiendas/mover-eliminar",
-                  "configuracion/tiendas/cambios-in-game"
-                ]
-              },
-              {
-                "group": "Spots",
-                "root": "configuracion/zonas/index",
-                "pages": [
-                  "configuracion/zonas/que-es",
-                  "configuracion/zonas/elegir-mapa",
+                  "configuracion/zonas/index",
                   "configuracion/zonas/anadir-zona",
                   "configuracion/zonas/editar-cantidad",
+                  "configuracion/zonas/elegir-mapa",
                   "configuracion/zonas/eliminar-zona",
-                  "configuracion/zonas/nuevo-spot-global"
-                ]
-              },
-              {
-                "group": "Mpoints",
-                "root": "configuracion/mpoints/index",
-                "pages": [
-                  "configuracion/mpoints/que-es",
-                  "configuracion/mpoints/consultar-saldo",
-                  "configuracion/mpoints/sumar-fijar-vaciar"
-                ]
-              },
-              {
-                "group": "Rental items",
-                "root": "configuracion/rental-items/index",
-                "pages": [
-                  "configuracion/rental-items/que-es",
-                  "configuracion/rental-items/cargar-inventario",
-                  "configuracion/rental-items/rentar-objeto"
-                ]
-              },
-              {
-                "group": "Event Items",
-                "root": "configuracion/event-items/index",
-                "pages": [
-                  "configuracion/event-items/que-es",
-                  "configuracion/event-items/revisar-caja",
-                  "configuracion/event-items/anadir-quitar"
-                ]
-              },
-              {
-                "group": "Eventos",
-                "root": "configuracion/eventos/index",
-                "pages": [
-                  "configuracion/eventos/que-es",
-                  "configuracion/eventos/configurar-invasion",
-                  "configuracion/eventos/configurar-megadrop",
-                  "configuracion/eventos/disparar-manual"
-                ]
-              },
-              {
-                "group": "Cash Shop",
-                "root": "configuracion/cash-shop/index",
-                "pages": [
-                  "configuracion/cash-shop/que-es",
-                  "configuracion/cash-shop/revisar-listings",
-                  "configuracion/cash-shop/crear-listing"
+                  "configuracion/zonas/nuevo-spot-global",
+                  "configuracion/zonas/que-es"
                 ]
               },
               {
                 "group": "Monstruos",
-                "root": "configuracion/monstruos/index",
                 "pages": [
-                  "configuracion/monstruos/que-es",
+                  "configuracion/monstruos/index",
                   "configuracion/monstruos/buscar-revisar",
+                  "configuracion/monstruos/campos-no-disponibles",
                   "configuracion/monstruos/editar-guardar",
-                  "configuracion/monstruos/campos-no-disponibles"
+                  "configuracion/monstruos/que-es"
                 ]
               }
+            ]
+          },
+          {
+            "group": "Plugins",
+            "pages": [
+              "plugins/index",
+              "plugins/set-de-bienvenida",
+              "plugins/jugadores-artificiales",
+              "plugins/artesano",
+              "plugins/blood-castle",
+              "plugins/bound-item-drop",
+              "plugins/chaos-castle",
+              "plugins/devil-square",
+              "plugins/first-level-10-mpoints",
+              "plugins/fountain-npc",
+              "plugins/golden-invasion",
+              "plugins/happy-hour",
+              "plugins/lost-treasure",
+              "plugins/make",
+              "plugins/megadrop",
+              "plugins/moon-rabbit-invasion",
+              "plugins/red-dragon-invasion",
+              "plugins/rental-expiry",
+              "plugins/soul-ring",
+              "plugins/todos-contra-todos",
+              "plugins/wandering-merchants",
+              "plugins/white-wizard-invasion"
+            ]
+          },
+          {
+            "group": "Eventos",
+            "pages": [
+              {
+                "group": "Eventos programados",
+                "pages": [
+                  "configuracion/eventos/index",
+                  "configuracion/eventos/configurar-invasion",
+                  "configuracion/eventos/configurar-megadrop",
+                  "configuracion/eventos/disparar-manual",
+                  "configuracion/eventos/que-es"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Tienda y premios",
+            "pages": [
+              {
+                "group": "Tiendas del juego",
+                "pages": [
+                  "configuracion/tiendas/index",
+                  "configuracion/tiendas/abrir-mercader",
+                  "configuracion/tiendas/anadir-objeto",
+                  "configuracion/tiendas/cambios-in-game",
+                  "configuracion/tiendas/mover-eliminar",
+                  "configuracion/tiendas/que-es"
+                ]
+              },
+              {
+                "group": "Premios de eventos",
+                "pages": [
+                  "configuracion/event-items/index",
+                  "configuracion/event-items/anadir-quitar",
+                  "configuracion/event-items/que-es",
+                  "configuracion/event-items/revisar-caja"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Administrar servidor",
+            "pages": [
+              {
+                "group": "Herramientas avanzadas",
+                "pages": [
+                  "general/herramientas-gm/index",
+                  "general/herramientas-gm/aplicar-tasas",
+                  "general/herramientas-gm/enviar-anuncio",
+                  "general/herramientas-gm/programar-anuncio",
+                  "general/herramientas-gm/que-es",
+                  "general/herramientas-gm/resets-y-reglas"
+                ]
+              },
+              "administrar/game-masters",
+              "administrar/consola",
+              {
+                "group": "Copias de seguridad",
+                "pages": [
+                  "general/base-de-datos/index",
+                  "general/base-de-datos/copias",
+                  "general/base-de-datos/monitorear",
+                  "general/base-de-datos/que-es"
+                ]
+              },
+              "administrar/conexiones"
+            ]
+          },
+          {
+            "group": "Ayuda",
+            "pages": [
+              "ayuda/index",
+              "ayuda/solicitudes"
+            ]
+          },
+          {
+            "group": "Mi cuenta",
+            "pages": [
+              "cuenta/index"
+            ]
+          },
+          {
+            "group": "Funciones de instancias personalizadas",
+            "pages": [
+              {
+                "group": "Monedas",
+                "pages": [
+                  "configuracion/mpoints/index",
+                  "configuracion/mpoints/consultar-saldo",
+                  "configuracion/mpoints/que-es",
+                  "configuracion/mpoints/sumar-fijar-vaciar"
+                ]
+              },
+              {
+                "group": "Tienda premium",
+                "pages": [
+                  "configuracion/cash-shop/index",
+                  "configuracion/cash-shop/crear-listing",
+                  "configuracion/cash-shop/que-es",
+                  "configuracion/cash-shop/revisar-listings"
+                ]
+              },
+              {
+                "group": "Alquileres",
+                "pages": [
+                  "configuracion/rental-items/index",
+                  "configuracion/rental-items/cargar-inventario",
+                  "configuracion/rental-items/que-es",
+                  "configuracion/rental-items/rentar-objeto"
+                ]
+              },
+              "configuracion/vip/index"
             ]
           }
         ]
@@ -289,6 +291,34 @@
     {
       "source": "/configuracion/spots/nuevo-spot-global",
       "destination": "/configuracion/zonas/nuevo-spot-global"
+    },
+    {
+      "source": "/general/growth/revisar-awareness",
+      "destination": "/general/jugadores/analitica"
+    },
+    {
+      "source": "/general/growth/filtros-organico-referral",
+      "destination": "/general/jugadores/analitica"
+    },
+    {
+      "source": "/general/growth/index",
+      "destination": "/general/jugadores/analitica"
+    },
+    {
+      "source": "/general/growth/analizar-acquisition",
+      "destination": "/general/jugadores/analitica"
+    },
+    {
+      "source": "/general/growth/que-es",
+      "destination": "/general/jugadores/analitica"
+    },
+    {
+      "source": "/general/growth/ccu-vs-online",
+      "destination": "/general/jugadores/analitica"
+    },
+    {
+      "source": "/general/growth",
+      "destination": "/general/jugadores/analitica"
     }
   ]
 }

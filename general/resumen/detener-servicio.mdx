@@ -1,36 +1,17 @@
 ---
-title: ¿Cómo detengo un servicio?
-description: Usar el botón Detener con cuidado
+title: "Iniciar y detener servicios"
+description: "Controlá juego, conexión y chat desde Administrar servidor."
 ---
 
-## Miralo en la captura
+1. Abrí **Administrar servidor → Estado y servicios**.
+2. Identificá la fila por su nombre: servidor de juego, Connect Server o Chat Server. Los puertos pueden variar por servidor.
+3. Usá **Detener** en el servicio en ejecución que quieras parar. Para volver a ponerlo en marcha, usá el control de inicio que aparece cuando está detenido.
+4. Esperá la respuesta y comprobá el estado actualizado. No des por terminado el arranque solo por haber pulsado el botón.
+
+Detener el juego interrumpe las sesiones. Detener el acceso impide nuevas conexiones y detener el chat afecta esa función. Avisá a tus jugadores antes de una interrupción.
+
+**Actualizar servidor a la última versión** instala la versión disponible y reinicia el servidor. No es el botón para guardar una tasa de experiencia. Antes de una actualización importante, [creá una copia](/general/base-de-datos/copias).
 
 <Frame>
-![Bloque Servidores con botón Detener en rojo a la derecha de cada fila](/images/panel/resumen.png)
+![Iniciar y detener servicios — panel actual](/images/actual/servidor.png)
 </Frame>
-
-En esta pantalla fijate en el bloque **Servidores**: cada fila (Servidor 0, Connect Server, Chat Server, etc.) tiene a la derecha un botón rojo **Detener**.
-
-## Qué hacer
-
-<Steps>
-<Step>
-En **GENERAL → Resumen**, localizá la fila del servicio.
-</Step>
-<Step>
-Pulsá **Detener** a la derecha de esa fila.
-</Step>
-<Step>
-Confirmá en el flujo del panel si aparece un diálogo.
-</Step>
-</Steps>
-
-<Warning>
-Detener un servicio afecta a los jugadores conectados. Usalo solo con coordinación del equipo.
-</Warning>
-
-## Si ves esto…
-
-| Síntoma | Qué revisar |
-|---------|-------------|
-| **Detener** no responde | Verificá permisos de la sesión de admin. |
