@@ -27,6 +27,12 @@
             "pages": [
               "index",
               {
+                "group": "Introducción al panel",
+                "pages": [
+                  "introduccion/como-es-el-panel"
+                ]
+              },
+              {
                 "group": "Inicio",
                 "pages": [
                   "general/resumen/index",
