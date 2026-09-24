@@ -19,5 +19,11 @@
     "One CLI support question on the VM, not a WhatsApp send.",
     "MCP search links contain a duplicated /ayuda prefix; this answer normalized the correct public link.",
     "SCREENSHOT-GAPS.md still applies. Full section-by-section visual audit is not complete."
-  ]
+  ],
+  "duplicate_link_verification": {
+    "url": "https://jugarmu.com/ayuda/ayuda/plugins/set-de-bienvenida",
+    "status": 308,
+    "location": "https://jugarmu.com/ayuda/plugins/set-de-bienvenida",
+    "result": "Already canonicalized by deployed edge worker; no code change required."
+  }
 }

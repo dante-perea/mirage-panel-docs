@@ -43,13 +43,15 @@
     },
     "objetos-zen-avanzado.png": {
       "visually_reviewed": true,
-      "result": "SUPPLEMENT_REQUIRED",
-      "limitation": "Bottom two advanced fields and save control below fold."
+      "result": "SUPPLEMENT_ADDED",
+      "limitation": "Bottom two advanced fields and save control below fold.",
+      "supplement": "objetos-zen-limites.png"
     },
     "combate-chat-avanzado.png": {
       "visually_reviewed": true,
-      "result": "SUPPLEMENT_REQUIRED",
-      "limitation": "Bottom three advanced fields and save control below fold."
+      "result": "SUPPLEMENT_ADDED",
+      "limitation": "Bottom three advanced fields and save control below fold.",
+      "supplement": "combate-chat-limites.png"
     },
     "gm-ajustes.png": {
       "visually_reviewed": true,
@@ -131,6 +133,18 @@
     "plugin-red-dragon-invasion.png": {
       "visually_reviewed": true,
       "result": "Search and matching plugin rows legible; state is example only. Multi-row lists may continue below viewport."
+    },
+    "objetos-zen-limites.png": {
+      "visually_reviewed": true,
+      "result": "Complete target controls visible. Captured from authenticated live panel without submitting changes."
+    },
+    "combate-chat-limites.png": {
+      "visually_reviewed": true,
+      "result": "Complete target controls visible. Captured from authenticated live panel without submitting changes."
+    },
+    "ayuda-consulta.png": {
+      "visually_reviewed": true,
+      "result": "Complete target controls visible. Captured from authenticated live panel without submitting changes."
     }
   }
 }
