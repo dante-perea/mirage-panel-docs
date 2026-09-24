@@ -1,32 +1,28 @@
 ---
-title: ¿Puedo crear o restaurar copias desde el panel?
-description: Modo demo y disponibilidad
+title: "Crear y restaurar copias"
+description: "Pasos para respaldar la base y recuperar un estado anterior."
 ---
 
-## Miralo en la captura
+## Crear una copia
+
+1. Abrí **Administrar servidor → Copias de seguridad**.
+2. Pulsá **Copia ahora**.
+3. Esperá el resultado y verificá una nueva fila con fecha reciente y estado **OK**.
+
+## Restaurar
+
+<Warning>
+Restaurar sobrescribe la base de datos. Los cambios posteriores a la copia elegida no se conservan en el estado restaurado.
+</Warning>
+
+1. Guardá una copia del estado actual si querés poder recuperarlo.
+2. Avisá de la interrupción y detené todos los servicios desde **Estado y servicios**.
+3. Volvé a **Copias de seguridad**, comprobá la fecha y pulsá **Restaurar** en la fila correcta.
+4. Seguí la confirmación y esperá el resultado. Si falla, no supongas que la base se restauró.
+5. Volvé a arrancar los servicios para que carguen los datos restaurados y verificá el acceso al juego.
+
+La pantalla no ofrece descargar las copias directamente.
 
 <Frame>
-![Última copia — y Copias de seguridad: no disponible (modo demo) / Aún no hay copias](/images/panel/base-de-datos.png)
+![Crear y restaurar copias — panel actual](/images/actual/copias-seguridad.png)
 </Frame>
-
-En esta pantalla fijate en la tarjeta **Última copia** (puede mostrar **—** y *no disponible (modo demo)*) y el bloque **Copias de seguridad** con el texto **Aún no hay copias de seguridad.**
-
-## Qué hacer
-
-<Steps>
-<Step>
-Abrí **GENERAL → Base de datos**.
-</Step>
-<Step>
-Mirás si hay controles operativos de copia en tu entorno.
-</Step>
-<Step>
-**No asumas botones que no veas** en pantalla.
-</Step>
-</Steps>
-
-## Si ves esto…
-
-| Síntoma | Qué revisar |
-|---------|-------------|
-| Última copia = — | Esperado en modo demo; no asumas backups activos desde esta pantalla. |

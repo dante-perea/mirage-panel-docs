@@ -1,0 +1,105 @@
+{
+  "source_commit": "fab146b",
+  "published": false,
+  "live_access_required": true,
+  "pages": [
+    {
+      "guide": "configuracion/mpoints/index.mdx",
+      "source": "mpoints/MpointsScreen.tsx",
+      "ui_verified": false,
+      "screenshot": null,
+      "status": "SOURCE_REWRITTEN_PENDING_LIVE_SCREENSHOT"
+    },
+    {
+      "guide": "configuracion/mpoints/que-es.mdx",
+      "source": "mpoints/MpointsScreen.tsx",
+      "ui_verified": false,
+      "screenshot": null,
+      "status": "SOURCE_REWRITTEN_PENDING_LIVE_SCREENSHOT"
+    },
+    {
+      "guide": "configuracion/mpoints/consultar-saldo.mdx",
+      "source": "mpoints/MpointsScreen.tsx",
+      "ui_verified": false,
+      "screenshot": null,
+      "status": "SOURCE_REWRITTEN_PENDING_LIVE_SCREENSHOT"
+    },
+    {
+      "guide": "configuracion/mpoints/sumar-fijar-vaciar.mdx",
+      "source": "mpoints/MpointsScreen.tsx",
+      "ui_verified": false,
+      "screenshot": null,
+      "status": "SOURCE_REWRITTEN_PENDING_LIVE_SCREENSHOT"
+    },
+    {
+      "guide": "configuracion/cash-shop/index.mdx",
+      "source": "cash-shop/CashShopScreen.tsx",
+      "ui_verified": false,
+      "screenshot": null,
+      "status": "SOURCE_REWRITTEN_PENDING_LIVE_SCREENSHOT"
+    },
+    {
+      "guide": "configuracion/cash-shop/que-es.mdx",
+      "source": "cash-shop/CashShopScreen.tsx",
+      "ui_verified": false,
+      "screenshot": null,
+      "status": "SOURCE_REWRITTEN_PENDING_LIVE_SCREENSHOT"
+    },
+    {
+      "guide": "configuracion/cash-shop/revisar-listings.mdx",
+      "source": "cash-shop/CashShopScreen.tsx",
+      "ui_verified": false,
+      "screenshot": null,
+      "status": "SOURCE_REWRITTEN_PENDING_LIVE_SCREENSHOT"
+    },
+    {
+      "guide": "configuracion/cash-shop/crear-listing.mdx",
+      "source": "cash-shop/CashShopScreen.tsx",
+      "ui_verified": false,
+      "screenshot": null,
+      "status": "SOURCE_REWRITTEN_PENDING_LIVE_SCREENSHOT"
+    },
+    {
+      "guide": "configuracion/rental-items/index.mdx",
+      "source": "rental-items/RentalItemsScreen.tsx",
+      "ui_verified": false,
+      "screenshot": null,
+      "status": "SOURCE_REWRITTEN_PENDING_LIVE_SCREENSHOT"
+    },
+    {
+      "guide": "configuracion/rental-items/que-es.mdx",
+      "source": "rental-items/RentalItemsScreen.tsx",
+      "ui_verified": false,
+      "screenshot": null,
+      "status": "SOURCE_REWRITTEN_PENDING_LIVE_SCREENSHOT"
+    },
+    {
+      "guide": "configuracion/rental-items/cargar-inventario.mdx",
+      "source": "rental-items/RentalItemsScreen.tsx",
+      "ui_verified": false,
+      "screenshot": null,
+      "status": "SOURCE_REWRITTEN_PENDING_LIVE_SCREENSHOT"
+    },
+    {
+      "guide": "configuracion/rental-items/rentar-objeto.mdx",
+      "source": "rental-items/RentalItemsScreen.tsx",
+      "ui_verified": false,
+      "screenshot": null,
+      "status": "SOURCE_REWRITTEN_PENDING_LIVE_SCREENSHOT"
+    },
+    {
+      "guide": "configuracion/eventos/configurar-invasion.mdx",
+      "source": "invasions/InvasionsScreen.tsx",
+      "ui_verified": false,
+      "screenshot": null,
+      "status": "SOURCE_REWRITTEN_PENDING_LIVE_SCREENSHOT"
+    },
+    {
+      "guide": "configuracion/vip/index.mdx",
+      "source": "cuentas-vip/CuentasVipScreen.tsx",
+      "ui_verified": false,
+      "screenshot": null,
+      "status": "SOURCE_REWRITTEN_PENDING_LIVE_SCREENSHOT"
+    }
+  ]
+}

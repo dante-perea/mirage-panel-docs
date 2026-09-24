@@ -1,37 +1,16 @@
 ---
-title: ¿Por qué no veo los cambios in-game?
-description: Verificación y posibles caches
+title: "Comprobar una tienda en el juego"
+description: "Separá el guardado del panel de la carga del inventario por el servidor."
 ---
 
-## Miralo en la captura
+Abrí **Tienda y premios → Tiendas del juego**. En móvil, primero abrí **Menú → Tienda y premios**.
+
+1. Después de añadir, mover o eliminar, comprobá el mensaje de resultado y el inventario actualizado en el panel.
+2. Abrí el mercader correspondiente dentro del juego y verificá los objetos y sus opciones.
+3. Si todavía se muestra el inventario anterior, cerrá y volvé a abrir la tienda. Si persiste, consultá el procedimiento de recarga de configuración de tu servidor antes de reiniciarlo.
+
+Que un objeto se vea en el panel confirma el estado que muestra la administración, no que una ventana de tienda ya abierta en cada cliente se haya actualizado. No repitas añadidos para intentar forzar la actualización: podrías duplicarlos.
 
 <Frame>
-![Overview de Tiendas para verificar la grilla tras editar](/images/shops/01-overview.png)
+![Comprobar una tienda en el juego — panel actual](/images/actual/tiendas.png)
 </Frame>
-
-En esta pantalla fijate en la grilla del mercader seleccionado: es lo que deberías contrastar después contra el NPC in-game.
-
-## Qué hacer
-
-<Steps>
-<Step>
-Sacá una referencia de la grilla actual (screenshot).
-</Step>
-<Step>
-Editá (mover / x / añadir) y cerrá con **Listo** si usaste el diálogo.
-</Step>
-<Step>
-Entrá al juego, hablá con ese NPC y confirmá el inventario.
-</Step>
-<Step>
-Si no se ve in-game: recargá el panel; si sigue, verificá si el game server cachea shops.
-</Step>
-</Steps>
-
-## Si ves esto…
-
-| Problema | Qué probar |
-|----------|------------|
-| No ves **Añadir objeto** | Seleccioná un mercader de la lista |
-| Cambios no se ven in-game | Recargá el panel; puede hacer falta reload del game server |
-| Diálogo sin Cancel | **Listo** cierra; recargar sin colocar = no guarda |

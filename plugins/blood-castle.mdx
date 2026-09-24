@@ -1,18 +1,29 @@
 ---
-title: Blood Castle
-description: Agenda Blood Castle (entrada y cierre).
+title: "Blood Castle"
+description: "Dónde encontrar blood castle y qué controla en el panel actual."
 ---
 
-## Qué habilita el switch
+Agrupa la entrada, visualización y otras funciones de Blood Castle.
 
-Agenda Blood Castle (entrada y cierre).
+## Encontrar la función
 
-## Cómo se ve adentro del juego
+1. Entrá a [tu panel](https://jugarmu.com/panel) y seleccioná el servidor.
+2. Abrí **Ajustes del juego → Plugins**. En la vista móvil, elegí **Plugins** en **Sección de ajustes**.
+3. Escribí **Blood Castle** en **Buscar una función** y seleccioná **Todos** en **Estado**.
+4. Abrí **Detalles y guía** para comprobar el **Nombre en el servidor** antes de cambiar una fila.
 
-<Frame>
-![Blood Castle in-game](/images/plugins/eventos-hud.png)
-</Frame>
+![Blood Castle en el panel actual](/images/actual/plugin-blood-castle.png)
 
-Instancia Blood Castle.
+## Cambiar y comprobar el estado
 
-El switch del panel prende el plugin en el GameServer **sin reiniciar**. Si está apagado, esta escena no ocurre.
+Cada interruptor guarda automáticamente. Esperá el mensaje **Cambio guardado** y verificá que la fila indique **Activado** o **Desactivado**. No hace falta guardar por segunda vez. Si no se confirma el resultado, recargá y comprobá el estado antes de reintentar.
+
+## Qué controla y qué no
+
+En Detalles podés encontrar **Blood Castle Enter Handler**, **Blood Castle State View**, **Start Blood Castle Event Chat Command** y **Fix Blood Castle 7/8 Monster Attributes**. Tienen responsabilidades distintas. Para el evento completo, consultá su fila en **Eventos → Eventos programados**. Una actualización de atributos no sustituye el control de entrada ni el horario.
+
+## Si no aparece
+
+Comprobá el servidor seleccionado, quitá el filtro de estado y revisá **Mostrar también opciones avanzadas**. La lista depende de los plugins instalados en esa versión. Si sigue sin aparecer, pedí ayuda con una captura; su ausencia en una instancia no demuestra que la función no exista en todas.
+
+Interfaz revisada y captura nueva: 24 de septiembre de 2026. Los estados de las capturas son ejemplos de la instancia revisada, no valores predeterminados.

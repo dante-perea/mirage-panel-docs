@@ -1,18 +1,29 @@
 ---
-title: Todos contra todos
-description: "FFA diario: signup en la fuente, warp a Arena, PvP forzado."
+title: "Combate todos contra todos"
+description: "Dónde encontrar combate todos contra todos y qué controla en el panel actual."
 ---
 
-## Qué habilita el switch
+Permite inscribirse en la fuente de Lorencia para combatir contra otros jugadores en Arena.
 
-FFA diario: signup en la fuente, warp a Arena, PvP forzado.
+## Encontrar la función
 
-## Cómo se ve adentro del juego
+1. Entrá a [tu panel](https://jugarmu.com/panel) y seleccioná el servidor.
+2. Abrí **Ajustes del juego → Plugins**. En la vista móvil, elegí **Plugins** en **Sección de ajustes**.
+3. Escribí **Todos contra todos** en **Buscar una función** y seleccioná **Todos** en **Estado**.
+4. Abrí **Detalles y guía** para comprobar el **Nombre en el servidor** antes de cambiar una fila.
 
-<Frame>
-![todos-contra-todos in-game](/images/plugins/todos-contra-todos.png)
-</Frame>
+![Combate todos contra todos en el panel actual](/images/actual/plugin-todos-contra-todos.png)
 
-Arena, donde se pelea el FFA después del signup en la fuente.
+## Cambiar y comprobar el estado
 
-El switch del panel prende el plugin en el GameServer **sin reiniciar**. Si está apagado, esta escena no ocurre.
+Cada interruptor guarda automáticamente. Esperá el mensaje **Cambio guardado** y verificá que la fila indique **Activado** o **Desactivado**. No hace falta guardar por segunda vez. Si no se confirma el resultado, recargá y comprobá el estado antes de reintentar.
+
+## Qué controla y qué no
+
+Identificá **Todos contra todos** en Detalles. La fila **Rename Todos contra todos fountain NPC** es una actualización de nombre. El NPC de la fuente tiene su propio plugin; desactivar la inscripción y desactivar el evento son controles diferentes. La programación se revisa en **Eventos → Eventos programados**.
+
+## Si no aparece
+
+Comprobá el servidor seleccionado, quitá el filtro de estado y revisá **Mostrar también opciones avanzadas**. La lista depende de los plugins instalados en esa versión. Si sigue sin aparecer, pedí ayuda con una captura; su ausencia en una instancia no demuestra que la función no exista en todas.
+
+Interfaz revisada y captura nueva: 24 de septiembre de 2026. Los estados de las capturas son ejemplos de la instancia revisada, no valores predeterminados.

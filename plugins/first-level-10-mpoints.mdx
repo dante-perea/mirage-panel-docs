@@ -1,18 +1,29 @@
 ---
-title: MPoints al nivel 10
-description: La primera vez que un personaje de la cuenta llega a 10, da 1 MPoint y un notice HUD.
+title: "Premio al llegar a nivel 10"
+description: "Dónde encontrar premio al llegar a nivel 10 y qué controla en el panel actual."
 ---
 
-## Qué habilita el switch
+Otorga el premio configurado cuando un personaje de la cuenta alcanza por primera vez el nivel 10; la descripción de esta instancia indica 1 MPoint.
 
-La primera vez que un personaje de la cuenta llega a 10, da 1 MPoint y un notice HUD.
+## Encontrar la función
 
-## Cómo se ve adentro del juego
+1. Entrá a [tu panel](https://jugarmu.com/panel) y seleccioná el servidor.
+2. Abrí **Ajustes del juego → Plugins**. En la vista móvil, elegí **Plugins** en **Sección de ajustes**.
+3. Escribí **First level 10 MPoints** en **Buscar una función** y seleccioná **Todos** en **Estado**.
+4. Abrí **Detalles y guía** para comprobar el **Nombre en el servidor** antes de cambiar una fila.
 
-<Frame>
-![first-level-10-mpoints in-game](/images/plugins/first-level-10-mpoints.png)
-</Frame>
+![Premio al llegar a nivel 10 en el panel actual](/images/actual/plugin-first-level-10-mpoints.png)
 
-Inventario / HUD en pueblo cuando llega el primer nivel 10.
+## Cambiar y comprobar el estado
 
-El switch del panel prende el plugin en el GameServer **sin reiniciar**. Si está apagado, esta escena no ocurre.
+Cada interruptor guarda automáticamente. Esperá el mensaje **Cambio guardado** y verificá que la fila indique **Activado** o **Desactivado**. No hace falta guardar por segunda vez. Si no se confirma el resultado, recargá y comprobá el estado antes de reintentar.
+
+## Qué controla y qué no
+
+Identificá **First level 10 MPoints**. **Add Season 6 Workshop MPoints**, **Fold earned MCoins into MPoints** y **Ranking MPoints** no son el mismo disparador aunque compartan título. No prometas un premio nuevo por cada personaje ni por cada ingreso. El saldo se administra en **Jugadores → Monedas** únicamente en las instancias que muestran esa sección.
+
+## Si no aparece
+
+Comprobá el servidor seleccionado, quitá el filtro de estado y revisá **Mostrar también opciones avanzadas**. La lista depende de los plugins instalados en esa versión. Si sigue sin aparecer, pedí ayuda con una captura; su ausencia en una instancia no demuestra que la función no exista en todas.
+
+Interfaz revisada y captura nueva: 24 de septiembre de 2026. Los estados de las capturas son ejemplos de la instancia revisada, no valores predeterminados.

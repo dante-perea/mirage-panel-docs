@@ -1,0 +1,91 @@
+{
+  "source_commit": "fab146b",
+  "reviewed_at": "2026-09-24",
+  "published": false,
+  "pages": [
+    {
+      "guide": "general/herramientas-gm/index.mdx",
+      "screenshot": "images/actual/anuncios.png",
+      "evidence": "audit/evidence/anuncios.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "general/herramientas-gm/que-es.mdx",
+      "screenshot": "images/actual/anuncios.png",
+      "evidence": "audit/evidence/anuncios.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "general/herramientas-gm/enviar-anuncio.mdx",
+      "screenshot": "images/actual/anuncios.png",
+      "evidence": "audit/evidence/anuncios.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "general/herramientas-gm/programar-anuncio.mdx",
+      "screenshot": "images/actual/anuncios.png",
+      "evidence": "audit/evidence/anuncios.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "general/herramientas-gm/aplicar-tasas.mdx",
+      "screenshot": "images/actual/gm-ajustes.png",
+      "evidence": "audit/evidence/gm-ajustes.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "general/herramientas-gm/resets-y-reglas.mdx",
+      "screenshot": "images/actual/gm-ajustes.png",
+      "evidence": "audit/evidence/gm-ajustes.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "administrar/game-masters.mdx",
+      "screenshot": "images/actual/game-masters.png",
+      "evidence": "audit/evidence/game-masters.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "administrar/consola.mdx",
+      "screenshot": "images/actual/consola.png",
+      "evidence": "audit/evidence/consola.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "configuracion/eventos/index.mdx",
+      "screenshot": "images/actual/eventos.png",
+      "evidence": "audit/evidence/eventos.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "configuracion/eventos/que-es.mdx",
+      "screenshot": "images/actual/eventos.png",
+      "evidence": "audit/evidence/eventos.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "configuracion/eventos/disparar-manual.mdx",
+      "screenshot": "images/actual/eventos.png",
+      "evidence": "audit/evidence/eventos.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "configuracion/eventos/configurar-megadrop.mdx",
+      "screenshot": "images/actual/eventos.png",
+      "evidence": "audit/evidence/eventos.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    }
+  ]
+}

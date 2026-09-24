@@ -1,33 +1,15 @@
 ---
-title: ¿Cómo monitoreo tamaño y conexiones?
-description: Revisar tarjetas de estado
+title: "Revisar la base de datos"
+description: "Tamaño, conexiones activas y última copia."
 ---
 
-## Miralo en la captura
+1. Entrá a **Administrar servidor → Copias de seguridad**.
+2. Revisá **Tamaño de la BD** y la versión que muestra la pantalla.
+3. Compará **Conexiones activas** con el máximo indicado. Esas conexiones son de la base de datos; no equivalen al número de jugadores.
+4. Revisá **Última copia**, la programación mostrada y el estado de la fila más reciente.
+
+Los números y horarios de la captura son de un servidor de ejemplo. Si falta una copia esperada o aparece un error, no la consideres válida: revisá la respuesta de **Copia ahora** o consultá soporte.
 
 <Frame>
-![Tarjetas Tamaño de la BD y Conexiones activas (actual vs límite)](/images/panel/base-de-datos.png)
+![Revisar la base de datos — panel actual](/images/actual/copias-seguridad.png)
 </Frame>
-
-En esta pantalla fijate en **Tamaño de la BD** (tamaño + motor) y **Conexiones activas** (número actual · límite del servidor).
-
-## Qué hacer
-
-<Steps>
-<Step>
-Andá a **GENERAL → Base de datos**.
-</Step>
-<Step>
-Revisá tamaño, motor y conexiones vs límite.
-</Step>
-<Step>
-Comprobá si **Última copia** y el panel de copias están disponibles.
-</Step>
-</Steps>
-
-## Si ves esto…
-
-| Síntoma | Qué revisar |
-|---------|-------------|
-| Conexiones cerca del límite | Investigá sesiones abiertas antes de reiniciar. |
-| Tamaño crece rápido | Revisá retención de logs/datos fuera de este panel. |

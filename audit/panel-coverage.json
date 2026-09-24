@@ -1,0 +1,414 @@
+{
+  "status": "IN_PROGRESS_UI_AUDIT_AND_REWRITE",
+  "source_commit": "fab146b",
+  "docs_baseline": "87b71e1",
+  "old_pages_to_replace_or_redirect": [
+    "configuracion/cash-shop/crear-listing.mdx",
+    "configuracion/cash-shop/index.mdx",
+    "configuracion/cash-shop/que-es.mdx",
+    "configuracion/cash-shop/revisar-listings.mdx",
+    "configuracion/event-items/anadir-quitar.mdx",
+    "configuracion/event-items/index.mdx",
+    "configuracion/event-items/que-es.mdx",
+    "configuracion/event-items/revisar-caja.mdx",
+    "configuracion/eventos/configurar-invasion.mdx",
+    "configuracion/eventos/configurar-megadrop.mdx",
+    "configuracion/eventos/disparar-manual.mdx",
+    "configuracion/eventos/index.mdx",
+    "configuracion/eventos/que-es.mdx",
+    "configuracion/monstruos/buscar-revisar.mdx",
+    "configuracion/monstruos/campos-no-disponibles.mdx",
+    "configuracion/monstruos/editar-guardar.mdx",
+    "configuracion/monstruos/index.mdx",
+    "configuracion/monstruos/que-es.mdx",
+    "configuracion/mpoints/consultar-saldo.mdx",
+    "configuracion/mpoints/index.mdx",
+    "configuracion/mpoints/que-es.mdx",
+    "configuracion/mpoints/sumar-fijar-vaciar.mdx",
+    "configuracion/rental-items/cargar-inventario.mdx",
+    "configuracion/rental-items/index.mdx",
+    "configuracion/rental-items/que-es.mdx",
+    "configuracion/rental-items/rentar-objeto.mdx",
+    "configuracion/tiendas/abrir-mercader.mdx",
+    "configuracion/tiendas/anadir-objeto.mdx",
+    "configuracion/tiendas/cambios-in-game.mdx",
+    "configuracion/tiendas/index.mdx",
+    "configuracion/tiendas/mover-eliminar.mdx",
+    "configuracion/tiendas/que-es.mdx",
+    "configuracion/zonas/anadir-zona.mdx",
+    "configuracion/zonas/editar-cantidad.mdx",
+    "configuracion/zonas/elegir-mapa.mdx",
+    "configuracion/zonas/eliminar-zona.mdx",
+    "configuracion/zonas/index.mdx",
+    "configuracion/zonas/nuevo-spot-global.mdx",
+    "configuracion/zonas/que-es.mdx",
+    "general/base-de-datos/copias.mdx",
+    "general/base-de-datos/index.mdx",
+    "general/base-de-datos/monitorear.mdx",
+    "general/base-de-datos/que-es.mdx",
+    "general/cuentas/anadir-boveda.mdx",
+    "general/cuentas/buscar-perfil.mdx",
+    "general/cuentas/index.mdx",
+    "general/cuentas/que-es.mdx",
+    "general/cuentas/restablecer-banear.mdx",
+    "general/growth/analizar-acquisition.mdx",
+    "general/growth/ccu-vs-online.mdx",
+    "general/growth/filtros-organico-referral.mdx",
+    "general/growth/index.mdx",
+    "general/growth/que-es.mdx",
+    "general/growth/revisar-awareness.mdx",
+    "general/herramientas-gm/aplicar-tasas.mdx",
+    "general/herramientas-gm/enviar-anuncio.mdx",
+    "general/herramientas-gm/index.mdx",
+    "general/herramientas-gm/programar-anuncio.mdx",
+    "general/herramientas-gm/que-es.mdx",
+    "general/herramientas-gm/resets-y-reglas.mdx",
+    "general/jugadores/analitica.mdx",
+    "general/jugadores/buscar.mdx",
+    "general/jugadores/enviar-mensaje.mdx",
+    "general/jugadores/expulsar.mdx",
+    "general/jugadores/index.mdx",
+    "general/jugadores/que-es.mdx",
+    "general/jugadores/ver-en-linea.mdx",
+    "general/personajes/buscar.mdx",
+    "general/personajes/curar-resetear.mdx",
+    "general/personajes/editar-stats.mdx",
+    "general/personajes/index.mdx",
+    "general/personajes/que-es.mdx",
+    "general/personajes/teletransportar.mdx",
+    "general/resumen/actividad-y-eventos.mdx",
+    "general/resumen/detener-servicio.mdx",
+    "general/resumen/index.mdx",
+    "general/resumen/que-es.mdx",
+    "general/resumen/revisar-salud.mdx",
+    "index.mdx",
+    "plugins/artesano.mdx",
+    "plugins/blood-castle.mdx",
+    "plugins/bound-item-drop.mdx",
+    "plugins/chaos-castle.mdx",
+    "plugins/devil-square.mdx",
+    "plugins/first-level-10-mpoints.mdx",
+    "plugins/fountain-npc.mdx",
+    "plugins/golden-invasion.mdx",
+    "plugins/happy-hour.mdx",
+    "plugins/index.mdx",
+    "plugins/lost-treasure.mdx",
+    "plugins/make.mdx",
+    "plugins/megadrop.mdx",
+    "plugins/moon-rabbit-invasion.mdx",
+    "plugins/red-dragon-invasion.mdx",
+    "plugins/rental-expiry.mdx",
+    "plugins/soul-ring.mdx",
+    "plugins/todos-contra-todos.mdx",
+    "plugins/wandering-merchants.mdx",
+    "plugins/white-wizard-invasion.mdx"
+  ],
+  "sections": [
+    {
+      "section": "Inicio",
+      "checks": [
+        {
+          "flow": "Resumen del servidor, enlaces, métricas y próximos eventos",
+          "ui_verified": false,
+          "screenshot": null,
+          "guide": null
+        }
+      ]
+    },
+    {
+      "section": "Jugadores",
+      "checks": [
+        {
+          "flow": "Conectados: buscar, mensaje, expulsar",
+          "ui_verified": false,
+          "screenshot": null,
+          "guide": null
+        },
+        {
+          "flow": "Cuentas: búsqueda, perfil, contraseña, bloqueo, bóveda",
+          "ui_verified": false,
+          "screenshot": null,
+          "guide": null
+        },
+        {
+          "flow": "Personajes: atributos, ubicación, curar y resetear",
+          "ui_verified": false,
+          "screenshot": null,
+          "guide": null
+        },
+        {
+          "flow": "Actividad: períodos, gráficos y definiciones",
+          "ui_verified": false,
+          "screenshot": null,
+          "guide": null
+        },
+        {
+          "flow": "Monedas: consultar, sumar, fijar y vaciar saldo",
+          "ui_verified": false,
+          "screenshot": null,
+          "guide": null
+        },
+        {
+          "flow": "VIP: asignar, renovar y quitar",
+          "ui_verified": false,
+          "screenshot": null,
+          "guide": null
+        }
+      ]
+    },
+    {
+      "section": "Ajustes del juego",
+      "checks": [
+        {
+          "flow": "Experiencia: campos básicos y avanzados",
+          "ui_verified": false,
+          "screenshot": null,
+          "guide": null
+        },
+        {
+          "flow": "Objetos y Zen: tasas, límites y duración",
+          "ui_verified": false,
+          "screenshot": null,
+          "guide": null
+        },
+        {
+          "flow": "Resets: requisitos, coste y puntos",
+          "ui_verified": false,
+          "screenshot": null,
+          "guide": null
+        },
+        {
+          "flow": "Combate y chat: reglas y opciones avanzadas",
+          "ui_verified": false,
+          "screenshot": null,
+          "guide": null
+        },
+        {
+          "flow": "Plugins: búsqueda, filtros, interruptor y guardado",
+          "ui_verified": false,
+          "screenshot": null,
+          "guide": null
+        },
+        {
+          "flow": "Set de bienvenida: desactivar nuevas entregas +9",
+          "ui_verified": false,
+          "screenshot": null,
+          "guide": null
+        },
+        {
+          "flow": "Todos los plugins documentados: validar nombre, efecto y configuración real",
+          "ui_verified": false,
+          "screenshot": null,
+          "guide": null
+        },
+        {
+          "flow": "Mapas y monstruos: spots, geometría, cantidad y guardado",
+          "ui_verified": false,
+          "screenshot": null,
+          "guide": null
+        },
+        {
+          "flow": "Monstruos: búsqueda, atributos y aplicación",
+          "ui_verified": false,
+          "screenshot": null,
+          "guide": null
+        },
+        {
+          "flow": "Jugadores artificiales: creación, límites, sesión y recompensas",
+          "ui_verified": false,
+          "screenshot": null,
+          "guide": null
+        }
+      ]
+    },
+    {
+      "section": "Eventos",
+      "checks": [
+        {
+          "flow": "Eventos programados: activar frente a empezar ahora",
+          "ui_verified": false,
+          "screenshot": null,
+          "guide": null
+        },
+        {
+          "flow": "Invasiones: mapas, monstruos, horarios y configuración",
+          "ui_verified": false,
+          "screenshot": null,
+          "guide": null
+        }
+      ]
+    },
+    {
+      "section": "Tienda y premios",
+      "checks": [
+        {
+          "flow": "Tiendas del juego: mercader, añadir, mover, quitar y guardar",
+          "ui_verified": false,
+          "screenshot": null,
+          "guide": null
+        },
+        {
+          "flow": "Tienda premium: precios, existencias y modalidades",
+          "ui_verified": false,
+          "screenshot": null,
+          "guide": null
+        },
+        {
+          "flow": "Premios de eventos: cajas, contenido y probabilidades",
+          "ui_verified": false,
+          "screenshot": null,
+          "guide": null
+        },
+        {
+          "flow": "Alquileres: personaje, inventario, plazo y expiración",
+          "ui_verified": false,
+          "screenshot": null,
+          "guide": null
+        }
+      ]
+    },
+    {
+      "section": "Cliente para jugar",
+      "checks": [
+        {
+          "flow": "Descargas y compilaciones, versiones y entrega",
+          "ui_verified": false,
+          "screenshot": null,
+          "guide": null
+        }
+      ]
+    },
+    {
+      "section": "Administrar servidor",
+      "checks": [
+        {
+          "flow": "Estado y servicios: iniciar, detener, reiniciar y efectos",
+          "ui_verified": false,
+          "screenshot": null,
+          "guide": null
+        },
+        {
+          "flow": "Copias de seguridad: crear, descargar, restaurar y límites",
+          "ui_verified": false,
+          "screenshot": null,
+          "guide": null
+        },
+        {
+          "flow": "Herramientas avanzadas: anuncios, GM y consola",
+          "ui_verified": false,
+          "screenshot": null,
+          "guide": null
+        },
+        {
+          "flow": "Conexiones MCP: alcance, credenciales, revocación y privacidad",
+          "ui_verified": false,
+          "screenshot": null,
+          "guide": null
+        }
+      ]
+    },
+    {
+      "section": "Ayuda",
+      "checks": [
+        {
+          "flow": "Consultar al asistente",
+          "ui_verified": false,
+          "screenshot": null,
+          "guide": null
+        },
+        {
+          "flow": "Mis solicitudes: crear, seguir y responder",
+          "ui_verified": false,
+          "screenshot": null,
+          "guide": null
+        }
+      ]
+    },
+    {
+      "section": "Mi cuenta",
+      "checks": [
+        {
+          "flow": "Perfil, servidores, suscripción y facturación",
+          "ui_verified": false,
+          "screenshot": null,
+          "guide": null
+        }
+      ]
+    }
+  ],
+  "live_tenant": "openmublue",
+  "screenshots_captured": [
+    "actividad.png",
+    "anuncios.png",
+    "ayuda.png",
+    "boveda-anadir.png",
+    "cliente.png",
+    "combate-chat-avanzado.png",
+    "combate-chat.png",
+    "conexiones.png",
+    "consola.png",
+    "copias-seguridad.png",
+    "cuentas.png",
+    "eventos.png",
+    "experiencia-avanzada.png",
+    "experiencia.png",
+    "game-masters.png",
+    "gm-ajustes.png",
+    "gm-eventos.png",
+    "inicio.png",
+    "jugadores.png",
+    "monstruos.png",
+    "objetos-zen-avanzado.png",
+    "objetos-zen.png",
+    "personajes.png",
+    "plugin-artesano.png",
+    "plugin-blood-castle.png",
+    "plugin-bound-item-drop.png",
+    "plugin-chaos-castle.png",
+    "plugin-devil-square.png",
+    "plugin-first-level-10-mpoints.png",
+    "plugin-fountain-npc.png",
+    "plugin-golden-invasion.png",
+    "plugin-happy-hour.png",
+    "plugin-lost-treasure.png",
+    "plugin-make.png",
+    "plugin-megadrop.png",
+    "plugin-moon-rabbit-invasion.png",
+    "plugin-red-dragon-invasion.png",
+    "plugin-rental-expiry.png",
+    "plugin-soul-ring.png",
+    "plugin-todos-contra-todos.png",
+    "plugin-wandering-merchants.png",
+    "plugin-white-wizard-invasion.png",
+    "premios-anadir.png",
+    "premios-eventos.png",
+    "resets.png",
+    "servidor.png",
+    "set-de-bienvenida.png",
+    "solicitudes.png",
+    "tiendas-anadir.png",
+    "tiendas.png",
+    "zonas-confirmar.png",
+    "zonas.png"
+  ],
+  "notes": [
+    "Authenticated panel visited on 2026-09-24. No gameplay state changed.",
+    "This tenant hides custom-only currencies, VIP, premium store and rental routes from navigation. Another supported instance may be needed to verify those.",
+    "Set de bienvenida appears twice: Activate 24h starter rental set grant migration and Add 48h starter rental set and weapon live character-created plugin. Guides must identify the latter through Detalles.",
+    "2026-09-24 continuation: 23 core guides and 12 GM/event guides rewritten; production UI inspected for zones, monster attributes and all GM tabs. Gameplay mutations were not exercised. Publishing and complete coverage remain pending.",
+    "Custom guides rewritten from current source; old screenshots removed. Live custom screenshots still required."
+  ],
+  "review_manifests": [
+    "audit/plugin-review.json",
+    "audit/core-review.json",
+    "audit/gm-review.json",
+    "audit/players-shops-review.json",
+    "audit/support-review.json",
+    "audit/custom-source-review.json"
+  ],
+  "access_gaps": [
+    "Custom tenant ecxon not available to current account; operator route also returns 404. User asked for an accessible custom instance.",
+    "Artificial players route on openmublue returned server read error reference 2184287713.",
+    "No online player row available to capture message/kick dialog; deployed source reviewed."
+  ]
+}

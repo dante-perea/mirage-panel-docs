@@ -1,36 +1,18 @@
 ---
-title: ¿Cómo sumo, fijo o vacío MPoints/MCoins?
-description: Acciones Sumar, Fijar y Vaciar
+title: "Sumar, fijar o vaciar monedas"
+description: "Función disponible en instancias con las extensiones correspondientes habilitadas."
 ---
 
-## Miralo en la captura
+Esta función aparece como **Monedas** dentro de **Jugadores** en las instancias que la tienen habilitada. El formulario puede conservar el título **Mpoints**. Si no aparece, consultá la disponibilidad para tu servidor; no es una función universal de todas las versiones.
 
-<Frame>
-![Cantidad + botones Sumar, Fijar y Vaciar con MCoins seleccionado](/images/panel/mpoints-mcoins.png)
-</Frame>
+Buscá primero la cuenta y verificá su login y la moneda. Introducí un monto entero de cero o más.
 
-En esta pantalla fijate en: el selector **Moneda** (define sobre cuál opera **Cantidad**), el campo **Cantidad** y los botones **Sumar**, **Fijar** y **Vaciar**.
+| Acción | Resultado solicitado |
+| --- | --- |
+| Sumar | Agrega el monto al saldo actual. |
+| Setear | Reemplaza el saldo por el monto indicado. |
+| Poner en 0 | Establece el saldo de la moneda seleccionada en cero. |
 
-## Qué hacer
+Los botones envían la acción directamente. No hay un paso general de Guardar después. Revisá la respuesta y volvé a consultar el saldo antes de repetir una suma, para evitar duplicarla.
 
-<Steps>
-<Step>
-Con resultado cargado, indicá **Cantidad**.
-</Step>
-<Step>
-Pulsá **Sumar** (añadir), **Fijar** (establecer al valor) o **Vaciar** (poner a cero según UI).
-</Step>
-<Step>
-Verificá saldos en el resultado.
-</Step>
-</Steps>
-
-<Warning>
-Estas acciones modifican moneda premium del jugador. Confirmá el destinatario y la cantidad antes de aplicar.
-</Warning>
-
-## Si ves esto…
-
-| Síntoma | Qué revisar |
-|---------|-------------|
-| Cambiar de MPoints a MCoins no cambia el resultado | El resultado muestra ambos saldos; el selector define sobre cuál opera Cantidad. |
+Estas operaciones no son reembolsos ni cobros de dinero real.

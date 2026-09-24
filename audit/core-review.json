@@ -1,0 +1,168 @@
+{
+  "source_commit": "fab146b",
+  "reviewed_at": "2026-09-24",
+  "published": false,
+  "pages": [
+    {
+      "guide": "general/resumen/index.mdx",
+      "screenshot": "images/actual/inicio.png",
+      "evidence": "audit/evidence/inicio.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "general/resumen/que-es.mdx",
+      "screenshot": "images/actual/inicio.png",
+      "evidence": "audit/evidence/inicio.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "general/resumen/revisar-salud.mdx",
+      "screenshot": "images/actual/inicio.png",
+      "evidence": "audit/evidence/inicio.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "general/resumen/actividad-y-eventos.mdx",
+      "screenshot": "images/actual/inicio.png",
+      "evidence": "audit/evidence/inicio.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "general/resumen/detener-servicio.mdx",
+      "screenshot": "images/actual/servidor.png",
+      "evidence": "audit/evidence/servidor.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "general/base-de-datos/index.mdx",
+      "screenshot": "images/actual/copias-seguridad.png",
+      "evidence": "audit/evidence/copias-seguridad.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "general/base-de-datos/que-es.mdx",
+      "screenshot": "images/actual/copias-seguridad.png",
+      "evidence": "audit/evidence/copias-seguridad.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "general/base-de-datos/monitorear.mdx",
+      "screenshot": "images/actual/copias-seguridad.png",
+      "evidence": "audit/evidence/copias-seguridad.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "general/base-de-datos/copias.mdx",
+      "screenshot": "images/actual/copias-seguridad.png",
+      "evidence": "audit/evidence/copias-seguridad.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "configuracion/monstruos/index.mdx",
+      "screenshot": "images/actual/monstruos.png",
+      "evidence": "audit/evidence/monstruos.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "configuracion/monstruos/que-es.mdx",
+      "screenshot": "images/actual/monstruos.png",
+      "evidence": "audit/evidence/monstruos.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "configuracion/monstruos/buscar-revisar.mdx",
+      "screenshot": "images/actual/monstruos.png",
+      "evidence": "audit/evidence/monstruos.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "configuracion/monstruos/editar-guardar.mdx",
+      "screenshot": "images/actual/monstruos.png",
+      "evidence": "audit/evidence/monstruos.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "configuracion/monstruos/campos-no-disponibles.mdx",
+      "screenshot": "images/actual/monstruos.png",
+      "evidence": "audit/evidence/monstruos.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "configuracion/zonas/index.mdx",
+      "screenshot": "images/actual/zonas.png",
+      "evidence": "audit/evidence/zonas.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "configuracion/zonas/que-es.mdx",
+      "screenshot": "images/actual/zonas.png",
+      "evidence": "audit/evidence/zonas.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "configuracion/zonas/elegir-mapa.mdx",
+      "screenshot": "images/actual/zonas.png",
+      "evidence": "audit/evidence/zonas.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "configuracion/zonas/anadir-zona.mdx",
+      "screenshot": "images/actual/zonas-confirmar.png",
+      "evidence": "audit/evidence/zonas-confirmar.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "configuracion/zonas/editar-cantidad.mdx",
+      "screenshot": "images/actual/zonas.png",
+      "evidence": "audit/evidence/zonas.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "configuracion/zonas/eliminar-zona.mdx",
+      "screenshot": "images/actual/zonas.png",
+      "evidence": "audit/evidence/zonas.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "configuracion/zonas/nuevo-spot-global.mdx",
+      "screenshot": "images/actual/zonas-confirmar.png",
+      "evidence": "audit/evidence/zonas-confirmar.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "cliente/index.mdx",
+      "screenshot": "images/actual/cliente.png",
+      "evidence": "audit/evidence/cliente.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    },
+    {
+      "guide": "administrar/conexiones.mdx",
+      "screenshot": "images/actual/conexiones.png",
+      "evidence": "audit/evidence/conexiones.txt",
+      "status": "DRAFT_UI_AND_SOURCE_REVIEWED",
+      "runtime_mutations_tested": false
+    }
+  ]
+}

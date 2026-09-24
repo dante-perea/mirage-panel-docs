@@ -22,3 +22,6 @@ Thumbs.db
 .cache/
 dist/
 .next/
+
+# Local authenticated-session evidence (may contain private data)
+audit/evidence/

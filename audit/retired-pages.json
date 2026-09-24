@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "/general/growth/revisar-awareness",
+    "/general/growth/filtros-organico-referral",
+    "/general/growth/index",
+    "/general/growth/analizar-acquisition",
+    "/general/growth/que-es",
+    "/general/growth/ccu-vs-online"
+  ],
+  "replacement": "general/jugadores/analitica",
+  "reason": "Growth/Awareness/Acquisition not present in current dashboard routes or components at fab146b. Old guides describe a removed interface. Redirects preserve old URLs; current activity guide distinguishes concurrency from acquisition."
+}
