@@ -1,0 +1,13 @@
+{
+  "date": "2026-09-24",
+  "server": "guias-mu",
+  "created_via": "admin_createOwnServer",
+  "provision_verified": true,
+  "services_running": ["game", "connect", "chat"],
+  "initial_accounts": 0,
+  "initial_players": 0,
+  "screenshot": "images/actual/inicio-nuevo.png",
+  "first_player_transition_tested": false,
+  "artificial_players": "GET succeeds; enabling plugin returned an error and remained disabled. No players created.",
+  "custom_sections": "Hidden for this instance; visual audit remains pending."
+}
