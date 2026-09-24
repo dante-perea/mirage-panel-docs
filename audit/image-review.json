@@ -43,18 +43,108 @@
     },
     "objetos-zen-avanzado.png": {
       "visually_reviewed": true,
-      "result": "SUPPLEMENT_REQUIRED",
-      "limitation": "Bottom two advanced fields and save control below fold."
+      "result": "SUPPLEMENT_ADDED",
+      "limitation": "Bottom two advanced fields and save control below fold.",
+      "supplement": "objetos-zen-limites.png"
     },
     "combate-chat-avanzado.png": {
       "visually_reviewed": true,
-      "result": "SUPPLEMENT_REQUIRED",
-      "limitation": "Bottom three advanced fields and save control below fold."
+      "result": "SUPPLEMENT_ADDED",
+      "limitation": "Bottom three advanced fields and save control below fold.",
+      "supplement": "combate-chat-limites.png"
     },
     "gm-ajustes.png": {
       "visually_reviewed": true,
       "result": "SUPPLEMENT_REQUIRED",
       "limitation": "World rules save control below fold."
+    },
+    "plugin-bound-item-drop.png": {
+      "visually_reviewed": true,
+      "result": "Search and matching plugin rows legible; state is example only. Multi-row lists may continue below viewport."
+    },
+    "plugin-moon-rabbit-invasion.png": {
+      "visually_reviewed": true,
+      "result": "Search and matching plugin rows legible; state is example only. Multi-row lists may continue below viewport."
+    },
+    "plugin-blood-castle.png": {
+      "visually_reviewed": true,
+      "result": "Search and matching plugin rows legible; state is example only. Multi-row lists may continue below viewport."
+    },
+    "plugin-golden-invasion.png": {
+      "visually_reviewed": true,
+      "result": "Search and matching plugin rows legible; state is example only. Multi-row lists may continue below viewport."
+    },
+    "plugin-happy-hour.png": {
+      "visually_reviewed": true,
+      "result": "Search and matching plugin rows legible; state is example only. Multi-row lists may continue below viewport."
+    },
+    "plugin-chaos-castle.png": {
+      "visually_reviewed": true,
+      "result": "Search and matching plugin rows legible; state is example only. Multi-row lists may continue below viewport."
+    },
+    "plugin-make.png": {
+      "visually_reviewed": true,
+      "result": "Search and matching plugin rows legible; state is example only. Multi-row lists may continue below viewport."
+    },
+    "plugin-artesano.png": {
+      "visually_reviewed": true,
+      "result": "Search and matching plugin rows legible; state is example only. Multi-row lists may continue below viewport."
+    },
+    "plugin-soul-ring.png": {
+      "visually_reviewed": true,
+      "result": "Search and matching plugin rows legible; state is example only. Multi-row lists may continue below viewport."
+    },
+    "plugin-first-level-10-mpoints.png": {
+      "visually_reviewed": true,
+      "result": "Search and matching plugin rows legible; state is example only. Multi-row lists may continue below viewport."
+    },
+    "plugin-white-wizard-invasion.png": {
+      "visually_reviewed": true,
+      "result": "Search and matching plugin rows legible; state is example only. Multi-row lists may continue below viewport."
+    },
+    "plugin-megadrop.png": {
+      "visually_reviewed": true,
+      "result": "Search and matching plugin rows legible; state is example only. Multi-row lists may continue below viewport."
+    },
+    "plugin-fountain-npc.png": {
+      "visually_reviewed": true,
+      "result": "Search and matching plugin rows legible; state is example only. Multi-row lists may continue below viewport."
+    },
+    "plugin-lost-treasure.png": {
+      "visually_reviewed": true,
+      "result": "Search and matching plugin rows legible; state is example only. Multi-row lists may continue below viewport."
+    },
+    "plugin-devil-square.png": {
+      "visually_reviewed": true,
+      "result": "Search and matching plugin rows legible; state is example only. Multi-row lists may continue below viewport."
+    },
+    "plugin-wandering-merchants.png": {
+      "visually_reviewed": true,
+      "result": "Search and matching plugin rows legible; state is example only. Multi-row lists may continue below viewport."
+    },
+    "plugin-rental-expiry.png": {
+      "visually_reviewed": true,
+      "result": "Search and matching plugin rows legible; state is example only. Multi-row lists may continue below viewport."
+    },
+    "plugin-todos-contra-todos.png": {
+      "visually_reviewed": true,
+      "result": "Search and matching plugin rows legible; state is example only. Multi-row lists may continue below viewport."
+    },
+    "plugin-red-dragon-invasion.png": {
+      "visually_reviewed": true,
+      "result": "Search and matching plugin rows legible; state is example only. Multi-row lists may continue below viewport."
+    },
+    "objetos-zen-limites.png": {
+      "visually_reviewed": true,
+      "result": "Complete target controls visible. Captured from authenticated live panel without submitting changes."
+    },
+    "combate-chat-limites.png": {
+      "visually_reviewed": true,
+      "result": "Complete target controls visible. Captured from authenticated live panel without submitting changes."
+    },
+    "ayuda-consulta.png": {
+      "visually_reviewed": true,
+      "result": "Complete target controls visible. Captured from authenticated live panel without submitting changes."
     }
   }
 }
