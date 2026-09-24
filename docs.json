@@ -113,6 +113,7 @@
             "pages": [
               "plugins/index",
               "plugins/set-de-bienvenida",
+              "plugins/jugadores-artificiales",
               "plugins/artesano",
               "plugins/blood-castle",
               "plugins/bound-item-drop",

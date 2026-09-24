@@ -349,6 +349,7 @@
     "consola.png",
     "copias-seguridad.png",
     "cuentas.png",
+    "eventos-megadrop.png",
     "eventos.png",
     "experiencia-avanzada.png",
     "experiencia.png",
@@ -404,7 +405,10 @@
     "audit/gm-review.json",
     "audit/players-shops-review.json",
     "audit/support-review.json",
-    "audit/custom-source-review.json"
+    "audit/custom-source-review.json",
+    "audit/artificial-players-review.json",
+    "audit/account-review.json",
+    "audit/image-review.json"
   ],
   "access_gaps": [
     "Custom tenant ecxon not available to current account; operator route also returns 404. User asked for an accessible custom instance.",

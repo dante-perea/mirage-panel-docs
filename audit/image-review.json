@@ -1,0 +1,60 @@
+{
+  "reviewed_at": "2026-09-24",
+  "images": {
+    "inicio.png": {
+      "visually_reviewed": true,
+      "result": "Relevant controls legible; screenshot is a viewport, not proof of runtime mutations."
+    },
+    "eventos-megadrop.png": {
+      "visually_reviewed": true,
+      "result": "Relevant controls legible; screenshot is a viewport, not proof of runtime mutations."
+    },
+    "zonas-confirmar.png": {
+      "visually_reviewed": true,
+      "result": "Relevant controls legible; screenshot is a viewport, not proof of runtime mutations."
+    },
+    "tiendas.png": {
+      "visually_reviewed": true,
+      "result": "Relevant controls legible; screenshot is a viewport, not proof of runtime mutations."
+    },
+    "experiencia-avanzada.png": {
+      "visually_reviewed": true,
+      "result": "Relevant controls legible; screenshot is a viewport, not proof of runtime mutations."
+    },
+    "gm-eventos.png": {
+      "visually_reviewed": true,
+      "result": "Relevant controls legible; screenshot is a viewport, not proof of runtime mutations."
+    },
+    "jugadores.png": {
+      "visually_reviewed": true,
+      "result": "Relevant controls legible; screenshot is a viewport, not proof of runtime mutations."
+    },
+    "tiendas-anadir.png": {
+      "visually_reviewed": true,
+      "result": "Relevant controls legible; screenshot is a viewport, not proof of runtime mutations."
+    },
+    "premios-eventos.png": {
+      "visually_reviewed": true,
+      "result": "Relevant controls legible; screenshot is a viewport, not proof of runtime mutations."
+    },
+    "zonas.png": {
+      "visually_reviewed": true,
+      "result": "Relevant controls legible; screenshot is a viewport, not proof of runtime mutations."
+    },
+    "objetos-zen-avanzado.png": {
+      "visually_reviewed": true,
+      "result": "SUPPLEMENT_REQUIRED",
+      "limitation": "Bottom two advanced fields and save control below fold."
+    },
+    "combate-chat-avanzado.png": {
+      "visually_reviewed": true,
+      "result": "SUPPLEMENT_REQUIRED",
+      "limitation": "Bottom three advanced fields and save control below fold."
+    },
+    "gm-ajustes.png": {
+      "visually_reviewed": true,
+      "result": "SUPPLEMENT_REQUIRED",
+      "limitation": "World rules save control below fold."
+    }
+  }
+}
