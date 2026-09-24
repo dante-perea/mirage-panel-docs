@@ -4,10 +4,9 @@ La revisión sigue en curso. No reutilizar capturas antiguas como si fueran del 
 
 - Funciones de instancias personalizadas: Monedas, VIP, Tienda premium, Alquileres e Invasiones. La cuenta autenticada no tiene acceso a ecxon. Se pidió una instancia compatible accesible.
 - Jugadores artificiales: la pantalla de openmublue devuelve un error de lectura. Falta capturar el formulario operativo.
-- Mi cuenta: flujo de nombre de usuario → Mi cuenta → modal de Clerk verificado en producción; falta una captura publicable sin datos de perfil.
 - Conectados: no había sesiones activas; falta imagen de una fila y del diálogo Mensaje. Los controles se verificaron en código y la guía aclara que la captura muestra cero sesiones.
 - Onboarding: falta captura de una instancia nueva; Inicio fue capturado en una instancia que ya tuvo jugadores.
-- Revisar todos los encuadres e imágenes avanzadas antes de la entrega final.
+- Capturas complementarias de Zen, combate, soporte y herramientas GM añadidas; falta confirmar su publicación completa.
 
 ## Correcciones a la lista anterior
 

@@ -3,6 +3,7 @@
   "ui_verified": true,
   "source_commit": "fab146b",
   "evidence": "Authenticated production desktop click username -> Mi cuenta -> Clerk modal observed, same URL; mobile Menu -> user trigger also observed. No account mutation.",
-  "screenshot": null,
-  "remaining": "Privacy-safe screenshot required"
+  "screenshot": "images/actual/mi-cuenta-menu.png",
+  "remaining": null,
+  "screenshot_scope": "Account dropdown only; business email visible, no phone, credentials or security-session details."
 }

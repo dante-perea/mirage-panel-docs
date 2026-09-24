@@ -1,5 +1,5 @@
 {
-  "status": "IN_PROGRESS_UI_AUDIT_AND_REWRITE",
+  "status": "PUBLISHED_PARTIAL_LIVE_COVERAGE",
   "source_commit": "fab146b",
   "docs_baseline": "87b71e1",
   "old_pages_to_replace_or_redirect": [
@@ -109,9 +109,10 @@
       "checks": [
         {
           "flow": "Resumen del servidor, enlaces, métricas y próximos eventos",
-          "ui_verified": false,
           "screenshot": null,
-          "guide": null
+          "guide": null,
+          "verification_scope": "See section review manifests; UI inspection does not establish successful gameplay mutations.",
+          "status": "REFER_TO_SCOPED_REVIEW_MANIFESTS"
         }
       ]
     },
@@ -120,39 +121,45 @@
       "checks": [
         {
           "flow": "Conectados: buscar, mensaje, expulsar",
-          "ui_verified": false,
           "screenshot": null,
-          "guide": null
+          "guide": null,
+          "verification_scope": "See section review manifests; UI inspection does not establish successful gameplay mutations.",
+          "status": "EMPTY_STATE_VERIFIED_CONNECTED_ROW_PENDING"
         },
         {
           "flow": "Cuentas: búsqueda, perfil, contraseña, bloqueo, bóveda",
-          "ui_verified": false,
           "screenshot": null,
-          "guide": null
+          "guide": null,
+          "verification_scope": "See section review manifests; UI inspection does not establish successful gameplay mutations.",
+          "status": "REFER_TO_SCOPED_REVIEW_MANIFESTS"
         },
         {
           "flow": "Personajes: atributos, ubicación, curar y resetear",
-          "ui_verified": false,
           "screenshot": null,
-          "guide": null
+          "guide": null,
+          "verification_scope": "See section review manifests; UI inspection does not establish successful gameplay mutations.",
+          "status": "REFER_TO_SCOPED_REVIEW_MANIFESTS"
         },
         {
           "flow": "Actividad: períodos, gráficos y definiciones",
-          "ui_verified": false,
           "screenshot": null,
-          "guide": null
+          "guide": null,
+          "verification_scope": "See section review manifests; UI inspection does not establish successful gameplay mutations.",
+          "status": "REFER_TO_SCOPED_REVIEW_MANIFESTS"
         },
         {
           "flow": "Monedas: consultar, sumar, fijar y vaciar saldo",
-          "ui_verified": false,
           "screenshot": null,
-          "guide": null
+          "guide": null,
+          "verification_scope": "See section review manifests; UI inspection does not establish successful gameplay mutations.",
+          "status": "SOURCE_ONLY_INSTANCE_ACCESS_REQUIRED"
         },
         {
           "flow": "VIP: asignar, renovar y quitar",
-          "ui_verified": false,
           "screenshot": null,
-          "guide": null
+          "guide": null,
+          "verification_scope": "See section review manifests; UI inspection does not establish successful gameplay mutations.",
+          "status": "SOURCE_ONLY_INSTANCE_ACCESS_REQUIRED"
         }
       ]
     },
@@ -161,63 +168,73 @@
       "checks": [
         {
           "flow": "Experiencia: campos básicos y avanzados",
-          "ui_verified": false,
           "screenshot": null,
-          "guide": null
+          "guide": null,
+          "verification_scope": "See section review manifests; UI inspection does not establish successful gameplay mutations.",
+          "status": "REFER_TO_SCOPED_REVIEW_MANIFESTS"
         },
         {
           "flow": "Objetos y Zen: tasas, límites y duración",
-          "ui_verified": false,
           "screenshot": null,
-          "guide": null
+          "guide": null,
+          "verification_scope": "See section review manifests; UI inspection does not establish successful gameplay mutations.",
+          "status": "REFER_TO_SCOPED_REVIEW_MANIFESTS"
         },
         {
           "flow": "Resets: requisitos, coste y puntos",
-          "ui_verified": false,
           "screenshot": null,
-          "guide": null
+          "guide": null,
+          "verification_scope": "See section review manifests; UI inspection does not establish successful gameplay mutations.",
+          "status": "REFER_TO_SCOPED_REVIEW_MANIFESTS"
         },
         {
           "flow": "Combate y chat: reglas y opciones avanzadas",
-          "ui_verified": false,
           "screenshot": null,
-          "guide": null
+          "guide": null,
+          "verification_scope": "See section review manifests; UI inspection does not establish successful gameplay mutations.",
+          "status": "REFER_TO_SCOPED_REVIEW_MANIFESTS"
         },
         {
           "flow": "Plugins: búsqueda, filtros, interruptor y guardado",
-          "ui_verified": false,
           "screenshot": null,
-          "guide": null
+          "guide": null,
+          "verification_scope": "See section review manifests; UI inspection does not establish successful gameplay mutations.",
+          "status": "REFER_TO_SCOPED_REVIEW_MANIFESTS"
         },
         {
           "flow": "Set de bienvenida: desactivar nuevas entregas +9",
-          "ui_verified": false,
           "screenshot": null,
-          "guide": null
+          "guide": null,
+          "verification_scope": "See section review manifests; UI inspection does not establish successful gameplay mutations.",
+          "status": "REFER_TO_SCOPED_REVIEW_MANIFESTS"
         },
         {
           "flow": "Todos los plugins documentados: validar nombre, efecto y configuración real",
-          "ui_verified": false,
           "screenshot": null,
-          "guide": null
+          "guide": null,
+          "verification_scope": "See section review manifests; UI inspection does not establish successful gameplay mutations.",
+          "status": "REFER_TO_SCOPED_REVIEW_MANIFESTS"
         },
         {
           "flow": "Mapas y monstruos: spots, geometría, cantidad y guardado",
-          "ui_verified": false,
           "screenshot": null,
-          "guide": null
+          "guide": null,
+          "verification_scope": "See section review manifests; UI inspection does not establish successful gameplay mutations.",
+          "status": "REFER_TO_SCOPED_REVIEW_MANIFESTS"
         },
         {
           "flow": "Monstruos: búsqueda, atributos y aplicación",
-          "ui_verified": false,
           "screenshot": null,
-          "guide": null
+          "guide": null,
+          "verification_scope": "See section review manifests; UI inspection does not establish successful gameplay mutations.",
+          "status": "REFER_TO_SCOPED_REVIEW_MANIFESTS"
         },
         {
           "flow": "Jugadores artificiales: creación, límites, sesión y recompensas",
-          "ui_verified": false,
           "screenshot": null,
-          "guide": null
+          "guide": "plugins/jugadores-artificiales.mdx",
+          "verification_scope": "See section review manifests; UI inspection does not establish successful gameplay mutations.",
+          "status": "SOURCE_ONLY_RUNTIME_READ_ERROR"
         }
       ]
     },
@@ -226,15 +243,17 @@
       "checks": [
         {
           "flow": "Eventos programados: activar frente a empezar ahora",
-          "ui_verified": false,
           "screenshot": null,
-          "guide": null
+          "guide": null,
+          "verification_scope": "See section review manifests; UI inspection does not establish successful gameplay mutations.",
+          "status": "REFER_TO_SCOPED_REVIEW_MANIFESTS"
         },
         {
           "flow": "Invasiones: mapas, monstruos, horarios y configuración",
-          "ui_verified": false,
           "screenshot": null,
-          "guide": null
+          "guide": null,
+          "verification_scope": "See section review manifests; UI inspection does not establish successful gameplay mutations.",
+          "status": "SOURCE_ONLY_INSTANCE_ACCESS_REQUIRED"
         }
       ]
     },
@@ -243,27 +262,31 @@
       "checks": [
         {
           "flow": "Tiendas del juego: mercader, añadir, mover, quitar y guardar",
-          "ui_verified": false,
           "screenshot": null,
-          "guide": null
+          "guide": null,
+          "verification_scope": "See section review manifests; UI inspection does not establish successful gameplay mutations.",
+          "status": "REFER_TO_SCOPED_REVIEW_MANIFESTS"
         },
         {
           "flow": "Tienda premium: precios, existencias y modalidades",
-          "ui_verified": false,
           "screenshot": null,
-          "guide": null
+          "guide": null,
+          "verification_scope": "See section review manifests; UI inspection does not establish successful gameplay mutations.",
+          "status": "SOURCE_ONLY_INSTANCE_ACCESS_REQUIRED"
         },
         {
           "flow": "Premios de eventos: cajas, contenido y probabilidades",
-          "ui_verified": false,
           "screenshot": null,
-          "guide": null
+          "guide": null,
+          "verification_scope": "See section review manifests; UI inspection does not establish successful gameplay mutations.",
+          "status": "REFER_TO_SCOPED_REVIEW_MANIFESTS"
         },
         {
           "flow": "Alquileres: personaje, inventario, plazo y expiración",
-          "ui_verified": false,
           "screenshot": null,
-          "guide": null
+          "guide": null,
+          "verification_scope": "See section review manifests; UI inspection does not establish successful gameplay mutations.",
+          "status": "SOURCE_ONLY_INSTANCE_ACCESS_REQUIRED"
         }
       ]
     },
@@ -272,9 +295,10 @@
       "checks": [
         {
           "flow": "Descargas y compilaciones, versiones y entrega",
-          "ui_verified": false,
           "screenshot": null,
-          "guide": null
+          "guide": null,
+          "verification_scope": "See section review manifests; UI inspection does not establish successful gameplay mutations.",
+          "status": "REFER_TO_SCOPED_REVIEW_MANIFESTS"
         }
       ]
     },
@@ -283,27 +307,31 @@
       "checks": [
         {
           "flow": "Estado y servicios: iniciar, detener, reiniciar y efectos",
-          "ui_verified": false,
           "screenshot": null,
-          "guide": null
+          "guide": null,
+          "verification_scope": "See section review manifests; UI inspection does not establish successful gameplay mutations.",
+          "status": "REFER_TO_SCOPED_REVIEW_MANIFESTS"
         },
         {
           "flow": "Copias de seguridad: crear, descargar, restaurar y límites",
-          "ui_verified": false,
           "screenshot": null,
-          "guide": null
+          "guide": null,
+          "verification_scope": "See section review manifests; UI inspection does not establish successful gameplay mutations.",
+          "status": "REFER_TO_SCOPED_REVIEW_MANIFESTS"
         },
         {
           "flow": "Herramientas avanzadas: anuncios, GM y consola",
-          "ui_verified": false,
           "screenshot": null,
-          "guide": null
+          "guide": null,
+          "verification_scope": "See section review manifests; UI inspection does not establish successful gameplay mutations.",
+          "status": "REFER_TO_SCOPED_REVIEW_MANIFESTS"
         },
         {
           "flow": "Conexiones MCP: alcance, credenciales, revocación y privacidad",
-          "ui_verified": false,
           "screenshot": null,
-          "guide": null
+          "guide": null,
+          "verification_scope": "See section review manifests; UI inspection does not establish successful gameplay mutations.",
+          "status": "REFER_TO_SCOPED_REVIEW_MANIFESTS"
         }
       ]
     },
@@ -312,15 +340,17 @@
       "checks": [
         {
           "flow": "Consultar al asistente",
-          "ui_verified": false,
           "screenshot": null,
-          "guide": null
+          "guide": null,
+          "verification_scope": "See section review manifests; UI inspection does not establish successful gameplay mutations.",
+          "status": "REFER_TO_SCOPED_REVIEW_MANIFESTS"
         },
         {
           "flow": "Mis solicitudes: crear, seguir y responder",
-          "ui_verified": false,
           "screenshot": null,
-          "guide": null
+          "guide": null,
+          "verification_scope": "See section review manifests; UI inspection does not establish successful gameplay mutations.",
+          "status": "REFER_TO_SCOPED_REVIEW_MANIFESTS"
         }
       ]
     },
@@ -328,10 +358,11 @@
       "section": "Mi cuenta",
       "checks": [
         {
-          "flow": "Perfil, servidores, suscripción y facturación",
-          "ui_verified": false,
-          "screenshot": null,
-          "guide": null
+          "flow": "Menú de usuario → Mi cuenta → modal de Clerk",
+          "screenshot": "images/actual/mi-cuenta-menu.png",
+          "guide": "cuenta/index.mdx",
+          "verification_scope": "See section review manifests; UI inspection does not establish successful gameplay mutations.",
+          "status": "UI_VERIFIED"
         }
       ]
     }
@@ -340,10 +371,12 @@
   "screenshots_captured": [
     "actividad.png",
     "anuncios.png",
+    "ayuda-consulta.png",
     "ayuda.png",
     "boveda-anadir.png",
     "cliente.png",
     "combate-chat-avanzado.png",
+    "combate-chat-limites.png",
     "combate-chat.png",
     "conexiones.png",
     "consola.png",
@@ -354,12 +387,15 @@
     "experiencia-avanzada.png",
     "experiencia.png",
     "game-masters.png",
+    "gm-ajustes-completos.png",
     "gm-ajustes.png",
     "gm-eventos.png",
     "inicio.png",
     "jugadores.png",
+    "mi-cuenta-menu.png",
     "monstruos.png",
     "objetos-zen-avanzado.png",
+    "objetos-zen-limites.png",
     "objetos-zen.png",
     "personajes.png",
     "plugin-artesano.png",
@@ -414,5 +450,6 @@
     "Custom tenant ecxon not available to current account; operator route also returns 404. User asked for an accessible custom instance.",
     "Artificial players route on openmublue returned server read error reference 2184287713.",
     "No online player row available to capture message/kick dialog; deployed source reviewed."
-  ]
+  ],
+  "publication_evidence": "audit/publication-review.json"
 }
