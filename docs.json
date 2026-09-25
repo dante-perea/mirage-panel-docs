@@ -64,6 +64,7 @@
                 "group": "Cuentas",
                 "pages": [
                   "general/cuentas/index",
+                  "general/cuentas/crear-en-el-juego",
                   "general/cuentas/anadir-boveda",
                   "general/cuentas/buscar-perfil",
                   "general/cuentas/que-es",
