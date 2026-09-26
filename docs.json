@@ -46,6 +46,12 @@
             ]
           },
           {
+            "group": "Preguntas frecuentes",
+            "pages": [
+              "preguntas-frecuentes/videos"
+            ]
+          },
+          {
             "group": "Jugadores",
             "pages": [
               {
