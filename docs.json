@@ -55,6 +55,16 @@
             ]
           },
           {
+            "group": "Videoguías del panel",
+            "pages": [
+              "videoguias",
+              "videoguias/editar-baul",
+              "videoguias/objetos-invisibles",
+              "videoguias/sets-personaje",
+              "videoguias/set-bienvenida"
+            ]
+          },
+          {
             "group": "Jugadores",
             "pages": [
               {
