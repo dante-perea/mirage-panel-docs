@@ -1,0 +1,110 @@
+{
+  "date": "2026-09-27",
+  "recording": "Real production mobile panel on QA server; one guide per question; dashboard start; full frame; recorded click coordinates",
+  "guides": [
+    {
+      "slug": "editar-baul",
+      "duration": 47.733333,
+      "size": [
+        1080,
+        1920
+      ],
+      "codec": "h264"
+    },
+    {
+      "slug": "objetos-invisibles",
+      "duration": 44.333333,
+      "size": [
+        1080,
+        1920
+      ],
+      "codec": "h264"
+    },
+    {
+      "slug": "sets-personaje",
+      "duration": 54.533333,
+      "size": [
+        1080,
+        1920
+      ],
+      "codec": "h264"
+    },
+    {
+      "slug": "set-bienvenida",
+      "duration": 42.666667,
+      "size": [
+        1080,
+        1920
+      ],
+      "codec": "h264"
+    }
+  ],
+  "assets": [
+    {
+      "name": "editar-baul.jpg",
+      "url": "https://mirageworldlauncher.b-cdn.net/jugarmu/ayuda/videoguias/9c2ccf906a5921ac/editar-baul.jpg",
+      "sha256": "9c2ccf906a5921acc2ff2095c5a055c4daaca62c417a7725c338d949e55c697d",
+      "bytes": 177941
+    },
+    {
+      "name": "editar-baul.mp4",
+      "url": "https://mirageworldlauncher.b-cdn.net/jugarmu/ayuda/videoguias/05dfef8744deb423/editar-baul.mp4",
+      "sha256": "05dfef8744deb42344831c54aa3681c92cafffdac20dffd86a3cb87e568aecd8",
+      "bytes": 1664938
+    },
+    {
+      "name": "objetos-invisibles.jpg",
+      "url": "https://mirageworldlauncher.b-cdn.net/jugarmu/ayuda/videoguias/ca64fb963a25809d/objetos-invisibles.jpg",
+      "sha256": "ca64fb963a25809d507ce0e019cb0b167d056ef143715c19eb33c03b7c069efb",
+      "bytes": 202832
+    },
+    {
+      "name": "objetos-invisibles.mp4",
+      "url": "https://mirageworldlauncher.b-cdn.net/jugarmu/ayuda/videoguias/d5e7a090802ad789/objetos-invisibles.mp4",
+      "sha256": "d5e7a090802ad78957389d3d9835916695cc1ca5002cbf1aa918b785b60ec701",
+      "bytes": 1054702
+    },
+    {
+      "name": "set-bienvenida.jpg",
+      "url": "https://mirageworldlauncher.b-cdn.net/jugarmu/ayuda/videoguias/fb4393febe545b07/set-bienvenida.jpg",
+      "sha256": "fb4393febe545b07d42f09511a5a1318b2b8d4be06d4c416fbe1b4c47c8a4154",
+      "bytes": 235646
+    },
+    {
+      "name": "set-bienvenida.mp4",
+      "url": "https://mirageworldlauncher.b-cdn.net/jugarmu/ayuda/videoguias/4117bbd542a9b754/set-bienvenida.mp4",
+      "sha256": "4117bbd542a9b7548af8fce04ba7185fc59e34cdd389d5fc420117ff81a69d20",
+      "bytes": 1484315
+    },
+    {
+      "name": "sets-personaje.jpg",
+      "url": "https://mirageworldlauncher.b-cdn.net/jugarmu/ayuda/videoguias/8d8bcd0f5be504d6/sets-personaje.jpg",
+      "sha256": "8d8bcd0f5be504d6823fadc429c3f209d264276caf9678022ee9f3ab2bda296d",
+      "bytes": 149901
+    },
+    {
+      "name": "sets-personaje.mp4",
+      "url": "https://mirageworldlauncher.b-cdn.net/jugarmu/ayuda/videoguias/f71b08b42a56a169/sets-personaje.mp4",
+      "sha256": "f71b08b42a56a169647768fbc3acbca91e05b798b8a2b1621d92cc2891618291",
+      "bytes": 1411691
+    }
+  ],
+  "validation": {
+    "remote_sha256": true,
+    "mp4_range_206": true,
+    "excellent_selection": [
+      3,
+      6
+    ],
+    "invalid_selection_rejected_atomically": true,
+    "qa_character_restored": true,
+    "qa_vault_restored": true,
+    "qa_welcome_restored": true,
+    "responsive_widths": [
+      320,
+      375,
+      432
+    ],
+    "physical_phone_tested": false
+  }
+}
