@@ -48,7 +48,10 @@
           {
             "group": "Preguntas frecuentes",
             "pages": [
-              "preguntas-frecuentes/videos"
+              "preguntas-frecuentes/videos",
+              "preguntas-frecuentes/anti-hack",
+              "preguntas-frecuentes/ingresar-al-panel",
+              "preguntas-frecuentes/versiones"
             ]
           },
           {
