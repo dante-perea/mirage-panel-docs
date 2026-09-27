@@ -1,0 +1,129 @@
+---
+title: "¿Cuáles son los comandos disponibles en el servidor?"
+description: "Cómo usar /zen, /evo, /add y /reset, y consultar los demás comandos del juego."
+---
+
+Escribí los comandos en **el chat del juego**, con tu personaje conectado, y enviá el mensaje. Los números de los ejemplos se reemplazan por los valores que necesitás. No escribas los signos `<` y `>`.
+
+La disponibilidad depende de la versión, los plugins habilitados, los permisos y los requisitos de tu personaje. **`/list` muestra los comandos activos que puede usar tu personaje**. Para ver el uso de uno, escribí **`/help zen`**, **`/help add`** o **`/help evo`**, sin la barra delante del nombre consultado.
+
+## Zen: `/zen cantidad`
+
+Ejemplo: **`/zen 1000000`** agrega **1.000.000 de Zen** al inventario. Suma al saldo actual; no lo reemplaza.
+
+La cantidad debe ser un número entero positivo y el resultado no puede superar el máximo de Zen del inventario configurado en ese servidor. Es necesario que el comando esté habilitado. No cambia MCoins, MPoints, Credits ni el Zen del baúl.
+
+## Evolución: `/evo`
+
+Escribí **`/evo`**, sin parámetros. Permite pasar de primera a segunda clase desde **nivel 150**, en las clases que tienen esa evolución: Dark Wizard, Dark Knight, Fairy Elf y, en Season 6, Summoner.
+
+No completa la tercera evolución. En Season 6, esa etapa requiere nivel 400 y la cadena de misiones correspondiente; el comando puede indicarte que continúes con Marlon o Priest Devin. Magic Gladiator, Dark Lord y Rage Fighter no tienen una segunda clase equivalente a la de DK, DW o Elf.
+
+## Puntos: `/add atributo cantidad`
+
+Necesitás puntos disponibles para repartir. El comando no regala puntos ni reemplaza el total del atributo.
+
+| Comando de ejemplo | Atributo |
+| --- | --- |
+| `/add str 100` | Fuerza |
+| `/add agi 100` | Agilidad |
+| `/add vit 100` | Vitalidad |
+| `/add ene 100` | Energía |
+| `/add com 100` | Command o liderazgo, para las clases que lo usan |
+
+También se aceptan `sta` para vitalidad y `cmd` para Command. Los comandos abreviados son **`/addstr 100`**, **`/addagi 100`**, **`/addsta 100`**, **`/addene 100`** y **`/addcom 100`**, cuando sus plugins están activos. La asignación puede estar restringida dentro de minijuegos.
+
+## Resets
+
+| Comando | Qué hace |
+| --- | --- |
+| `/resetinfo` | Muestra requisitos, costos y puntos del próximo reset. |
+| `/reset` | Resetea el personaje si cumple los requisitos configurados. |
+| `/reset auto` | Activa los resets automáticos según las reglas del servidor. |
+| `/reset auto str agi vit ene cmd` | Configura el reparto del reset automático; reemplazá cada nombre por una cantidad de puntos. |
+| `/reset auto off` | Desactiva el reset automático. |
+| `/resetstats` | Devuelve los atributos a sus valores iniciales y reintegra los puntos invertidos, según las reglas del servidor. |
+
+Un reset no equivale a una evolución. Revisá `/resetinfo` antes de hacerlo: los requisitos y resultados dependen de la configuración del mundo.
+
+## Otros comandos para jugadores
+
+Usá `/help nombre` para los argumentos admitidos en tu servidor.
+
+| Comando | Para qué sirve |
+| --- | --- |
+| `/list`, `/help` | Lista y ayuda de comandos. |
+| `/move` | Viajar a otro mapa o destino permitido. |
+| `/post` | Enviar un mensaje global; puede tener requisitos o costo. |
+| `/language` | Cambiar el idioma de los mensajes del juego. |
+| `/npc` | Abrir el mercader configurado; puede requerir VIP. Los GM pueden indicar otro NPC. |
+| `/openware` | Abrir el baúl; puede requerir un nivel VIP. |
+| `/bau 2`, `/ware 2` | Cambiar a otra página del baúl. Las páginas disponibles dependen del plan del personaje. |
+| `/pkclear` | Limpiar el estado PK según permisos y costo de Zen del servidor. |
+| `/clearinv` | Vaciar el inventario. **Elimina objetos**; revisá su ayuda y confirmación antes de usarlo. |
+| `/offlevel` | Activar el modo de leveo desconectado cuando esté disponible. |
+| `/vip` | Consultar el estado VIP. |
+| `/buyvip` | Comprar VIP con Credits del juego, según las opciones y precios del servidor. |
+| `/credits` | Consultar el saldo de Credits de la cuenta. |
+| `/creditbuy` | Comprar en el mercader de Credits abierto. |
+| `/ranking` | Consultar rankings por categoría y período. |
+| `/war`, `/battlesoccer` | Solicitar guerra o batalla de gremios; requieren las condiciones del gremio. |
+| `/aura` | Equipar o quitar la primera aura disponible. |
+| `/auras status`, `/auras off`, `/auras 1` | Consultar, quitar o seleccionar un aura desbloqueada; admite identificadores del 1 al 10. |
+| `/invitar` | Abrir el sistema de invitaciones y referidos. |
+| `/adventurerguide` | Consultar la ruta inicial de aventura para el mapa actual. |
+| `/companion` | Gestionar un acompañante: reclutar, seguir, asistir, proteger, esperar, consultar o despedir. |
+
+## Comandos usados por las ventanas del juego
+
+Estas operaciones también existen como comandos, pero normalmente se usan desde su ventana, que selecciona los identificadores y muestra el costo antes de confirmar. No copies identificadores de otro servidor.
+
+| Comando | Ventana o función |
+| --- | --- |
+| `/cashshoplisting` | Catálogo, compra, retiro o alquiler de publicaciones de la tienda. |
+| `/cashshoparmor` | Compra de sets de la tienda. |
+| `/cashshoprent` | Alquiler de sets de la tienda. |
+| `/cashshopvip` | Compra de VIP desde la tienda. |
+| `/artesanoapply` | Aplicar una mejora del Artesano. |
+| `/artesanorestore` | Restaurar mediante el Artesano. |
+| `/workshopapply` | Aplicar una operación del taller. |
+
+## Comandos de administrador o Game Master
+
+Requieren una cuenta con permisos de GM y el plugin habilitado. Tener acceso al panel de JugarMU no convierte automáticamente a cualquier cuenta del juego en GM. Consultá **`/help nombre`** antes de ejecutarlos; pueden modificar personajes, objetos y sesiones.
+
+| Comandos | Función |
+| --- | --- |
+| `/get`, `/set` | Consultar o cambiar atributos. |
+| `/getlevel`, `/setlevel` | Consultar o cambiar el nivel. |
+| `/getmasterlevel`, `/setmasterlevel` | Consultar o cambiar el nivel maestro. |
+| `/getleveluppoints`, `/setleveluppoints` | Consultar o cambiar puntos disponibles. |
+| `/getmasterleveluppoints`, `/setmasterleveluppoints` | Consultar o cambiar puntos maestros. |
+| `/getmoney`, `/setmoney` | Consultar o establecer Zen. |
+| `/getresets`, `/setresets` | Consultar o establecer resets. |
+| `/setvip` | Administrar VIP. |
+| `/charinfo`, `/online` | Consultar personajes y jugadores conectados. |
+| `/banacc`, `/unbanacc` | Bloquear o desbloquear cuentas. |
+| `/banchar`, `/unbanchar` | Bloquear o desbloquear personajes. |
+| `/chatban`, `/chatunban` | Bloquear o desbloquear el chat de un personaje. |
+| `/disconnect`, `/guilddisconnect` | Desconectar personajes o integrantes de un gremio. |
+| `/guildmove`, `/teleport`, `/trace`, `/track` | Moverse o trasladar personajes y gremios. |
+| `/goldnotice` | Publicar un anuncio. |
+| `/hide`, `/unhide`, `/skin` | Controlar visibilidad o apariencia. |
+| `/item`, `/make`, `/rentitem` | Crear objetos o entregar objetos temporales. |
+| `/wiperentals` | Retirar objetos temporales; no usar como una consulta. |
+| `/createmonster`, `/movemonster`, `/walkmonster`, `/removenpc`, `/showids` | Administrar monstruos y NPCs. |
+| `/startbc`, `/startcc`, `/startds` | Iniciar Blood Castle, Chaos Castle o Devil Square. |
+| `/fireworks`, `/xmasfireworks` | Ejecutar efectos de fuegos artificiales. |
+| `/artesanogrant` | Conceder saldo para pruebas del Artesano. |
+| `/adventurer` | Consultar, pausar o reanudar aventureros artificiales. |
+| `/taicspot` | Consultar información técnica de spots para administración. |
+
+## Si un comando no funciona
+
+1. Revisá la escritura y los argumentos con `/help nombre`.
+2. Consultá `/list` con el mismo personaje: un comando desactivado o fuera de sus permisos puede no aparecer.
+3. Revisá nivel, puntos, saldo y requisitos que indique el juego.
+4. Si sigue fallando, enviá a soporte el comando exacto y el mensaje que muestra el juego. No incluyas tu contraseña.
+
+La lista describe el catálogo de comandos; no significa que todos estén habilitados en cada versión o servidor.
