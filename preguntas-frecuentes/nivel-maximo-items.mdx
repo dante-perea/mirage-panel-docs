@@ -1,0 +1,50 @@
+---
+title: "¿Cuál es el nivel máximo de un ítem?"
+sidebarTitle: "Nivel máximo de los ítems"
+description: "Diferencias entre el nivel del ítem, el nivel con que cae y las opciones adicionales del drop."
+---
+
+**+15 es un nivel válido de equipamiento. Un ajuste de drop en 3 no significa que los ítems tengan un máximo de +3.**
+
+El máximo depende del objeto y de las reglas del servidor. Las mejoras clásicas contemplan **+15**; también existen extensiones para armas, armaduras y escudos que permiten llegar a **+30**. Las alas tienen su propio límite, hasta **+15**. Joyas, pociones, mascotas y objetos de misión tienen reglas distintas: no se les aplica automáticamente el límite del equipamiento.
+
+Para conocer el máximo de un objeto concreto, revisá su definición en el catálogo de tu servidor. El nivel que permite elegir una pantalla de administración o una forja no determina por sí solo el máximo de todos los ítems.
+
+## Cuatro cosas distintas
+
+| Concepto | Qué significa |
+| --- | --- |
+| **Nivel del ítem** | Su mejora: por ejemplo, un arma +9, +13 o +15. |
+| **Nivel con que cae** | La mejora que ya trae un objeto nuevo cuando lo deja un monstruo. No mejora los objetos existentes. |
+| **Probabilidad de drop** | Qué tan seguido puede caer un objeto. No determina su nivel. |
+| **Opción adicional del drop** | Un adicional del objeto, independiente de su mejora. El ajuste del panel usa valores de **1 a 4**, no niveles de ítem +1 a +4. |
+
+## ¿Puedo elegir con qué nivel cae un objeto?
+
+**Sí, para los objetos concretos que selecciones en una regla de drop.** El editor admite un nivel entre **+0 y +15**, siempre que el objeto elegido lo permita.
+
+1. Abrí **Tienda y premios → Drops de monstruos** y elegí el mapa.
+2. Agregá una regla o editá la que corresponda. Elegí el objeto en **¿Qué objeto puede caer?**.
+3. Abrí **Opciones avanzadas**. En **Qué puede caer**, elegí **Los objetos que elegí**.
+4. En **Nivel del objeto (+)**, indicá el nivel de caída. **0** significa sin mejorar; **15** significa que ese objeto cae +15.
+5. Ajustá la probabilidad y, si hace falta, los monstruos que pueden dejarlo. Guardá y verificá la confirmación de aplicación en el servidor.
+
+Si seleccionás varios objetos en una regla, todos deben admitir ese nivel. Si el panel rechaza uno, revisá ese objeto y el campo indicado; no concluyas que todo el servidor tiene el mismo límite.
+
+Esta regla afecta los objetos seleccionados que caigan en ese mapa. **No establece un máximo de mejora global ni transforma todos los drops del servidor en +15.** Para fijar un nivel exacto, usá objetos seleccionados; los modos de selección automática pueden generar el nivel según sus propias reglas.
+
+Guardar una regla no demuestra que ya haya caído un objeto. Si el panel informa que falta aplicar o recargar el cambio, seguí esa indicación antes de comprobarlo en el juego.
+
+## ¿Qué significa que la opción máxima del drop esté en 3?
+
+En **Ajustes del juego → Objetos y Zen → Opciones avanzadas**, la opción máxima del drop controla un **adicional**. Su rango es **1–4**.
+
+**Ese 3 no es un ítem +3 ni un tope de mejora.** Si intentás ingresar 15 en ese ajuste, se rechaza porque 15 está fuera del rango de la opción adicional. Eso no demuestra que el servidor rechace objetos +15.
+
+Para cambiar el nivel de caída, usá **Nivel del objeto (+)** en una regla de **Drops de monstruos**, como se explica arriba. Para cambiar la frecuencia general de caída, usá **Drop de objetos (%)**.
+
+## ¿Por qué la forja solo me deja elegir hasta +13?
+
+Las pantallas y métodos de mejora pueden ofrecer un rango menor que el admitido por el objeto. Los clientes publicados revisados ofrecen hasta +13 en esa forja; eso no convierte +13 en el máximo global ni se resuelve cambiando opciones de drop. Para revisar una mejora concreta, indicá el objeto, su nivel actual y la pantalla que estás usando.
+
+[Ver los ajustes de Objetos y Zen](/ajustes/objetos-zen).
