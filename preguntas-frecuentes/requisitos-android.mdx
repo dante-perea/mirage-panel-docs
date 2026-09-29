@@ -1,0 +1,66 @@
+---
+title: "¿Qué requisitos necesita mi celular Android para jugar?"
+sidebarTitle: "Requisitos para Android"
+description: "RAM física, procesador de 64 bits, gráficos y modelos de referencia para jugar desde Android."
+---
+
+La **base mínima de hardware que tomamos como referencia es 4 GB de RAM física**. Usamos como referencia operativa el TCL de 4 GB probado por el equipo. Para tener más margen con otras aplicaciones abiertas, recomendamos **6 GB de RAM física o más**.
+
+Cumplir esta base no garantiza una cantidad de cuadros por segundo ni que todas las versiones del juego funcionen sin fallos. También influyen el sistema del teléfono, los controladores gráficos y la versión del cliente.
+
+## Requisitos y recomendaciones
+
+| Componente | Qué revisar |
+| --- | --- |
+| Memoria RAM | **4 GB físicos como base mínima**; recomendamos 6 GB o más. No sumes RAM Plus, RAM Boost o memoria virtual a la RAM física. |
+| Procesador y sistema | **ARM de 64 bits y Android de 64 bits**. Que el procesador sea de 64 bits no asegura que el fabricante haya instalado un sistema de 64 bits. El cliente Android se distribuye para `arm64-v8a`. |
+| Gráficos | Compatibilidad con **OpenGL ES 3.0 o superior** para el modo de compatibilidad. La compatibilidad con una API no garantiza rendimiento ni ausencia de errores del controlador. |
+| Almacenamiento | Dejá espacio para la APK, los archivos que descarga el juego y las actualizaciones. Como margen práctico recomendamos **4 GB libres**, revisando el espacio que solicite tu cliente si necesita más. |
+| Conexión | Conexión estable. Usá Wi-Fi para la primera descarga y conservá conexión durante el juego. |
+
+**3 GB de RAM física quedan por debajo de esta base**, aunque el teléfono anuncie «3 + 4 GB» gracias a memoria virtual. Tampoco alcanza con mirar cuánto almacenamiento tiene: «128 GB» normalmente describe espacio para archivos, no RAM.
+
+## Celulares de referencia: revisá la variante exacta
+
+Estos ejemplos sirven para comparar hardware; **no son una lista de modelos certificados**. Un mismo nombre puede venderse con distinta RAM según el país.
+
+| Modelo | Procesador / GPU | RAM física de referencia | Cómo interpretarlo |
+| --- | --- | --- | --- |
+| Samsung Galaxy A04 | MediaTek Helio P35 / PowerVR GE8320 | **4 GB** | Base de entrada. La variante de **3 GB** no alcanza la base de RAM. No confundir A04 con A04s. |
+| Samsung Galaxy A04e | MediaTek Helio P35 / PowerVR GE8320 | **4 GB**, según variante | Mismo tipo de referencia de entrada; comprobar RAM y sistema de 64 bits. |
+| Motorola Moto G32 | Snapdragon 680 / Adreno 610 | **4 GB**, según variante | Cumple la base de RAM en esa variante; el modelo no debe descartarse solo por su nombre. |
+| Redmi 10C | Snapdragon 680 / Adreno 610 | **4 GB**, según variante | Comparte procesador y GPU con Moto G32; eso no certifica el mismo resultado en el juego. |
+| Samsung Galaxy A05 | MediaTek Helio G85 | **4 o 6 GB**, según variante | La variante de 6 GB ofrece más margen de RAM; no confundirlo con A05s. |
+| Samsung Galaxy A05s | Snapdragon 680 / Adreno 610 | Revisar variante de **4 GB o más** | Pertenece a la misma familia de chip del Moto G32; verificar RAM y sistema. |
+
+Las fichas oficiales describen componentes. Las pruebas con una versión concreta del cliente son las que permiten comprobar si se instala, entra al mundo y se mantiene estable.
+
+## ¿El Moto G32 no cumple los requisitos?
+
+**No se puede afirmar eso para todo Moto G32.** La variante de 4 GB tiene la RAM de nuestra base y un Snapdragon 680 con Adreno 610. Qualcomm declara OpenGL ES 3.2 para ese chip.
+
+Tenemos un reporte de cierre al entrar a la cuenta en un Moto G32 que sigue pendiente de diagnóstico. No demuestra por sí solo falta de RAM, ni permite concluir que un Galaxy A04 funcione mejor. Cumplir la ficha de hardware y tener un problema con el cliente pueden ocurrir a la vez.
+
+## ¿Cómo reviso mi celular?
+
+1. Abrí **Ajustes → Acerca del teléfono** para ver el modelo exacto y Android.
+2. Buscá **Memoria** o **RAM**. Separá la RAM física de la ampliación virtual. Si no aparece clara, consultá la ficha oficial de tu variante.
+3. Revisá el espacio libre en **Almacenamiento**.
+4. Instalá el cliente recibido desde el enlace oficial de tu servidor. Si Android rechaza la instalación, conservá el aviso exacto y seguí la [guía de instalación de APK](/preguntas-frecuentes/instalar-apk-android).
+
+Si se cierra durante la carga o al entrar a la cuenta, enviá al soporte **modelo, RAM física, Android, enlace del cliente y una captura, video o diagnóstico del juego**. Indicá en qué pantalla se cierra. No hace falta borrar datos o desinstalar como primer paso.
+
+## Fuentes de las especificaciones
+
+- [Moto G32: ficha de Motorola](https://en-us.support.motorola.com/app/answers/detail/a_id/192477/p/7901%2C8013%2C).
+- [Snapdragon 680 y Adreno 610: Qualcomm](https://www.qualcomm.com/smartphones/products/6-series/snapdragon-680-4g-mobile-platform).
+- [Galaxy A04 y A04e: Samsung](https://news.samsung.com/in/samsung-expands-entry-segment-portfolio-with-galaxy-a04-and-galaxy-a04e-fast-performance-with-up-to-8gb-ram-with-ram-plus-and-50mp-camera).
+- [Galaxy A04: variantes de 3 y 4 GB, Samsung](https://news.samsung.com/id/samsung-rilis-galaxy-a04-smartphone-sejutaan-dengan-kamera-50mp-dan-performa-andalan-yang-pasti-awesome).
+- [Helio P35 y PowerVR GE8320: MediaTek](https://i.mediatek.com/hubfs/helio-p35/helio-p35-infographic.pdf?hsLang=en).
+- [Redmi 10C: Xiaomi](https://www.mi.com/ru/product/redmi-10c/specs/).
+- [Galaxy A05: variantes de 4 y 6 GB, Samsung](https://news.samsung.com/in/samsung-unveils-galaxy-a05-with-signature-galaxy-design-50-mp-camera-and-large-display-at-inr-9999).
+- [Galaxy A05s: RAM y procesador, Samsung](https://www.samsung.com/ae/business/smartphones/galaxy-a/galaxy-a05s-black-128gb-sm-a057fzkhmea/).
+- [OpenGL ES del modo de compatibilidad: Godot](https://docs.godotengine.org/en/4.4/about/system_requirements.html).
+- [Galaxy A05 y A05s: procesadores, Samsung](https://news.samsung.com/th/%E0%B8%8B%E0%B8%B1%E0%B8%A1%E0%B8%8B%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%9B%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B8%B1%E0%B8%A7-galaxy-a05-a05s-%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%80%E0%B8%84%E0%B8%A3).
+
+Especificaciones consultadas el 29 de septiembre de 2026. Las recomendaciones de margen de RAM y almacenamiento son de JugarMU; las fuentes no certifican el rendimiento de nuestro juego.
