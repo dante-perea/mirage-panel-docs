@@ -48,6 +48,7 @@
           {
             "group": "Preguntas frecuentes",
             "pages": [
+              "preguntas-frecuentes/planes-y-pruebas",
               "preguntas-frecuentes/requisitos-android",
               "preguntas-frecuentes/instalar-apk-android",
               "preguntas-frecuentes/videos",
