@@ -1,13 +1,15 @@
 ---
 title: "¿Cómo edito un drop individual?"
-description: "Drops de monstruos: mapa, objeto, probabilidad, nivel del objeto (+) y opciones avanzadas al editar un drop individual."
+description: "Dónde configurar el porcentaje de plumas, Crest of Monarch y joyas: Drops de monstruos, por mapa, con videoguía del panel."
 ---
+
+El control de drops específicos está en **Tienda y premios → Drops de monstruos**. Elegí el servidor y el mapa; después abrí una regla existente o tocá **Agregar drop**.
 
 **Panel móvil · 63 segundos · Cursor y clics visibles**
 
 Para leer mejor los controles, abrí el video en **pantalla completa**.
 
-<video controls playsInline preload="metadata" poster="https://mirageworldlauncher.b-cdn.net/jugarmu/ayuda/videoguias/f3510c8d4383b7df/editar-drop.jpg" src="https://mirageworldlauncher.b-cdn.net/jugarmu/ayuda/videoguias/858b94cc23b77bf8/editar-drop.mp4" style={{display: "block", width: "100%", height: "auto", aspectRatio: "9 / 16"}} aria-label="¿Cómo edito un drop individual?">
+<video controls playsInline preload="metadata" poster="https://mirageworldlauncher.b-cdn.net/jugarmu/ayuda/videoguias/f3510c8d4383b7df/editar-drop.jpg" src="https://mirageworldlauncher.b-cdn.net/jugarmu/ayuda/videoguias/858b94cc23b77bf8/editar-drop.mp4" style={{display: "block", width: "100%", height: "auto", maxHeight: "80vh", aspectRatio: "9 / 16", objectFit: "contain", margin: "0 auto"}} aria-label="¿Cómo edito un drop individual?">
   Tu navegador no permite reproducir este video. Usá el enlace de abajo.
 </video>
 
@@ -26,7 +28,34 @@ El video recorre **todas** las opciones de un drop individual en **Tienda y prem
 7. Abrí **Opciones avanzadas**. Ahí están el **nombre de la regla** y **Qué puede caer**: Los objetos que elegí, Lista según el nivel del monstruo, Joyas, Objetos al azar, Objetos Excellent, Objetos Ancient, Objetos Socket y Zen.
 8. **Nivel del objeto (+)** va de **0** (sin mejorar) a **+15**.
 9. **Número de un monstruo específico**, **nivel mínimo** y **nivel máximo** quedan vacíos para no limitar. El video escribe un ejemplo y no lo guarda.
-10. **Guardar drop** aplica la regla. **Cancelar** o **Volver** con cambios abre **Descartar cambios**. El video descarta.
+10. **Guardar drop** guarda la regla. Leé la confirmación para saber si ya se aplicó o si queda pendiente de recarga o del arranque del servidor. **Cancelar** o **Volver** con cambios abre **Descartar cambios**. El video descarta.
 11. En una regla que ya existe, **Eliminar esta regla** pide **Conservar regla** o **Sí, eliminar regla**. **Conservar regla** no borra el drop.
+
+## Plumas, Crest of Monarch y joyas
+
+El video usa **Jewel of Chaos** como ejemplo. El mismo formulario permite configurar otros materiales disponibles en el catálogo de tu servidor.
+
+| Objeto | Qué elegir en el buscador | Nivel del objeto (+) |
+| --- | --- | --- |
+| Pluma normal | **Loch's Feather** | **0** |
+| Crest of Monarch, en la configuración de Season 6 | **Loch's Feather** | **1** |
+| Una joya concreta | La joya por su nombre, por ejemplo **Jewel of Chaos**, **Jewel of Bless** o **Jewel of Soul** | **0**, para la joya normal |
+
+En Season 6, Crest of Monarch es la variante **+1 de Loch's Feather**. Si no lo encontrás por «Crest», buscá **Feather** y abrí **Opciones avanzadas → Nivel del objeto (+)**. Podés llamar a la regla «Crest of Monarch» para identificarla. La disponibilidad de materiales depende de la versión y del catálogo del servidor.
+
+1. Elegí el mapa donde querés configurar la caída. Revisá primero sus reglas existentes; en la configuración base de Season 6, las reglas de pluma y Crest están en **Icarus**.
+2. Para crear una regla de un material concreto, seleccioná **solo ese objeto**. En **Opciones avanzadas → Qué puede caer**, usá **Los objetos que elegí** y el nivel indicado arriba.
+3. Escribí el valor en **Probabilidad (%)**. Por ejemplo, **0,1** significa **0,1%** y **1** significa **1%**. Son ejemplos, no valores recomendados para todos los servidores.
+4. Para porcentajes distintos, creá una regla separada para cada objeto. Si agregás varias joyas en una misma regla, comparten la probabilidad del grupo y se elige una al azar; no recibe cada joya el porcentaje completo.
+5. Si corresponde, limitá el **número del monstruo** o sus **niveles mínimo y máximo**. Vacío significa sin esa restricción.
+6. Pulsá **Guardar drop** o **Guardar cambios** y leé el resultado. El panel distingue entre aplicado, pendiente de recarga y guardado para cuando el servidor esté en ejecución.
+
+## Qué modifica este editor
+
+Estas reglas pertenecen al **mapa seleccionado**. Editarlas no modifica las reglas globales compartidas, ni las de otros mapas. Una lista vacía significa que el mapa no tiene reglas propias; no significa que los monstruos no puedan dejar objetos por otras reglas.
+
+Agregar una regla de una joya **no reemplaza ni desactiva automáticamente su drop global**. Tampoco poner esa regla en 0% garantiza que el objeto deje de caer por otras fuentes. La cantidad final depende de las otras reglas y del límite de objetos que deja cada monstruo: 1% no garantiza exactamente un objeto cada 100 muertes.
+
+El ajuste general **Ajustes del juego → Objetos y Zen → Drop de objetos (%)** no selecciona materiales concretos. Para este caso usá **Drops de monstruos**.
 
 [Ver todas las videoguías](/videoguias).
